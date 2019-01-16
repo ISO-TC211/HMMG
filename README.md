@@ -11,7 +11,7 @@ The models may be downloaded from folders in this repository:
 
 A HTML view of the model can be found for [Conceptual models](http://www.isotc211.org/hmmg/HTML/ConceptualModels/) and [Implementation Models](http://www.isotc211.org/hmmg/HTML/ImplementationModels/).
 
-See also https://github.com/ISO-TC211/UML-Best-Practices and the wiki https://github.com/ISO-TC211/UML-Best-Practices/wiki for best practices on using UML for geographic information. 
+See also the wiki https://github.com/ISO-TC211/UML-Best-Practices/wiki for best practices on using UML for geographic information. 
 
 To report any technical errors in the models or in the scripts and macros, or to make contributions to this site, please contact the HMMG chairs:
 * [Dr. John R. Herring](mailto:John.Herring@oracle.com), USA
