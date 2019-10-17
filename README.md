@@ -3,13 +3,13 @@
 
 The ISO/TC211 Harmonized Model Management Group (HMMG) maintains this repository for use by the members of the ISO TC 211 community in the assessment and creation of standards. 
 
-See the [HMMG Wiki](https://github.com/ISO-TC211/HMMG/wiki) for information about the Harmonized Model Repository and how to use it, including how to set up an Enterprise Architect project linked to the official subversion repository. 
+See the [HMMG Wiki](https://github.com/ISO-TC211/HMMG/wiki) for information about the Harmonized Model Repository and how to access and use it. 
 
 The models may be downloaded from folders in this repository:
 * [EA](https://github.com/ISO-TC211/HMMG/tree/master/EA): Enterprise Architect Projects with The Harmonized Model
 * [XMI](https://github.com/ISO-TC211/HMMG/tree/master/XMI): XMI Files for packages in The Harmonized Model
 
-A HTML view of the model can be found for [Conceptual models](http://www.isotc211.org/hmmg/HTML/ConceptualModels/) and [Implementation Models](http://www.isotc211.org/hmmg/HTML/ImplementationModels/).
+A HTML view of the model can be found at [http://iso.sparxcloud.com](http://iso.sparxcloud.com/index.php).
 
 See also the wiki https://github.com/ISO-TC211/UML-Best-Practices/wiki for best practices on using UML for geographic information. 
 
