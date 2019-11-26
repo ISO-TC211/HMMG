@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_81D2C77F_6678_4b2e_8DAC_830457162416">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="ISO 19107 Spatial schema XML" xmi.id="EAPK_81D2C77F_6678_4b2e_8DAC_830457162416" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+						<UML:TaggedValue tag="created" value="2017-08-04 09:14:51"/>
+						<UML:TaggedValue tag="modified" value="2017-08-04 09:14:51"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="iso-19107\tags\ISO 19107 Spatial schema XML.xml"/>
+						<UML:TaggedValue tag="lastloaddate" value="2017-08-04 09:22:12"/>
+						<UML:TaggedValue tag="lastsavedate" value="2017-08-04 09:22:11"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="owner" value="knjetl"/>
+						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="3"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=implementation-XML;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="knjetl"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_81D2C77F_6678_4b2e_8DAC_830457162416_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="ISO 19107 Edition 1 XML" xmi.id="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="This package contains the normative (Geometry and Topology) parts of the model for ISO 19107. This document should be referred to as the official description of the Model. If there are any differences, then ISO 19107 takes precedence. &#xA;&#xA;This packages also contains example (informative) of applications of 19107.&#xA;&#xA;imported with strip GUIDS 2014-07-10"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="2003"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_81D2C77F_6678_4b2e_8DAC_830457162416"/>
+										<UML:TaggedValue tag="date_created" value="2008-04-17 08:47:38"/>
+										<UML:TaggedValue tag="date_modified" value="2017-08-04 09:25:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA"/>
+										<UML:TaggedValue tag="package_name" value="ISO 19107 Spatial schema XML"/>
+										<UML:TaggedValue tag="alias" value="Spatial schema"/>
+										<UML:TaggedValue tag="author" value="ISO TC211"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Implemented"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="4538"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Dependency client="EAPK_5AC9C40D_B36F_4a1b_B66C_BBA035747259" supplier="EAPK_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA" xmi.id="EAID_E096862D_C5E5_4d86_9510_62E4B20DF3FA" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="import"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Created by HollowWorld Plugin"/>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="import"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«import»"/>
+								<UML:TaggedValue tag="ea_localid" value="59317"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Metadata for Acquisition"/>
+								<UML:TaggedValue tag="ea_targetName" value="ISO 19107 Edition 1 XML"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
+								<UML:TaggedValue tag="ea_targetType" value="Package"/>
+								<UML:TaggedValue tag="ea_sourceID" value="39751"/>
+								<UML:TaggedValue tag="ea_targetID" value="39264"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_style" value="Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="false"/>
+								<UML:TaggedValue tag="dst_style" value="Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«import»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Package name="ISO 19107 Edition 1 XML" xmi.id="EAPK_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This package contains the normative (Geometry and Topology) parts of the model for ISO 19107. This document should be referred to as the official description of the Model. If there are any differences, then ISO 19107 takes precedence. &#xA;&#xA;This packages also contains example (informative) of applications of 19107.&#xA;&#xA;imported with strip GUIDS 2014-07-10"/>
+								<UML:TaggedValue tag="parent" value="EAPK_81D2C77F_6678_4b2e_8DAC_830457162416"/>
+								<UML:TaggedValue tag="created" value="2008-04-17 08:47:38"/>
+								<UML:TaggedValue tag="modified" value="2017-08-04 09:25:50"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="iso-19107\trunk\ISO 19107 2003 XML.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2017-08-04 09:25:04"/>
+								<UML:TaggedValue tag="lastsavedate" value="2008-04-17 08:47:38"/>
+								<UML:TaggedValue tag="version" value="2003"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="owner" value="knjetl"/>
+								<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=implementation-XML;"/>
+								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="status" value="Implemented"/>
+								<UML:TaggedValue tag="author" value="ISO TC211"/>
+								<UML:TaggedValue tag="alias" value="Spatial schema"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="edition" xmi.id="EAID_814B211A_6099_4e50_8297_A05782863633" value="1" modelElement="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA"/>
+		<UML:TaggedValue tag="isApplicationSchema" xmi.id="EAID_C874FA08_2676_48fa_AEEC_DBC7EA2ADB33" value="true" modelElement="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA"/>
+		<UML:TaggedValue tag="name" xmi.id="EAID_06D7A7E7_723F_4443_8708_4332B2BF2247" value="Spatial schema" modelElement="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA"/>
+		<UML:TaggedValue tag="number" xmi.id="EAID_D0DCAD7C_7DF8_4aba_AB33_7064C2A6A1A6" value="19107" modelElement="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA"/>
+		<UML:TaggedValue tag="publicationDate" xmi.id="EAID_8212BA9B_FEAD_4510_9BD9_FB5C3630DA3A" value="2003-05" modelElement="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA"/>
+		<UML:TaggedValue tag="yearVersion" xmi.id="EAID_17FB12AA_A6EB_490a_AAE5_FDDF5040F654" value="2003" modelElement="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA"/>
+		<UML:DiagramElement geometry="Left=5;Top=307;Right=218;Bottom=387;" subject="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA" seqno="4" style="DUID=FB46997D;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_AD3A12A8_0513_44cc_8A96_4E258A749E43"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;" subject="EAID_E096862D_C5E5_4d86_9510_62E4B20DF3FA" style=";">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_AD3A12A8_0513_44cc_8A96_4E258A749E43"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;" subject="EAID_E096862D_C5E5_4d86_9510_62E4B20DF3FA" style=";">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_AD3A12A8_0513_44cc_8A96_4E258A749E43"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAPK_5AC9C40D_B36F_4a1b_B66C_BBA035747259" name="Metadata for Acquisition" UMLType="Package"/>
+	</XMI.extensions>
+</XMI>
