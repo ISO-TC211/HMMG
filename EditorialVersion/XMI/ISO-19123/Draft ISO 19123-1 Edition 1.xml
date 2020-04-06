@@ -2691,7 +2691,7 @@
 												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={5C6A2964-DC20-4e87-8F5D-7F90EEA42031}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=interface;GUID={5053837D-425B-435d-8D8B-C0487035B858};@ENDSTEREO;$DES;$CLT={10BC5C51-4EA2-4f95-BD16-6D1A52ADE715}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 											</UML:ModelElement.taggedValue>
 											<UML:ModelElement.constraint>
-												<UML:Constraint name="values match rangetpye">
+												<UML:Constraint name="values match rangeType">
 													<UML:ModelElement.taggedValue>
 														<UML:TaggedValue tag="description" value="for all positions: type of position.value = rangeType&#xA;and&#xA;for all partitions: partition.rangeType = rangeType"/>
 														<UML:TaggedValue tag="type" value="Invariant"/>
@@ -2866,7 +2866,7 @@
 														<UML:TaggedValue tag="status" value="Approved"/>
 													</UML:ModelElement.taggedValue>
 												</UML:Constraint>
-												<UML:Constraint name="domainSt and rangeSet obey same order">
+												<UML:Constraint name="domainSet and rangeSet obey same order">
 													<UML:ModelElement.taggedValue>
 														<UML:TaggedValue tag="description" value="domainSet.element and rangeSet.element must be in same sequence (order)"/>
 														<UML:TaggedValue tag="type" value="Invariant"/>
@@ -5991,7 +5991,7 @@
 										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={5D21E775-CB3A-49a7-9AB9-CC2510CBC0CF}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=interface;GUID={5053837D-425B-435d-8D8B-C0487035B858};@ENDSTEREO;$DES;$CLT={496CB5E6-839A-4920-AD3C-E7E8820DCE8C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 									</UML:ModelElement.taggedValue>
 									<UML:ModelElement.constraint>
-										<UML:Constraint name="geometry is Soliid">
+										<UML:Constraint name="geometry is Solid">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="description" value="for all element: geometry() returns a Solid"/>
 												<UML:TaggedValue tag="type" value="Invariant"/>
@@ -6032,7 +6032,7 @@
 										<UML:Stereotype name="Invariant"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="If coverage function is contineous interpolation is permitted"/>
+										<UML:TaggedValue tag="documentation" value="If coverage function is continuous interpolation is permitted"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Constraint"/>
 										<UML:TaggedValue tag="ea_ntype" value="2"/>
@@ -6713,10 +6713,10 @@
 										</UML:Association>
 										<UML:Association name="CoverageFunction" xmi.id="EAID_4EA6CF0C_E475_4f01_B088_A47413A9EA33" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 											<UML:ModelElement.constraint>
-												<UML:Constraint name="For contineous coverages">
+												<UML:Constraint name="For continuous coverages">
 													<UML:ModelElement.taggedValue>
 														<UML:TaggedValue tag="type" value="Invariant"/>
-														<UML:TaggedValue tag="description" value="If coverage function is contineous interpolation is permitted."/>
+														<UML:TaggedValue tag="description" value="If coverage function is continuous interpolation is permitted."/>
 													</UML:ModelElement.taggedValue>
 												</UML:Constraint>
 											</UML:ModelElement.constraint>
