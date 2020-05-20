@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:GML="http://www.sparxsystems.com/profiles/GML/1.0" xmlns:thecustomprofile="http://www.sparxsystems.com/profiles/thecustomprofile/1.0" xmlns:C="http://www.sparxsystems.com/profiles/C/1.0">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_DAD0ACFA_649A_4a9a_8563_EE3184172A12" name="ISO 19123-2 Edition 1" visibility="public">
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" name="CIS1.0" visibility="public">
+				<ownedComment xmi:type="uml:Comment" xmi:id="EAID_C5ADD4B5_BB8C_47e6_8D4A_279DFA4C0C6A" body="inherits attribute id from AbstractGML">
+					<annotatedElement xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</ownedComment>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_51D58A6B_FE6D_4526_8A4B_0A395A7C41A8" name="Any" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_FF0CE979_37BB_47e6_BE6C_9AC95944CBCF" name="ContinuousCoverage" visibility="public">
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_D687BD10_F36A_4d66_AE66_5519BEA2B414" general="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_C638363E_433B_434b_8D60_D22A7A92A921" name="Coverage" visibility="public">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_FA07D6E1_1058_458a_9300_7CEF2C813C3A" name="coverageFunction" visibility="public" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
+						<type xmi:idref="EAID_CAF87E51_8647_4475_840E_824B68E74D66"/>
+						<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000001_1058_458a_9300_7CEF2C813C3A" value="0"/>
+						<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000002_1058_458a_9300_7CEF2C813C3A" value="1"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_F94FCDFE_421F_4c37_A78C_5689878DD6D1" name="metadata" visibility="public" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
+						<type xmi:idref="EAID_51D58A6B_FE6D_4526_8A4B_0A395A7C41A8"/>
+						<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000003_421F_4c37_A78C_5689878DD6D1" value="0"/>
+						<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000004_421F_4c37_A78C_5689878DD6D1" value="-1"/>
+					</ownedAttribute>
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_01985456_3C7E_4e58_AAF6_60408C755DEF" general="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F"/>
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_9A8530D4_ECAA_47d8_B8AD_DE1EBBFAADF0" general="EAID_EB93C2C1_50A6_460a_9746_34C87D3106C9"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Realization" xmi:id="EAID_0299ECC0_0ABC_4c8f_869E_B32849A92025" visibility="public" supplier="EAID_BF901A28_C89B_4525_99EE_F94F6876C54B" client="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				<packagedElement xmi:type="uml:Association" xmi:id="EAID_329E2209_CED9_4e6c_B75D_FC8BB8D7A456" name="rangeType" visibility="public">
+					<memberEnd xmi:idref="EAID_dst9E2209_CED9_4e6c_B75D_FC8BB8D7A456"/>
+					<memberEnd xmi:idref="EAID_src9E2209_CED9_4e6c_B75D_FC8BB8D7A456"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_src9E2209_CED9_4e6c_B75D_FC8BB8D7A456" visibility="public" association="EAID_329E2209_CED9_4e6c_B75D_FC8BB8D7A456" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="composite">
+						<type xmi:idref="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3"/>
+						<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000005__CED9_4e6c_B75D_FC8BB8D7A456" value="1"/>
+						<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000006__CED9_4e6c_B75D_FC8BB8D7A456" value="1"/>
+					</ownedEnd>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="EAID_900C6BF7_515A_4f30_8ED0_59C6681C7542" name="domainSet" visibility="public">
+					<memberEnd xmi:idref="EAID_dst0C6BF7_515A_4f30_8ED0_59C6681C7542"/>
+					<memberEnd xmi:idref="EAID_src0C6BF7_515A_4f30_8ED0_59C6681C7542"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_src0C6BF7_515A_4f30_8ED0_59C6681C7542" visibility="public" association="EAID_900C6BF7_515A_4f30_8ED0_59C6681C7542" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="composite">
+						<type xmi:idref="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A"/>
+						<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000007__515A_4f30_8ED0_59C6681C7542" value="1"/>
+						<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000008__515A_4f30_8ED0_59C6681C7542" value="1"/>
+					</ownedEnd>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="EAID_CB4300E5_E7E2_41d1_BEA8_3BFA55F1B72A" name="rangeSet" visibility="public">
+					<memberEnd xmi:idref="EAID_dst4300E5_E7E2_41d1_BEA8_3BFA55F1B72A"/>
+					<memberEnd xmi:idref="EAID_src4300E5_E7E2_41d1_BEA8_3BFA55F1B72A"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_src4300E5_E7E2_41d1_BEA8_3BFA55F1B72A" visibility="public" association="EAID_CB4300E5_E7E2_41d1_BEA8_3BFA55F1B72A" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="composite">
+						<type xmi:idref="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484"/>
+						<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000009__E7E2_41d1_BEA8_3BFA55F1B72A" value="1"/>
+						<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000010__E7E2_41d1_BEA8_3BFA55F1B72A" value="1"/>
+					</ownedEnd>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_CAF87E51_8647_4475_840E_824B68E74D66" name="CoverageFunction" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_25665FCE_FA87_468d_B164_E27B9722236D" name="DiscreteCoverage" visibility="public">
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_BE062CA2_63E0_4752_AEF0_413C35B9A12C" general="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_937469E5_3E68_4431_A3C3_4217C1CB90E8" name="GridCoverage" visibility="public">
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_AB697C95_E86D_43b6_8FCA_A3D3D1FA797F" general="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_D51795AD_6DD8_4e54_8D44_117C29C18EC3" name="MultiCurveCoverage" visibility="public">
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_8531C108_FF16_4bd8_8941_4744D79BBF7A" general="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_756657DB_2B9D_479d_8D9E_42C707D8AF6B" name="MultiPointCoverage" visibility="public">
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_1C854E42_ACD1_4251_B3B8_632BEB62F571" general="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_A01F03E2_91C3_4577_9B48_CE277A4EE64E" name="MultiSolidCoverage" visibility="public">
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_797B363B_AFAB_43eb_BE45_03B1608D081E" general="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_46C22289_C01A_424b_8ED2_37CAE372D0DB" name="MultiSurfaceCoverage" visibility="public">
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_00AF22B2_E247_4600_ADAF_EE73F607E945" general="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_832989F4_9FE4_4339_BAA6_4232F4C29376" name="RectifiedGridCoverage" visibility="public">
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_E89FDBC5_AC23_4c8e_9EFA_21825F55B77C" general="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_21C128C9_3CAB_489e_AFFE_6A48194213E4" name="ReferenceableGridCoverage" visibility="public">
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_5067B96B_6DCF_44e0_A09B_B6A3D13C1C48" general="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</packagedElement>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_46B6BD72_DBF7_42f4_8834_FE59EC1AC0F4" name="GML" visibility="public">
+				<ownedComment xmi:type="uml:Comment" xmi:id="EAID_FEEA9DE8_EFBD_4abd_BCE4_396DA7FD0DD9" body="This component is inherited and only listed for the reader's convenience; its substructure is omitted here. GML 4.2 is the namespace of GML 3.2.1 (OGC 07-036).">
+					<annotatedElement xmi:idref="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A"/>
+				</ownedComment>
+				<ownedComment xmi:type="uml:Comment" xmi:id="EAID_E3E8018C_24BB_4681_B320_1B256A0D3790" body="This component is inherited and only listed for the reader's convenience; its substructure is omitted here. GML 4.2 is the namespace of GML 3.2.1 (OGC 07-036).">
+					<annotatedElement xmi:idref="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484"/>
+				</ownedComment>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A" name="DomainSet" visibility="public">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dst0C6BF7_515A_4f30_8ED0_59C6681C7542" visibility="public" association="EAID_900C6BF7_515A_4f30_8ED0_59C6681C7542" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+						<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000011__515A_4f30_8ED0_59C6681C7542" value="1"/>
+						<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000012__515A_4f30_8ED0_59C6681C7542" value="1"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F" name="Feature" visibility="public">
+					<generalization xmi:type="uml:Generalization" xmi:id="EAID_DDA8A087_475B_4a23_9936_969B809A9562" general="EAID_EB93C2C1_50A6_460a_9746_34C87D3106C9"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484" name="RangeSet" visibility="public">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dst4300E5_E7E2_41d1_BEA8_3BFA55F1B72A" visibility="public" association="EAID_CB4300E5_E7E2_41d1_BEA8_3BFA55F1B72A" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+						<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000013__E7E2_41d1_BEA8_3BFA55F1B72A" value="1"/>
+						<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000014__E7E2_41d1_BEA8_3BFA55F1B72A" value="1"/>
+					</ownedAttribute>
+				</packagedElement>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_C735377C_FC85_45ac_8DD9_54DAEB1B5789" name="SWE_Common" visibility="public">
+				<ownedComment xmi:type="uml:Comment" xmi:id="EAID_814B5E41_F0E0_4b93_BB9C_0600BB467659" body="DataRecord is defined in SWE_Common 2.0 (OGC 08-094); its substructure is omitted here.">
+					<annotatedElement xmi:idref="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3"/>
+				</ownedComment>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3" name="DataRecord" visibility="public">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dst9E2209_CED9_4e6c_B75D_FC8BB8D7A456" visibility="public" association="EAID_329E2209_CED9_4e6c_B75D_FC8BB8D7A456" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+						<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000015__CED9_4e6c_B75D_FC8BB8D7A456" value="1"/>
+						<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000016__CED9_4e6c_B75D_FC8BB8D7A456" value="1"/>
+					</ownedAttribute>
+				</packagedElement>
+			</packagedElement>
+		</packagedElement>
+		<thecustomprofile:name base_Package="EAPK_DAD0ACFA_649A_4a9a_8563_EE3184172A12" name="Schema for coverage geometry and functions -- Part 2: Coverage implementation "/>
+		<thecustomprofile:publicationDate base_Package="EAPK_DAD0ACFA_649A_4a9a_8563_EE3184172A12" publicationDate="2018-10"/>
+		<thecustomprofile:edition base_Package="EAPK_DAD0ACFA_649A_4a9a_8563_EE3184172A12" edition="1"/>
+		<thecustomprofile:number base_Package="EAPK_DAD0ACFA_649A_4a9a_8563_EE3184172A12" number="19123-2"/>
+		<thecustomprofile:yearVersion base_Package="EAPK_DAD0ACFA_649A_4a9a_8563_EE3184172A12" yearVersion="2018"/>
+		<GML:FeatureType base_Class="EAID_FF0CE979_37BB_47e6_BE6C_9AC95944CBCF" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
+		<GML:FeatureType base_Class="EAID_C638363E_433B_434b_8D60_D22A7A92A921" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
+		<GML:FeatureType base_Class="EAID_25665FCE_FA87_468d_B164_E27B9722236D" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
+		<GML:FeatureType base_Class="EAID_937469E5_3E68_4431_A3C3_4217C1CB90E8" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
+		<GML:FeatureType base_Class="EAID_D51795AD_6DD8_4e54_8D44_117C29C18EC3" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
+		<GML:FeatureType base_Class="EAID_756657DB_2B9D_479d_8D9E_42C707D8AF6B" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
+		<GML:FeatureType base_Class="EAID_A01F03E2_91C3_4577_9B48_CE277A4EE64E" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
+		<GML:FeatureType base_Class="EAID_46C22289_C01A_424b_8ED2_37CAE372D0DB" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
+		<GML:FeatureType base_Class="EAID_832989F4_9FE4_4339_BAA6_4232F4C29376" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
+		<GML:FeatureType base_Class="EAID_21C128C9_3CAB_489e_AFFE_6A48194213E4" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
+		<C:union base_Class="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A"/>
+		<GML:FeatureType base_Class="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
+		<C:union base_Class="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484"/>
+		<thecustomprofile:type base_Class="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3"/>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_DAD0ACFA_649A_4a9a_8563_EE3184172A12" xmi:type="uml:Package" name="ISO 19123-2 Edition 1" scope="public">
+				<model package2="EAID_DAD0ACFA_649A_4a9a_8563_EE3184172A12" package="EAPK_74404EA6_E630_4be2_B1BB_057C76FD4759" tpos="0" ea_localid="9256" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Schema for coverage geometry and functions -- Part 2: Coverage implementation " scope="public"/>
+				<project author="CDOBrien" version="2017" phase="IS" created="2016-10-03 20:22:31" modified="2019-05-02 21:12:02" complexity="1" status="Approved"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_F05E571D_89BD_424d_8D07_19AC0399E91C" name="edition" value="1" modelElement="EAID_DAD0ACFA_649A_4a9a_8563_EE3184172A12"/>
+					<tag xmi:id="EAID_B088409A_106E_41ff_8FD9_F215DB615DD9" name="name" value="Schema for coverage geometry and functions -- Part 2: Coverage implementation " modelElement="EAID_DAD0ACFA_649A_4a9a_8563_EE3184172A12"/>
+					<tag xmi:id="EAID_BF07915F_BDEF_4fb6_8A84_86E3216D735C" name="number" value="19123-2" modelElement="EAID_DAD0ACFA_649A_4a9a_8563_EE3184172A12"/>
+					<tag xmi:id="EAID_1F436FC1_104F_4b28_B6CA_E946E9753AF1" name="publicationDate" value="2018-10" modelElement="EAID_DAD0ACFA_649A_4a9a_8563_EE3184172A12"/>
+					<tag xmi:id="EAID_15CFE9F1_4E97_4f8f_8A4B_2F7996A39DE2" name="yearVersion" value="2018" modelElement="EAID_DAD0ACFA_649A_4a9a_8563_EE3184172A12"/>
+				</tags>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="ISO 19123 Schema for coverage geometry and functions"/>
+				<packageproperties version="2017" owner="Knut Jetlund" xmiver="Enterprise Architect XMI/UML 1.3"/>
+				<paths/>
+				<times created="2016-10-03 20:22:31" modified="2019-08-22 19:08:53" lastloaddate="2019-08-22 19:12:00" lastsavedate="2016-11-28 23:34:44"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="Recurse=1;"/>
+			</element>
+			<element xmi:idref="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" xmi:type="uml:Package" name="CIS1.0" scope="public">
+				<model package2="EAID_6CCEC3DA_6168_4805_B151_B15D52CB45D0" package="EAPK_DAD0ACFA_649A_4a9a_8563_EE3184172A12" tpos="0" ea_localid="9257" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="CDOBrien" version="2017" phase="IS" created="2016-10-03 20:15:09" modified="2016-10-03 20:23:55" complexity="1" status="Approved"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="ISO 19123-2 Edition 1"/>
+				<packageproperties version="2017"/>
+				<paths/>
+				<times created="2016-10-03 20:15:09" modified="2016-10-03 20:15:09" lastloaddate="2016-11-28 23:34:44" lastsavedate="2016-11-28 23:34:44"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_51D58A6B_FE6D_4526_8A4B_0A395A7C41A8" xmi:type="uml:Class" name="Any" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76689" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 20:58:13" modified="2016-10-03 20:58:37" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+			</element>
+			<element xmi:idref="EAID_FF0CE979_37BB_47e6_BE6C_9AC95944CBCF" xmi:type="uml:Class" name="ContinuousCoverage" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76698" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="FeatureType" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 21:22:03" modified="2016-10-03 21:22:03" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_ED33D65F_DF35_1ddf_A982_A9DCC08D4A8C" name="byValuePropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Create a named complex type ( property type ) that requires the instance to be encoded inline&#xA;" modelElement="EAID_FF0CE979_37BB_47e6_BE6C_9AC95944CBCF"/>
+					<tag xmi:id="EAID_26B33348_211E_5f21_8F36_E961CCC2FB30" name="isCollection" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Identifies the class as a collection&#xA;" modelElement="EAID_FF0CE979_37BB_47e6_BE6C_9AC95944CBCF"/>
+					<tag xmi:id="EAID_F9638764_B69A_b0b6_9898_6D27BA7DC9D4" name="noPropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding&#xA;" modelElement="EAID_FF0CE979_37BB_47e6_BE6C_9AC95944CBCF"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={E3CDFC30-C954-4ef7-9466-28D6F4E448B8}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FeatureType;FQName=GML::FeatureType;@ENDSTEREO;$DES;$CLT={FF0CE979-37BB-47e6-BE6C-9AC95944CBCF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+				<links>
+					<Generalization xmi:id="EAID_D687BD10_F36A_4d66_AE66_5519BEA2B414" start="EAID_FF0CE979_37BB_47e6_BE6C_9AC95944CBCF" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921" xmi:type="uml:Class" name="Coverage" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76695" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="FeatureType" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 18:40:45" modified="2016-10-03 21:02:26" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_ED33D65F_DF35_1ddf_87EA_C3C09B7E92EF" name="byValuePropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Create a named complex type ( property type ) that requires the instance to be encoded inline&#xA;" modelElement="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<tag xmi:id="EAID_26B33348_211E_5f21_8BC8_867ED329B52E" name="isCollection" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Identifies the class as a collection&#xA;" modelElement="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<tag xmi:id="EAID_F9638764_B69A_b0b6_8CE2_3F70782044A3" name="noPropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding&#xA;" modelElement="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={8A488FA0-3288-4b37-B5F6-0415AC082682}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FeatureType;FQName=GML::FeatureType;@ENDSTEREO;$DES;$CLT={C638363E-433B-434b-8D60-D22A7A92A921}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+				<attributes>
+					<attribute xmi:idref="EAID_FA07D6E1_1058_458a_9300_7CEF2C813C3A" name="coverageFunction" scope="Public">
+						<initial/>
+						<documentation/>
+						<model ea_localid="109721" ea_guid="{FA07D6E1-1058-458a-9300-7CEF2C813C3A}"/>
+						<properties type="CoverageFunction" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
+						<coords ordered="0" scale="0"/>
+						<containment containment="Not Specified" position="0"/>
+						<stereotype/>
+						<bounds lower="0" upper="1"/>
+						<options/>
+						<style/>
+						<styleex value="volatile=0;"/>
+						<tags/>
+						<xrefs/>
+					</attribute>
+					<attribute xmi:idref="EAID_F94FCDFE_421F_4c37_A78C_5689878DD6D1" name="metadata" scope="Public">
+						<initial/>
+						<documentation/>
+						<model ea_localid="109722" ea_guid="{F94FCDFE-421F-4c37-A78C-5689878DD6D1}"/>
+						<properties type="Any" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
+						<coords ordered="0" scale="0"/>
+						<containment containment="Not Specified" position="1"/>
+						<stereotype/>
+						<bounds lower="0" upper="*"/>
+						<options/>
+						<style/>
+						<styleex value="volatile=0;"/>
+						<tags/>
+						<xrefs/>
+					</attribute>
+				</attributes>
+				<links>
+					<Generalization xmi:id="EAID_01985456_3C7E_4e58_AAF6_60408C755DEF" start="EAID_C638363E_433B_434b_8D60_D22A7A92A921" end="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F"/>
+					<Realisation xmi:id="EAID_0299ECC0_0ABC_4c8f_869E_B32849A92025" start="EAID_C638363E_433B_434b_8D60_D22A7A92A921" end="EAID_BF901A28_C89B_4525_99EE_F94F6876C54B"/>
+					<Generalization xmi:id="EAID_9A8530D4_ECAA_47d8_B8AD_DE1EBBFAADF0" start="EAID_C638363E_433B_434b_8D60_D22A7A92A921" end="EAID_EB93C2C1_50A6_460a_9746_34C87D3106C9"/>
+					<Aggregation xmi:id="EAID_329E2209_CED9_4e6c_B75D_FC8BB8D7A456" start="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<Generalization xmi:id="EAID_5067B96B_6DCF_44e0_A09B_B6A3D13C1C48" start="EAID_21C128C9_3CAB_489e_AFFE_6A48194213E4" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<Aggregation xmi:id="EAID_900C6BF7_515A_4f30_8ED0_59C6681C7542" start="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<Generalization xmi:id="EAID_AB697C95_E86D_43b6_8FCA_A3D3D1FA797F" start="EAID_937469E5_3E68_4431_A3C3_4217C1CB90E8" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<Generalization xmi:id="EAID_BE062CA2_63E0_4752_AEF0_413C35B9A12C" start="EAID_25665FCE_FA87_468d_B164_E27B9722236D" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<Aggregation xmi:id="EAID_CB4300E5_E7E2_41d1_BEA8_3BFA55F1B72A" start="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<Generalization xmi:id="EAID_D687BD10_F36A_4d66_AE66_5519BEA2B414" start="EAID_FF0CE979_37BB_47e6_BE6C_9AC95944CBCF" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<Generalization xmi:id="EAID_E89FDBC5_AC23_4c8e_9EFA_21825F55B77C" start="EAID_832989F4_9FE4_4339_BAA6_4232F4C29376" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<NoteLink xmi:id="EAID_FFCD5C8A_C765_4e3c_A311_06E2E342B8F5" start="EAID_C5ADD4B5_BB8C_47e6_8D4A_279DFA4C0C6A" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_CAF87E51_8647_4475_840E_824B68E74D66" xmi:type="uml:Class" name="CoverageFunction" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76696" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 20:57:26" modified="2016-10-03 20:58:02" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+			</element>
+			<element xmi:idref="EAID_25665FCE_FA87_468d_B164_E27B9722236D" xmi:type="uml:Class" name="DiscreteCoverage" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76687" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="FeatureType" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 21:02:26" modified="2016-10-03 21:03:05" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_ED33D65F_DF35_1ddf_AA74_01404348A7B4" name="byValuePropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Create a named complex type ( property type ) that requires the instance to be encoded inline&#xA;" modelElement="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+					<tag xmi:id="EAID_26B33348_211E_5f21_81EC_BE0BAF07EF66" name="isCollection" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Identifies the class as a collection&#xA;" modelElement="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+					<tag xmi:id="EAID_F9638764_B69A_b0b6_BB3D_972B19AF8F1B" name="noPropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding&#xA;" modelElement="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={FBBDE95A-7C9F-457d-A6BE-1FBA83448B06}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FeatureType;FQName=GML::FeatureType;@ENDSTEREO;$DES;$CLT={25665FCE-FA87-468d-B164-E27B9722236D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+				<links>
+					<Generalization xmi:id="EAID_BE062CA2_63E0_4752_AEF0_413C35B9A12C" start="EAID_25665FCE_FA87_468d_B164_E27B9722236D" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<Generalization xmi:id="EAID_00AF22B2_E247_4600_ADAF_EE73F607E945" start="EAID_46C22289_C01A_424b_8ED2_37CAE372D0DB" end="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+					<Generalization xmi:id="EAID_1C854E42_ACD1_4251_B3B8_632BEB62F571" start="EAID_756657DB_2B9D_479d_8D9E_42C707D8AF6B" end="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+					<Generalization xmi:id="EAID_797B363B_AFAB_43eb_BE45_03B1608D081E" start="EAID_A01F03E2_91C3_4577_9B48_CE277A4EE64E" end="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+					<Generalization xmi:id="EAID_8531C108_FF16_4bd8_8941_4744D79BBF7A" start="EAID_D51795AD_6DD8_4e54_8D44_117C29C18EC3" end="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_937469E5_3E68_4431_A3C3_4217C1CB90E8" xmi:type="uml:Class" name="GridCoverage" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76692" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="FeatureType" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 21:22:30" modified="2016-10-03 21:22:30" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_ED33D65F_DF35_1ddf_9EDC_544C9CBD0C84" name="byValuePropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Create a named complex type ( property type ) that requires the instance to be encoded inline&#xA;" modelElement="EAID_937469E5_3E68_4431_A3C3_4217C1CB90E8"/>
+					<tag xmi:id="EAID_26B33348_211E_5f21_B358_E2ADB4870F5B" name="isCollection" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Identifies the class as a collection&#xA;" modelElement="EAID_937469E5_3E68_4431_A3C3_4217C1CB90E8"/>
+					<tag xmi:id="EAID_F9638764_B69A_b0b6_AF7A_243A8FDBA068" name="noPropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding&#xA;" modelElement="EAID_937469E5_3E68_4431_A3C3_4217C1CB90E8"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={EDA4770B-A26F-4e5a-9550-95BBABDB8592}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FeatureType;FQName=GML::FeatureType;@ENDSTEREO;$DES;$CLT={937469E5-3E68-4431-A3C3-4217C1CB90E8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+				<links>
+					<Generalization xmi:id="EAID_AB697C95_E86D_43b6_8FCA_A3D3D1FA797F" start="EAID_937469E5_3E68_4431_A3C3_4217C1CB90E8" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_D51795AD_6DD8_4e54_8D44_117C29C18EC3" xmi:type="uml:Class" name="MultiCurveCoverage" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76697" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="FeatureType" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 21:27:06" modified="2016-10-03 21:27:06" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_ED33D65F_DF35_1ddf_837A_23646C60D76E" name="byValuePropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Create a named complex type ( property type ) that requires the instance to be encoded inline&#xA;" modelElement="EAID_D51795AD_6DD8_4e54_8D44_117C29C18EC3"/>
+					<tag xmi:id="EAID_26B33348_211E_5f21_BBAE_47F89C43AD75" name="isCollection" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Identifies the class as a collection&#xA;" modelElement="EAID_D51795AD_6DD8_4e54_8D44_117C29C18EC3"/>
+					<tag xmi:id="EAID_F9638764_B69A_b0b6_ABE5_1165DDD2EB33" name="noPropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding&#xA;" modelElement="EAID_D51795AD_6DD8_4e54_8D44_117C29C18EC3"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={5F2B88F0-C535-45b6-BB28-F48AE4DFF345}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FeatureType;FQName=GML::FeatureType;@ENDSTEREO;$DES;$CLT={D51795AD-6DD8-4e54-8D44-117C29C18EC3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+				<links>
+					<Generalization xmi:id="EAID_8531C108_FF16_4bd8_8941_4744D79BBF7A" start="EAID_D51795AD_6DD8_4e54_8D44_117C29C18EC3" end="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_756657DB_2B9D_479d_8D9E_42C707D8AF6B" xmi:type="uml:Class" name="MultiPointCoverage" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76690" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="FeatureType" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 21:27:33" modified="2016-10-03 21:27:33" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_ED33D65F_DF35_1ddf_8A06_FD83EA76E0F0" name="byValuePropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Create a named complex type ( property type ) that requires the instance to be encoded inline&#xA;" modelElement="EAID_756657DB_2B9D_479d_8D9E_42C707D8AF6B"/>
+					<tag xmi:id="EAID_26B33348_211E_5f21_A3D8_7E56168C7DD1" name="isCollection" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Identifies the class as a collection&#xA;" modelElement="EAID_756657DB_2B9D_479d_8D9E_42C707D8AF6B"/>
+					<tag xmi:id="EAID_F9638764_B69A_b0b6_B10F_042BD8DCE7D8" name="noPropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding&#xA;" modelElement="EAID_756657DB_2B9D_479d_8D9E_42C707D8AF6B"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={2F41FB58-191F-412e-8F5A-ABD7C8E43DCF}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FeatureType;FQName=GML::FeatureType;@ENDSTEREO;$DES;$CLT={756657DB-2B9D-479d-8D9E-42C707D8AF6B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+				<links>
+					<Generalization xmi:id="EAID_1C854E42_ACD1_4251_B3B8_632BEB62F571" start="EAID_756657DB_2B9D_479d_8D9E_42C707D8AF6B" end="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_A01F03E2_91C3_4577_9B48_CE277A4EE64E" xmi:type="uml:Class" name="MultiSolidCoverage" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76693" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="FeatureType" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 21:25:42" modified="2016-10-03 21:25:42" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_ED33D65F_DF35_1ddf_BEAD_A0D365E3FB23" name="byValuePropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Create a named complex type ( property type ) that requires the instance to be encoded inline&#xA;" modelElement="EAID_A01F03E2_91C3_4577_9B48_CE277A4EE64E"/>
+					<tag xmi:id="EAID_26B33348_211E_5f21_99B1_65B43CED31A5" name="isCollection" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Identifies the class as a collection&#xA;" modelElement="EAID_A01F03E2_91C3_4577_9B48_CE277A4EE64E"/>
+					<tag xmi:id="EAID_F9638764_B69A_b0b6_86B2_09B0506EA471" name="noPropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding&#xA;" modelElement="EAID_A01F03E2_91C3_4577_9B48_CE277A4EE64E"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={A524E513-BBDC-4c07-B36F-357977F9F9EF}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FeatureType;FQName=GML::FeatureType;@ENDSTEREO;$DES;$CLT={A01F03E2-91C3-4577-9B48-CE277A4EE64E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+				<links>
+					<Generalization xmi:id="EAID_797B363B_AFAB_43eb_BE45_03B1608D081E" start="EAID_A01F03E2_91C3_4577_9B48_CE277A4EE64E" end="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_46C22289_C01A_424b_8ED2_37CAE372D0DB" xmi:type="uml:Class" name="MultiSurfaceCoverage" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76688" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="FeatureType" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 21:26:22" modified="2016-10-03 21:26:22" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_ED33D65F_DF35_1ddf_9088_7B7893257A1B" name="byValuePropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Create a named complex type ( property type ) that requires the instance to be encoded inline&#xA;" modelElement="EAID_46C22289_C01A_424b_8ED2_37CAE372D0DB"/>
+					<tag xmi:id="EAID_26B33348_211E_5f21_914B_DCFE9DFD6D79" name="isCollection" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Identifies the class as a collection&#xA;" modelElement="EAID_46C22289_C01A_424b_8ED2_37CAE372D0DB"/>
+					<tag xmi:id="EAID_F9638764_B69A_b0b6_91C9_02058A00EFD5" name="noPropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding&#xA;" modelElement="EAID_46C22289_C01A_424b_8ED2_37CAE372D0DB"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={1E0374C7-53DE-4628-BD2D-92DB326B37BB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FeatureType;FQName=GML::FeatureType;@ENDSTEREO;$DES;$CLT={46C22289-C01A-424b-8ED2-37CAE372D0DB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+				<links>
+					<Generalization xmi:id="EAID_00AF22B2_E247_4600_ADAF_EE73F607E945" start="EAID_46C22289_C01A_424b_8ED2_37CAE372D0DB" end="EAID_25665FCE_FA87_468d_B164_E27B9722236D"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_832989F4_9FE4_4339_BAA6_4232F4C29376" xmi:type="uml:Class" name="RectifiedGridCoverage" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76691" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="FeatureType" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 21:24:02" modified="2016-10-03 21:24:02" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_ED33D65F_DF35_1ddf_BCB0_751C6F17F355" name="byValuePropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Create a named complex type ( property type ) that requires the instance to be encoded inline&#xA;" modelElement="EAID_832989F4_9FE4_4339_BAA6_4232F4C29376"/>
+					<tag xmi:id="EAID_26B33348_211E_5f21_8BF8_2A8B7272ACB7" name="isCollection" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Identifies the class as a collection&#xA;" modelElement="EAID_832989F4_9FE4_4339_BAA6_4232F4C29376"/>
+					<tag xmi:id="EAID_F9638764_B69A_b0b6_B2FB_6AD81005D339" name="noPropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding&#xA;" modelElement="EAID_832989F4_9FE4_4339_BAA6_4232F4C29376"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={FE5D97D9-2A32-43b1-AE21-B633BFF80ABA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FeatureType;FQName=GML::FeatureType;@ENDSTEREO;$DES;$CLT={832989F4-9FE4-4339-BAA6-4232F4C29376}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+				<links>
+					<Generalization xmi:id="EAID_E89FDBC5_AC23_4c8e_9EFA_21825F55B77C" start="EAID_832989F4_9FE4_4339_BAA6_4232F4C29376" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_21C128C9_3CAB_489e_AFFE_6A48194213E4" xmi:type="uml:Class" name="ReferenceableGridCoverage" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76686" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="FeatureType" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 21:23:32" modified="2016-10-03 21:23:32" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_ED33D65F_DF35_1ddf_A38C_FF562655F9D8" name="byValuePropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Create a named complex type ( property type ) that requires the instance to be encoded inline&#xA;" modelElement="EAID_21C128C9_3CAB_489e_AFFE_6A48194213E4"/>
+					<tag xmi:id="EAID_26B33348_211E_5f21_9A55_C3C5BE9F62D3" name="isCollection" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Identifies the class as a collection&#xA;" modelElement="EAID_21C128C9_3CAB_489e_AFFE_6A48194213E4"/>
+					<tag xmi:id="EAID_F9638764_B69A_b0b6_B4C3_ED1F575D60E5" name="noPropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding&#xA;" modelElement="EAID_21C128C9_3CAB_489e_AFFE_6A48194213E4"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={1F0B928F-7AA4-4379-B4A2-48A19D7E22BB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FeatureType;FQName=GML::FeatureType;@ENDSTEREO;$DES;$CLT={21C128C9-3CAB-489e-AFFE-6A48194213E4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+				<links>
+					<Generalization xmi:id="EAID_5067B96B_6DCF_44e0_A09B_B6A3D13C1C48" start="EAID_21C128C9_3CAB_489e_AFFE_6A48194213E4" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_C5ADD4B5_BB8C_47e6_8D4A_279DFA4C0C6A" xmi:type="uml:Note" scope="public">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" tpos="0" ea_localid="76694" ea_eleType="element"/>
+				<properties documentation="inherits attribute id from AbstractGML" isSpecification="false" sType="Note" nType="0" scope="public"/>
+				<project author="CDOBrien" version="2017" phase="IS" created="2016-10-03 20:48:48" modified="2016-10-03 20:49:14" complexity="1" status="Approved"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="CIS1.0"/>
+				<links>
+					<NoteLink xmi:id="EAID_FFCD5C8A_C765_4e3c_A311_06E2E342B8F5" start="EAID_C5ADD4B5_BB8C_47e6_8D4A_279DFA4C0C6A" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_46B6BD72_DBF7_42f4_8834_FE59EC1AC0F4" xmi:type="uml:Package" name="GML" scope="public">
+				<model package2="EAID_46B6BD72_DBF7_42f4_8834_FE59EC1AC0F4" package="EAPK_DAD0ACFA_649A_4a9a_8563_EE3184172A12" tpos="0" ea_localid="9258" ea_eleType="package"/>
+				<properties documentation="This package is defined to give access to the GML name space defined in OGC to the ISO 19123-2" isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 19:56:46" modified="2016-10-03 20:35:07" complexity="3" status="Approved"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="ISO 19123-2 Edition 1"/>
+				<packageproperties version="2017"/>
+				<paths/>
+				<times created="2016-10-03 19:56:46" modified="2016-10-03 20:35:07" lastloaddate="2016-11-28 23:34:44" lastsavedate="2016-11-28 23:34:44"/>
+				<flags iscontrolled="FALSE" isnamespace="1" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A" xmi:type="uml:Class" name="DomainSet" scope="public">
+				<model package="EAPK_46B6BD72_DBF7_42f4_8834_FE59EC1AC0F4" tpos="0" ea_localid="76699" ea_eleType="element"/>
+				<properties documentation="DomainSet ingerited from OGC GML 3.2.1 (OGC 07-036)&#xA;" isSpecification="false" sType="Class" nType="0" scope="public" stereotype="union" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="OGC GML3.2.1 " version="2017" phase="IS" created="2016-10-03 20:06:45" modified="2016-10-03 20:40:36" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={FC44E6AD-73E5-4031-8C93-AC1D5F4233AD}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=union;FQName=C::union;@ENDSTEREO;$DES;$CLT={02915585-E985-42d0-8F25-DCBD73B1A75A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="GML"/>
+				<links>
+					<Aggregation xmi:id="EAID_900C6BF7_515A_4f30_8ED0_59C6681C7542" start="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<NoteLink xmi:id="EAID_BBE5D638_573A_41bd_BDCE_7D8F6CBAB060" start="EAID_FEEA9DE8_EFBD_4abd_BCE4_396DA7FD0DD9" end="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F" xmi:type="uml:Class" name="Feature" scope="public">
+				<model package="EAPK_46B6BD72_DBF7_42f4_8834_FE59EC1AC0F4" tpos="0" ea_localid="76701" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="FeatureType" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 20:00:50" modified="2016-10-03 20:01:46" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_ED33D65F_DF35_1ddf_A709_51E47DB7F4D1" name="byValuePropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Create a named complex type ( property type ) that requires the instance to be encoded inline&#xA;" modelElement="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F"/>
+					<tag xmi:id="EAID_26B33348_211E_5f21_8773_2E3732C2D84F" name="isCollection" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Identifies the class as a collection&#xA;" modelElement="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F"/>
+					<tag xmi:id="EAID_F9638764_B69A_b0b6_BA5A_891126724192" name="noPropertyType" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding&#xA;" modelElement="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={AEDE1302-A326-4fa2-B885-0E1E89CA5575}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FeatureType;FQName=GML::FeatureType;@ENDSTEREO;$DES;$CLT={9B69F160-1931-4e2a-9E4D-DED3C92EAB2F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="GML"/>
+				<links>
+					<Generalization xmi:id="EAID_DDA8A087_475B_4a23_9936_969B809A9562" start="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F" end="EAID_EB93C2C1_50A6_460a_9746_34C87D3106C9"/>
+					<Generalization xmi:id="EAID_01985456_3C7E_4e58_AAF6_60408C755DEF" start="EAID_C638363E_433B_434b_8D60_D22A7A92A921" end="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484" xmi:type="uml:Class" name="RangeSet" scope="public">
+				<model package="EAPK_46B6BD72_DBF7_42f4_8834_FE59EC1AC0F4" tpos="0" ea_localid="76700" ea_eleType="element"/>
+				<properties documentation="DomainSet ingerited from OGC GML 3.2.1 (OGC 07-036)&#xA;" isSpecification="false" sType="Class" nType="0" scope="public" stereotype="union" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="OGC GML3.2.1 " version="2017" phase="IS" created="2016-10-03 20:10:53" modified="2016-10-03 20:40:36" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={E77DC02B-7CDF-481a-866C-D800D3232B58}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=union;FQName=C::union;@ENDSTEREO;$DES;$CLT={7CC4572B-C32F-4068-8EBE-A24A51748484}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="GML"/>
+				<links>
+					<Aggregation xmi:id="EAID_CB4300E5_E7E2_41d1_BEA8_3BFA55F1B72A" start="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<NoteLink xmi:id="EAID_F1E4C25C_1EB7_48b3_BCAE_5992BB0C02CA" start="EAID_E3E8018C_24BB_4681_B320_1B256A0D3790" end="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_E3E8018C_24BB_4681_B320_1B256A0D3790" xmi:type="uml:Note" scope="public">
+				<model package="EAPK_46B6BD72_DBF7_42f4_8834_FE59EC1AC0F4" tpos="0" ea_localid="76702" ea_eleType="element"/>
+				<properties documentation="This component is inherited and only listed for the reader's convenience; its substructure is omitted here. GML 4.2 is the namespace of GML 3.2.1 (OGC 07-036)." isSpecification="false" sType="Note" nType="0" scope="public"/>
+				<project author="CDOBrien" version="2017" phase="IS" created="2016-10-03 20:51:56" modified="2016-10-03 20:52:11" complexity="1" status="Approved"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="GML"/>
+				<links>
+					<NoteLink xmi:id="EAID_F1E4C25C_1EB7_48b3_BCAE_5992BB0C02CA" start="EAID_E3E8018C_24BB_4681_B320_1B256A0D3790" end="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_FEEA9DE8_EFBD_4abd_BCE4_396DA7FD0DD9" xmi:type="uml:Note" scope="public">
+				<model package="EAPK_46B6BD72_DBF7_42f4_8834_FE59EC1AC0F4" tpos="0" ea_localid="76703" ea_eleType="element"/>
+				<properties documentation="This component is inherited and only listed for the reader's convenience; its substructure is omitted here. GML 4.2 is the namespace of GML 3.2.1 (OGC 07-036)." isSpecification="false" sType="Note" nType="0" scope="public"/>
+				<project author="CDOBrien" version="2017" phase="IS" created="2016-10-03 20:49:49" modified="2016-10-03 20:51:21" complexity="1" status="Approved"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="GML"/>
+				<links>
+					<NoteLink xmi:id="EAID_BBE5D638_573A_41bd_BDCE_7D8F6CBAB060" start="EAID_FEEA9DE8_EFBD_4abd_BCE4_396DA7FD0DD9" end="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_C735377C_FC85_45ac_8DD9_54DAEB1B5789" xmi:type="uml:Package" name="SWE_Common" scope="public">
+				<model package2="EAID_C735377C_FC85_45ac_8DD9_54DAEB1B5789" package="EAPK_DAD0ACFA_649A_4a9a_8563_EE3184172A12" tpos="0" ea_localid="9259" ea_eleType="package"/>
+				<properties documentation="This package is defined to give access to the SWE_Common name space defined in OGC to the ISO 19123-2" isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 20:28:10" modified="2016-10-03 20:35:59" complexity="3" status="Approved"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="ISO 19123-2 Edition 1"/>
+				<packageproperties version="2017"/>
+				<paths/>
+				<times created="2016-10-03 20:28:10" modified="2016-10-03 20:35:59" lastloaddate="2016-11-28 23:34:44" lastsavedate="2016-11-28 23:34:44"/>
+				<flags iscontrolled="FALSE" isnamespace="1" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3" xmi:type="uml:Class" name="DataRecord" scope="public">
+				<model package="EAPK_C735377C_FC85_45ac_8DD9_54DAEB1B5789" tpos="0" ea_localid="76704" ea_eleType="element"/>
+				<properties documentation="DataRecord is defined in SWE_Common 2.0 (OGC 08-094). It is defined here as a dummy class so that 19123-2 can inherit from the OGC namespace." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="type" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="PT 19123-2" version="2017" phase="IS" created="2016-10-03 20:36:57" modified="2016-10-03 20:40:36" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={4BA657B3-2DF6-4745-AB63-E813CA9E12DE}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=type;GUID={6E8139D1-80E8-478a-8B34-569FA2679A05};@ENDSTEREO;$DES;$CLT={55667F22-79BF-43bd-902F-FFD2D60E08B3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="SWE_Common"/>
+				<links>
+					<Aggregation xmi:id="EAID_329E2209_CED9_4e6c_B75D_FC8BB8D7A456" start="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3" end="EAID_C638363E_433B_434b_8D60_D22A7A92A921"/>
+					<NoteLink xmi:id="EAID_2845D314_C926_4aa6_B038_AD0AD138D362" start="EAID_814B5E41_F0E0_4b93_BB9C_0600BB467659" end="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_814B5E41_F0E0_4b93_BB9C_0600BB467659" xmi:type="uml:Note" scope="public">
+				<model package="EAPK_C735377C_FC85_45ac_8DD9_54DAEB1B5789" tpos="0" ea_localid="76705" ea_eleType="element"/>
+				<properties documentation="DataRecord is defined in SWE_Common 2.0 (OGC 08-094); its substructure is omitted here." isSpecification="false" sType="Note" nType="0" scope="public"/>
+				<project author="CDOBrien" version="2017" phase="IS" created="2016-10-03 20:46:00" modified="2016-10-03 20:47:20" complexity="1" status="Approved"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="SWE_Common"/>
+				<links>
+					<NoteLink xmi:id="EAID_2845D314_C926_4aa6_B038_AD0AD138D362" start="EAID_814B5E41_F0E0_4b93_BB9C_0600BB467659" end="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3"/>
+				</links>
+			</element>
+		</elements>
+		<connectors>
+			<connector xmi:idref="EAID_D687BD10_F36A_4d66_AE66_5519BEA2B414">
+				<source xmi:idref="EAID_FF0CE979_37BB_47e6_BE6C_9AC95944CBCF">
+					<model ea_localid="76698" type="Class" name="ContinuousCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121060"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_01985456_3C7E_4e58_AAF6_60408C755DEF">
+				<source xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F">
+					<model ea_localid="76701" type="Class" name="Feature"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121065"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_0299ECC0_0ABC_4c8f_869E_B32849A92025">
+				<source xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_BF901A28_C89B_4525_99EE_F94F6876C54B">
+					<model ea_localid="78504" type="Class" name="CV_Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="123963"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_9A8530D4_ECAA_47d8_B8AD_DE1EBBFAADF0">
+				<source xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_EB93C2C1_50A6_460a_9746_34C87D3106C9">
+					<model ea_localid="68734" type="Class" name="AbstractFeature"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121062"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_329E2209_CED9_4e6c_B75D_FC8BB8D7A456" name="rangeType">
+				<source xmi:idref="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3">
+					<model ea_localid="76704" type="Class" name="DataRecord"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type multiplicity="1" aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type multiplicity="1" aggregation="composite" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121064"/>
+				<properties ea_type="Aggregation" subtype="Strong" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels lb="1" mt="rangeType" rb="1"/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_5067B96B_6DCF_44e0_A09B_B6A3D13C1C48">
+				<source xmi:idref="EAID_21C128C9_3CAB_489e_AFFE_6A48194213E4">
+					<model ea_localid="76686" type="Class" name="ReferenceableGridCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121073"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_900C6BF7_515A_4f30_8ED0_59C6681C7542" name="domainSet">
+				<source xmi:idref="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A">
+					<model ea_localid="76699" type="Class" name="DomainSet"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type multiplicity="1" aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type multiplicity="1" aggregation="composite" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121063"/>
+				<properties ea_type="Aggregation" subtype="Strong" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels lb="1" mt="domainSet" rb="1"/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_AB697C95_E86D_43b6_8FCA_A3D3D1FA797F">
+				<source xmi:idref="EAID_937469E5_3E68_4431_A3C3_4217C1CB90E8">
+					<model ea_localid="76692" type="Class" name="GridCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121066"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_BE062CA2_63E0_4752_AEF0_413C35B9A12C">
+				<source xmi:idref="EAID_25665FCE_FA87_468d_B164_E27B9722236D">
+					<model ea_localid="76687" type="Class" name="DiscreteCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121068"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_CB4300E5_E7E2_41d1_BEA8_3BFA55F1B72A" name="rangeSet">
+				<source xmi:idref="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484">
+					<model ea_localid="76700" type="Class" name="RangeSet"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type multiplicity="1" aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type multiplicity="1" aggregation="composite" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121061"/>
+				<properties ea_type="Aggregation" subtype="Strong" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels lb="1" mt="rangeSet" rb="1"/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_E89FDBC5_AC23_4c8e_9EFA_21825F55B77C">
+				<source xmi:idref="EAID_832989F4_9FE4_4339_BAA6_4232F4C29376">
+					<model ea_localid="76691" type="Class" name="RectifiedGridCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121067"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_FFCD5C8A_C765_4e3c_A311_06E2E342B8F5">
+				<source xmi:idref="EAID_C5ADD4B5_BB8C_47e6_8D4A_279DFA4C0C6A">
+					<model ea_localid="76694" type="Note"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_C638363E_433B_434b_8D60_D22A7A92A921">
+					<model ea_localid="76695" type="Class" name="Coverage"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="120879"/>
+				<properties ea_type="NoteLink"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_00AF22B2_E247_4600_ADAF_EE73F607E945">
+				<source xmi:idref="EAID_46C22289_C01A_424b_8ED2_37CAE372D0DB">
+					<model ea_localid="76688" type="Class" name="MultiSurfaceCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_25665FCE_FA87_468d_B164_E27B9722236D">
+					<model ea_localid="76687" type="Class" name="DiscreteCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121072"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_1C854E42_ACD1_4251_B3B8_632BEB62F571">
+				<source xmi:idref="EAID_756657DB_2B9D_479d_8D9E_42C707D8AF6B">
+					<model ea_localid="76690" type="Class" name="MultiPointCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_25665FCE_FA87_468d_B164_E27B9722236D">
+					<model ea_localid="76687" type="Class" name="DiscreteCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121071"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_797B363B_AFAB_43eb_BE45_03B1608D081E">
+				<source xmi:idref="EAID_A01F03E2_91C3_4577_9B48_CE277A4EE64E">
+					<model ea_localid="76693" type="Class" name="MultiSolidCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_25665FCE_FA87_468d_B164_E27B9722236D">
+					<model ea_localid="76687" type="Class" name="DiscreteCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121070"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_8531C108_FF16_4bd8_8941_4744D79BBF7A">
+				<source xmi:idref="EAID_D51795AD_6DD8_4e54_8D44_117C29C18EC3">
+					<model ea_localid="76697" type="Class" name="MultiCurveCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_25665FCE_FA87_468d_B164_E27B9722236D">
+					<model ea_localid="76687" type="Class" name="DiscreteCoverage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121069"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_BBE5D638_573A_41bd_BDCE_7D8F6CBAB060">
+				<source xmi:idref="EAID_FEEA9DE8_EFBD_4abd_BCE4_396DA7FD0DD9">
+					<model ea_localid="76703" type="Note"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A">
+					<model ea_localid="76699" type="Class" name="DomainSet"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="120878"/>
+				<properties ea_type="NoteLink"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_DDA8A087_475B_4a23_9936_969B809A9562">
+				<source xmi:idref="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F">
+					<model ea_localid="76701" type="Class" name="Feature"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_EB93C2C1_50A6_460a_9746_34C87D3106C9">
+					<model ea_localid="68734" type="Class" name="AbstractFeature"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="121059"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_F1E4C25C_1EB7_48b3_BCAE_5992BB0C02CA">
+				<source xmi:idref="EAID_E3E8018C_24BB_4681_B320_1B256A0D3790">
+					<model ea_localid="76702" type="Note"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484">
+					<model ea_localid="76700" type="Class" name="RangeSet"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="120877"/>
+				<properties ea_type="NoteLink"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_2845D314_C926_4aa6_B038_AD0AD138D362">
+				<source xmi:idref="EAID_814B5E41_F0E0_4b93_BB9C_0600BB467659">
+					<model ea_localid="76705" type="Note"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3">
+					<model ea_localid="76704" type="Class" name="DataRecord"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="120876"/>
+				<properties ea_type="NoteLink"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+		</connectors>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles>
+			<uml:Profile xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1/" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:id="1BE46C37-5" nsPrefix="GML" name="GML" metamodelReference="mmref01">
+				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="1BE46C37-5">
+					<body>UML Profile for GML Version:1.0</body>
+				</ownedComment>
+				<packageImport xmi:id="mmref01">
+					<importedPackage href="http://schema.omg.org/spec/UML/2.1/"/>
+				</packageImport>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Aggregation" name="Aggregation">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Aggregation-base_Association" name="base_Association" association="Association_Aggregation">
+						<type href="http://schema.omg.org/spec/UML/2.1/Association"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Association_Aggregation" name="A_Association_Aggregation" memberEnd="extension_Aggregation Aggregation-base_Association">
+					<ownedEnd xmi:id="extension_Aggregation" name="extension_Aggregation" type="Aggregation" isComposite="true" lower="0" upper="1" memberEnd="extension_Aggregation Aggregation-base_Association"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Union" name="Union">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Union-base_Class" name="base_Class" association="Class_Union">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Union-noPropertyType" name="noPropertyType">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Union-isCollection" name="isCollection">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_Union" name="A_Class_Union" memberEnd="extension_Union Union-base_Class">
+					<ownedEnd xmi:id="extension_Union" name="extension_Union" type="Union" isComposite="true" lower="0" upper="1" memberEnd="extension_Union Union-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="CodeList" name="CodeList">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="CodeList-base_Class" name="base_Class" association="Class_CodeList">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="CodeList-asDictionary" name="asDictionary">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="CodeList-defaultCodeSpace" name="defaultCodeSpace">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_CodeList" name="A_Class_CodeList" memberEnd="extension_CodeList CodeList-base_Class">
+					<ownedEnd xmi:id="extension_CodeList" name="extension_CodeList" type="CodeList" isComposite="true" lower="0" upper="1" memberEnd="extension_CodeList CodeList-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="ApplicationSchema" name="ApplicationSchema">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ApplicationSchema-base_Package" name="base_Package" association="Package_ApplicationSchema">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ApplicationSchema-version" name="version">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ApplicationSchema-gmlProfileSchema" name="gmlProfileSchema">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ApplicationSchema-xsdDocument" name="xsdDocument">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ApplicationSchema-xmlns" name="xmlns">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ApplicationSchema-targetNamespace" name="targetNamespace">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_ApplicationSchema" name="A_Package_ApplicationSchema" memberEnd="extension_ApplicationSchema ApplicationSchema-base_Package">
+					<ownedEnd xmi:id="extension_ApplicationSchema" name="extension_ApplicationSchema" type="ApplicationSchema" isComposite="true" lower="0" upper="1" memberEnd="extension_ApplicationSchema ApplicationSchema-base_Package"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="FeatureType" name="FeatureType">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="FeatureType-base_Class" name="base_Class" association="Class_FeatureType">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="FeatureType-noPropertyType" name="noPropertyType">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="FeatureType-isCollection" name="isCollection">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="FeatureType-byValuePropertyType" name="byValuePropertyType">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_FeatureType" name="A_Class_FeatureType" memberEnd="extension_FeatureType FeatureType-base_Class">
+					<ownedEnd xmi:id="extension_FeatureType" name="extension_FeatureType" type="FeatureType" isComposite="true" lower="0" upper="1" memberEnd="extension_FeatureType FeatureType-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Leaf" name="Leaf">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Leaf-base_Package" name="base_Package" association="Package_Leaf">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Leaf-xsdDocument" name="xsdDocument">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_Leaf" name="A_Package_Leaf" memberEnd="extension_Leaf Leaf-base_Package">
+					<ownedEnd xmi:id="extension_Leaf" name="extension_Leaf" type="Leaf" isComposite="true" lower="0" upper="1" memberEnd="extension_Leaf Leaf-base_Package"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="DataType" name="DataType">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="DataType-base_Class" name="base_Class" association="Class_DataType">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="DataType-noPropertyType" name="noPropertyType">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="DataType-isCollection" name="isCollection">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_DataType" name="A_Class_DataType" memberEnd="extension_DataType DataType-base_Class">
+					<ownedEnd xmi:id="extension_DataType" name="extension_DataType" type="DataType" isComposite="true" lower="0" upper="1" memberEnd="extension_DataType DataType-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Type" name="Type">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Type-base_Class" name="base_Class" association="Class_Type">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Type-xmlSchemaType" name="xmlSchemaType">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Type-noPropertyType" name="noPropertyType">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Type-isCollection" name="isCollection">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Type-byValuePropertyType" name="byValuePropertyType">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_Type" name="A_Class_Type" memberEnd="extension_Type Type-base_Class">
+					<ownedEnd xmi:id="extension_Type" name="extension_Type" type="Type" isComposite="true" lower="0" upper="1" memberEnd="extension_Type Type-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Composition" name="Composition">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Composition-base_Association" name="base_Association" association="Association_Composition">
+						<type href="http://schema.omg.org/spec/UML/2.1/Association"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Association_Composition" name="A_Association_Composition" memberEnd="extension_Composition Composition-base_Association">
+					<ownedEnd xmi:id="extension_Composition" name="extension_Composition" type="Composition" isComposite="true" lower="0" upper="1" memberEnd="extension_Composition Composition-base_Association"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Enumeration" name="Enumeration">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Enumeration-base_Enumeration" name="base_Enumeration" association="Enumeration_Enumeration">
+						<type href="http://schema.omg.org/spec/UML/2.1/Enumeration"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Enumeration_Enumeration" name="A_Enumeration_Enumeration" memberEnd="extension_Enumeration Enumeration-base_Enumeration">
+					<ownedEnd xmi:id="extension_Enumeration" name="extension_Enumeration" type="Enumeration" isComposite="true" lower="0" upper="1" memberEnd="extension_Enumeration Enumeration-base_Enumeration"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="property" name="property">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="property-base_AssociationEnd" name="base_AssociationEnd" association="AssociationEnd_property">
+						<type href="http://schema.omg.org/spec/UML/2.1/AssociationEnd"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="property-base_Attribute" name="base_Attribute" association="Attribute_property">
+						<type href="http://schema.omg.org/spec/UML/2.1/Attribute"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="property-isMetadata" name="isMetadata">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="property-inlineOrByReference" name="inlineOrByReference">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="property-sequenceNumber" name="sequenceNumber">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="AssociationEnd_property" name="A_AssociationEnd_property" memberEnd="extension_property property-base_AssociationEnd">
+					<ownedEnd xmi:id="extension_property" name="extension_property" type="property" isComposite="true" lower="0" upper="1" memberEnd="extension_property property-base_AssociationEnd"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Attribute_property" name="A_Attribute_property" memberEnd="extension_property property-base_Attribute">
+					<ownedEnd xmi:id="extension_property" name="extension_property" type="property" isComposite="true" lower="0" upper="1" memberEnd="extension_property property-base_Attribute"/>
+				</packagedElement>
+			</uml:Profile>
+			<uml:Profile xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1/" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:id="thecustomprofile" nsPrefix="thecustomprofile" name="thecustomprofile" metamodelReference="mmref01">
+				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="thecustomprofile">
+					<body> Version:1.0</body>
+				</ownedComment>
+				<packageImport xmi:id="mmref01">
+					<importedPackage href="http://schema.omg.org/spec/UML/2.1/"/>
+				</packageImport>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="type" name="type">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="type-base_Class" name="base_Class" association="Class_type">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_type" name="A_Class_type" memberEnd="extension_type type-base_Class">
+					<ownedEnd xmi:id="extension_type" name="extension_type" type="type" isComposite="true" lower="0" upper="1" memberEnd="extension_type type-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="edition" name="edition">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="edition-base_Package" name="base_Package" association="Package_edition">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="edition-edition" name="edition">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_edition" name="A_Package_edition" memberEnd="extension_edition edition-base_Package">
+					<ownedEnd xmi:id="extension_edition" name="extension_edition" type="edition" isComposite="true" lower="0" upper="1" memberEnd="extension_edition edition-base_Package"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="number" name="number">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="number-base_Package" name="base_Package" association="Package_number">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="number-number" name="number">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_number" name="A_Package_number" memberEnd="extension_number number-base_Package">
+					<ownedEnd xmi:id="extension_number" name="extension_number" type="number" isComposite="true" lower="0" upper="1" memberEnd="extension_number number-base_Package"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="name" name="name">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="name-base_Package" name="base_Package" association="Package_name">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="name-name" name="name">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_name" name="A_Package_name" memberEnd="extension_name name-base_Package">
+					<ownedEnd xmi:id="extension_name" name="extension_name" type="name" isComposite="true" lower="0" upper="1" memberEnd="extension_name name-base_Package"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="yearVersion" name="yearVersion">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="yearVersion-base_Package" name="base_Package" association="Package_yearVersion">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="yearVersion-yearVersion" name="yearVersion">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_yearVersion" name="A_Package_yearVersion" memberEnd="extension_yearVersion yearVersion-base_Package">
+					<ownedEnd xmi:id="extension_yearVersion" name="extension_yearVersion" type="yearVersion" isComposite="true" lower="0" upper="1" memberEnd="extension_yearVersion yearVersion-base_Package"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="publicationDate" name="publicationDate">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="publicationDate-base_Package" name="base_Package" association="Package_publicationDate">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="publicationDate-publicationDate" name="publicationDate">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_publicationDate" name="A_Package_publicationDate" memberEnd="extension_publicationDate publicationDate-base_Package">
+					<ownedEnd xmi:id="extension_publicationDate" name="extension_publicationDate" type="publicationDate" isComposite="true" lower="0" upper="1" memberEnd="extension_publicationDate publicationDate-base_Package"/>
+				</packagedElement>
+			</uml:Profile>
+		</profiles>
+		<diagrams>
+			<diagram xmi:id="EAID_8C439F91_C504_4d1c_BB38_0199A3C0BE99">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" localID="37190" owner="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0"/>
+				<properties name="Fig 1 CIS 1.0 Application Schema for Coverages" type="Logical" documentation="From OGC 07-036"/>
+				<project author="PT 19123-2" version="2017" created="2016-10-03 00:00:00" modified="2016-10-03 21:36:29"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;Whiteboard=1;"/>
+				<style2 value="SaveTag=1CC2161C;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;Whiteboard=1;SuppressedCompartments=;Theme=:119;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=558;Top=539;Right=701;Bottom=631;" subject="EAID_E3E8018C_24BB_4681_B320_1B256A0D3790" seqno="1" style="DUID=7E38BB83;NSL=0;"/>
+					<element geometry="Left=137;Top=539;Right=280;Bottom=631;" subject="EAID_FEEA9DE8_EFBD_4abd_BCE4_396DA7FD0DD9" seqno="2" style="DUID=F1C72940;NSL=0;"/>
+					<element geometry="Left=619;Top=263;Right=723;Bottom=318;" subject="EAID_C5ADD4B5_BB8C_47e6_8D4A_279DFA4C0C6A" seqno="3" style="DUID=241FD0B4;"/>
+					<element geometry="Left=338;Top=539;Right=497;Bottom=604;" subject="EAID_814B5E41_F0E0_4b93_BB9C_0600BB467659" seqno="4" style="DUID=978FC1BB;NSL=0;"/>
+					<element geometry="Left=342;Top=454;Right=492;Bottom=504;" subject="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3" seqno="5" style="DUID=E0C06A1B;NSL=0;"/>
+					<element geometry="Left=551;Top=454;Right=701;Bottom=504;" subject="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484" seqno="6" style="ImageID=0;DUID=50C6C0CA;NSL=0;"/>
+					<element geometry="Left=133;Top=454;Right=283;Bottom=504;" subject="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A" seqno="7" style="DUID=87EB73F4;NSL=0;"/>
+					<element geometry="Left=324;Top=135;Right=506;Bottom=205;" subject="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F" seqno="8" style="DUID=4EBA711A;NSL=0;"/>
+					<element geometry="Left=286;Top=247;Right=545;Bottom=335;" subject="EAID_C638363E_433B_434b_8D60_D22A7A92A921" seqno="9" style="DUID=E6CFA6D5;OpPro=0;OpPri=0;OpPub=0;OpPkg=0;AttCustom=0;OpCustom=0;PType=0;Notes=1000;RzO=1;"/>
+					<element geometry="SX=2;SY=-10;EX=2;EY=-10;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_01985456_3C7E_4e58_AAF6_60408C755DEF" style="Mode=3;EOID=4EBA711A;SOID=E6CFA6D5;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=CX=6:CY=13:OX=-1:OY=-4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LLT=;LMT=CX=52:CY=13:OX=-35:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_900C6BF7_515A_4f30_8ED0_59C6681C7542" style="Mode=3;EOID=E6CFA6D5;SOID=87EB73F4;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LLT=;LMT=CX=43:CY=13:OX=22:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=CX=6:CY=13:OX=19:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_CB4300E5_E7E2_41d1_BEA8_3BFA55F1B72A" style="Mode=3;EOID=E6CFA6D5;SOID=50C6C0CA;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=1;SY=-16;EX=3;EY=-16;EDGE=1;$LLB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LLT=;LMT=CX=51:CY=13:OX=33:OY=8:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_329E2209_CED9_4e6c_B75D_FC8BB8D7A456" style="Mode=3;EOID=E6CFA6D5;SOID=E0C06A1B;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2845D314_C926_4aa6_B038_AD0AD138D362" style="Mode=3;EOID=E0C06A1B;SOID=978FC1BB;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_FFCD5C8A_C765_4e3c_A311_06E2E342B8F5" style="Mode=3;EOID=E6CFA6D5;SOID=241FD0B4;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BBE5D638_573A_41bd_BDCE_7D8F6CBAB060" style="Mode=3;EOID=87EB73F4;SOID=F1C72940;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F1E4C25C_1EB7_48b3_BCAE_5992BB0C02CA" style="Mode=3;EOID=50C6C0CA;SOID=7E38BB83;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_4E20CFFB_1069_42a2_8CC1_510E148336BE">
+				<model package="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0" localID="37191" owner="EAPK_6CCEC3DA_6168_4805_B151_B15D52CB45D0"/>
+				<properties name="Fig 2 Coverage Type" type="Logical" documentation="From OGC 07-036"/>
+				<project author="PT 19123-2" version="2017" created="2016-10-03 00:00:00" modified="2016-10-03 21:37:33"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;Whiteboard=1;"/>
+				<style2 value="SaveTag=302ACAC5;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;Whiteboard=1;SuppressedCompartments=;Theme=:119;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=337;Top=274;Right=471;Bottom=328;" subject="EAID_756657DB_2B9D_479d_8D9E_42C707D8AF6B" seqno="1" style="ImageID=0;DUID=6798102F;"/>
+					<element geometry="Left=286;Top=368;Right=420;Bottom=422;" subject="EAID_D51795AD_6DD8_4e54_8D44_117C29C18EC3" seqno="2" style="ImageID=0;DUID=EBA3657F;"/>
+					<element geometry="Left=131;Top=368;Right=265;Bottom=422;" subject="EAID_46C22289_C01A_424b_8ED2_37CAE372D0DB" seqno="3" style="ImageID=0;DUID=19728521;"/>
+					<element geometry="Left=53;Top=274;Right=187;Bottom=328;" subject="EAID_A01F03E2_91C3_4577_9B48_CE277A4EE64E" seqno="4" style="DUID=9A4C768A;ImageID=0;"/>
+					<element geometry="Left=623;Top=443;Right=757;Bottom=497;" subject="EAID_832989F4_9FE4_4339_BAA6_4232F4C29376" seqno="5" style="ImageID=0;DUID=2F66E361;"/>
+					<element geometry="Left=503;Top=512;Right=651;Bottom=566;" subject="EAID_21C128C9_3CAB_489e_AFFE_6A48194213E4" seqno="6" style="DUID=BE6E3BD5;ImageID=0;"/>
+					<element geometry="Left=399;Top=443;Right=533;Bottom=497;" subject="EAID_937469E5_3E68_4431_A3C3_4217C1CB90E8" seqno="7" style="DUID=876FA47B;ImageID=0;"/>
+					<element geometry="Left=743;Top=141;Right=877;Bottom=195;" subject="EAID_FF0CE979_37BB_47e6_BE6C_9AC95944CBCF" seqno="8" style="DUID=DD20CC86;ImageID=0;"/>
+					<element geometry="Left=203;Top=141;Right=337;Bottom=195;" subject="EAID_25665FCE_FA87_468d_B164_E27B9722236D" seqno="9" style="DUID=E99C6BD1;"/>
+					<element geometry="Left=483;Top=53;Right=642;Bottom=126;" subject="EAID_C638363E_433B_434b_8D60_D22A7A92A921" seqno="10" style="DUID=C7525B21;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;AttPro=0;AttPri=0;AttPub=0;AttPkg=0;OpPro=0;OpPri=0;OpPub=0;OpPkg=0;AttCustom=0;OpCustom=0;PType=0;RzO=1;"/>
+					<element geometry="SX=2;SY=5;EX=2;EY=5;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BE062CA2_63E0_4752_AEF0_413C35B9A12C" style="Mode=3;EOID=C7525B21;SOID=E99C6BD1;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=4;SX=-66;SY=8;EX=79;EY=-21;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D687BD10_F36A_4d66_AE66_5519BEA2B414" style="Mode=3;EOID=C7525B21;SOID=DD20CC86;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AB697C95_E86D_43b6_8FCA_A3D3D1FA797F" style="Mode=3;EOID=C7525B21;SOID=876FA47B;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5067B96B_6DCF_44e0_A09B_B6A3D13C1C48" style="Mode=3;EOID=C7525B21;SOID=BE6E3BD5;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E89FDBC5_AC23_4c8e_9EFA_21825F55B77C" style="Mode=3;EOID=C7525B21;SOID=2F66E361;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-42;SY=-20;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_797B363B_AFAB_43eb_BE45_03B1608D081E" style="Mode=3;EOID=E99C6BD1;SOID=9A4C768A;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_00AF22B2_E247_4600_ADAF_EE73F607E945" style="Mode=3;EOID=E99C6BD1;SOID=19728521;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8531C108_FF16_4bd8_8941_4744D79BBF7A" style="Mode=3;EOID=E99C6BD1;SOID=EBA3657F;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1C854E42_ACD1_4251_B3B8_632BEB62F571" style="Mode=3;EOID=E99C6BD1;SOID=6798102F;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_227798D4_D882_4842_92CC_2F6764169266">
+				<model package="EAPK_46B6BD72_DBF7_42f4_8834_FE59EC1AC0F4" localID="37192" owner="EAPK_46B6BD72_DBF7_42f4_8834_FE59EC1AC0F4"/>
+				<properties name="GML Namespace inheritance from OGC" type="Logical" documentation="Bridge to inherit GML (GMLCOV) namespace from OGC"/>
+				<project author="PT 19123-2" version="2017" created="2016-10-03 00:00:00" modified="2016-10-03 21:38:24"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="SaveTag=CA843DE3;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=545;Top=474;Right=716;Bottom=566;" subject="EAID_E3E8018C_24BB_4681_B320_1B256A0D3790" seqno="1" style="DUID=506588BF;"/>
+					<element geometry="Left=161;Top=463;Right=332;Bottom=555;" subject="EAID_FEEA9DE8_EFBD_4abd_BCE4_396DA7FD0DD9" seqno="2" style="DUID=6BBBD3C7;"/>
+					<element geometry="Left=537;Top=361;Right=719;Bottom=431;" subject="EAID_7CC4572B_C32F_4068_8EBE_A24A51748484" seqno="3" style="DUID=B2FC30BE;ImageID=0;"/>
+					<element geometry="Left=155;Top=361;Right=337;Bottom=431;" subject="EAID_02915585_E985_42d0_8F25_DCBD73B1A75A" seqno="4" style="DUID=3D0A51C7;"/>
+					<element geometry="Left=346;Top=217;Right=528;Bottom=287;" subject="EAID_9B69F160_1931_4e2a_9E4D_DED3C92EAB2F" seqno="5" style="DUID=CB9947B6;"/>
+					<element geometry="Left=346;Top=92;Right=528;Bottom=162;" subject="EAID_EB93C2C1_50A6_460a_9746_34C87D3106C9" seqno="6" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;AttPro=0;AttPri=0;AttPub=0;AttPkg=0;OpPro=0;OpPri=0;OpPub=0;OpPkg=0;AttCustom=0;OpCustom=0;PType=0;RzO=1;DUID=4420939E;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_DDA8A087_475B_4a23_9936_969B809A9562" style="Mode=3;EOID=4420939E;SOID=CB9947B6;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BBE5D638_573A_41bd_BDCE_7D8F6CBAB060" style="Mode=3;EOID=3D0A51C7;SOID=6BBBD3C7;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F1E4C25C_1EB7_48b3_BCAE_5992BB0C02CA" style="Mode=3;EOID=B2FC30BE;SOID=506588BF;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_FC311242_367E_45f2_A277_50E2B46386B7">
+				<model package="EAPK_C735377C_FC85_45ac_8DD9_54DAEB1B5789" localID="37193" owner="EAPK_C735377C_FC85_45ac_8DD9_54DAEB1B5789"/>
+				<properties name="SWE_Common Namespace inheritance from OGC" type="Logical" documentation="Bridge to inherit SWE_Common namespace from OGC&#xA;"/>
+				<project author="PT 19123-2" version="2017" created="2016-10-03 00:00:00" modified="2016-10-03 21:39:06"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="SaveTag=19256FFA;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=351;Top=261;Right=507;Bottom=318;" subject="EAID_814B5E41_F0E0_4b93_BB9C_0600BB467659" seqno="1" style="DUID=B46A378B;"/>
+					<element geometry="Left=357;Top=147;Right=501;Bottom=204;" subject="EAID_55667F22_79BF_43bd_902F_FFD2D60E08B3" seqno="2" style="DUID=3384C540;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2845D314_C926_4aa6_B038_AD0AD138D362" style="Mode=3;EOID=3384C540;SOID=B46A378B;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
+</xmi:XMI>

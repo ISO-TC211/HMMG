@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:thecustomprofile="http://www.sparxsystems.com/profiles/thecustomprofile/1.0">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_D90BD086_CCEB_4bc0_BD0E_A719D64F217C" name="ISO 3166 Country Codes" visibility="public">
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_3D013C27_C2CC_4052_8F57_6B447F885F61" name="CountryCode" visibility="public" isLeaf="true"/>
+		</packagedElement>
+		<thecustomprofile:persistence base_Class="EAID_3D013C27_C2CC_4052_8F57_6B447F885F61" persistence="transient"/>
+		<thecustomprofile:CodeList base_Class="EAID_3D013C27_C2CC_4052_8F57_6B447F885F61"/>
+		<thecustomprofile:name base_Package="EAPK_D90BD086_CCEB_4bc0_BD0E_A719D64F217C" name="Country codes"/>
+		<thecustomprofile:number base_Package="EAPK_D90BD086_CCEB_4bc0_BD0E_A719D64F217C" number="3166"/>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_D90BD086_CCEB_4bc0_BD0E_A719D64F217C" xmi:type="uml:Package" name="ISO 3166 Country Codes" scope="public">
+				<model package2="EAID_D90BD086_CCEB_4bc0_BD0E_A719D64F217C" package="EAPK_A349EB45_15F3_401e_8267_2DEAD7460B62" tpos="2" ea_localid="8856" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project version="1.0" created="2008-04-17 08:46:02" modified="2018-06-04 10:33:53" complexity="2"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_8CD58E0A_C846_4c06_9076_1BCD3E741D31" name="edition" modelElement="EAID_D90BD086_CCEB_4bc0_BD0E_A719D64F217C"/>
+					<tag xmi:id="EAID_3F5AB522_B975_489b_9841_32180A8530AE" name="name" value="Country codes" modelElement="EAID_D90BD086_CCEB_4bc0_BD0E_A719D64F217C"/>
+					<tag xmi:id="EAID_84986EB7_7CFC_48d7_AD99_56941F3E81A8" name="number" value="3166" modelElement="EAID_D90BD086_CCEB_4bc0_BD0E_A719D64F217C"/>
+					<tag xmi:id="EAID_49EE437E_35BD_4986_B22B_FA4835883CD6" name="publicationDate" modelElement="EAID_D90BD086_CCEB_4bc0_BD0E_A719D64F217C"/>
+					<tag xmi:id="EAID_A796CE3D_05B0_4bde_A229_FC518D286E63" name="yearVersion" modelElement="EAID_D90BD086_CCEB_4bc0_BD0E_A719D64F217C"/>
+				</tags>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Other ISO Standards"/>
+				<packageproperties version="1.0" xmiver="Enterprise Architect XMI/UML 1.3" tpos="2"/>
+				<paths/>
+				<times created="2008-04-17 08:46:02" modified="2018-06-04 10:33:53" lastloaddate="2018-06-04 11:50:25" lastsavedate="2008-04-17 08:46:02"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_3D013C27_C2CC_4052_8F57_6B447F885F61" xmi:type="uml:Class" name="CountryCode" scope="public">
+				<model package="EAPK_D90BD086_CCEB_4bc0_BD0E_A719D64F217C" tpos="0" ea_localid="73911" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="CodeList" isRoot="true" isLeaf="true" isAbstract="false" isActive="false"/>
+				<project version="1.0" created="2008-04-10 12:16:39" modified="2008-04-10 12:16:39" complexity="2"/>
+				<code/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_18A28F0F_0E64_4864_A17D_2E8BB81CB33E" name="persistence" value="transient" modelElement="EAID_3D013C27_C2CC_4052_8F57_6B447F885F61"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={F8488C9E-8799-4339-A2AD-46FC34408755}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=CodeList;GUID={C1D47DFF-DB4E-466e-995A-43725A1FD5A3};@ENDSTEREO;$DES;$CLT={3D013C27-C2CC-4052-8F57-6B447F885F61}$CLT;$ENDXREF;$XREFPROP=$XID={C6B47244-6FB7-48d8-8B87-4F8353756DF2}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={3D013C27-C2CC-4052-8F57-6B447F885F61}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="ISO 3166 Country Codes" persistence="Transient" ea_attsclassified="{BE088710-1123-4d2a-8503-A8263025DBF4},{186200DC-1327-46fc-B5EB-7ACE0B379C85},{A5877305-7869-4b25-A365-AAE8436BCAED}"/>
+			</element>
+		</elements>
+		<connectors>
+			<connector xmi:idref="EAID_CA706B48_6E2A_49a2_94B8_156DCD3DF718">
+				<source xmi:idref="EAID_BC933ACB_A617_4784_9DC3_95EA2B6FAADF">
+					<model ea_localid="68806" type="Package" name="ISO 19139 Edition 1"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style value="Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_D90BD086_CCEB_4bc0_BD0E_A719D64F217C">
+					<model ea_localid="73909" type="Package" name="ISO 3166 Country Codes"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style value="Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="111375"/>
+				<properties ea_type="Dependency" direction="Source -&gt; Destination"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_EACD1C11_86FA_4a2d_A662_F9DE96456F77">
+				<source xmi:idref="EAID_00B016EF_E11D_403c_9A17_6532A7012980">
+					<model ea_localid="75997" type="Package" name="Language-characterset localization information"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style value="Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_D90BD086_CCEB_4bc0_BD0E_A719D64F217C">
+					<model ea_localid="73909" type="Package" name="ISO 3166 Country Codes"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style value="Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="120610"/>
+				<properties ea_type="Dependency" direction="Source -&gt; Destination"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_F672D5B8_95AE_4eba_8323_E74F2735D4B2">
+				<source xmi:idref="EAID_5E36D833_1A3A_486e_B93C_123E8B49C8CB">
+					<model ea_localid="68808" type="Package" name="Cultural and linguistic adapdability"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style value="Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_D90BD086_CCEB_4bc0_BD0E_A719D64F217C">
+					<model ea_localid="73909" type="Package" name="ISO 3166 Country Codes"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style value="Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="111354"/>
+				<properties ea_type="Dependency" direction="Source -&gt; Destination"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_F81B64D6_AFD4_421c_A794_4A3EAF0E5359">
+				<source xmi:idref="EAID_ED1AB738_3982_477e_A5E7_171474FF70FD">
+					<model ea_localid="69366" type="Package" name="Transfer Node"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_D90BD086_CCEB_4bc0_BD0E_A719D64F217C">
+					<model ea_localid="73909" type="Package" name="ISO 3166 Country Codes"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="111942"/>
+				<properties ea_type="Dependency" direction="Source -&gt; Destination"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+		</connectors>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles>
+			<uml:Profile xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1/" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:id="thecustomprofile" nsPrefix="thecustomprofile" name="thecustomprofile" metamodelReference="mmref01">
+				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="thecustomprofile">
+					<body> Version:1.0</body>
+				</ownedComment>
+				<packageImport xmi:id="mmref01">
+					<importedPackage href="http://schema.omg.org/spec/UML/2.1/"/>
+				</packageImport>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="persistence" name="persistence">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="persistence-base_Class" name="base_Class" association="Class_persistence">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="persistence-persistence" name="persistence">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_persistence" name="A_Class_persistence" memberEnd="extension_persistence persistence-base_Class">
+					<ownedEnd xmi:id="extension_persistence" name="extension_persistence" type="persistence" isComposite="true" lower="0" upper="1" memberEnd="extension_persistence persistence-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="CodeList" name="CodeList">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="CodeList-base_Class" name="base_Class" association="Class_CodeList">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_CodeList" name="A_Class_CodeList" memberEnd="extension_CodeList CodeList-base_Class">
+					<ownedEnd xmi:id="extension_CodeList" name="extension_CodeList" type="CodeList" isComposite="true" lower="0" upper="1" memberEnd="extension_CodeList CodeList-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="number" name="number">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="number-base_Package" name="base_Package" association="Package_number">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="number-number" name="number">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_number" name="A_Package_number" memberEnd="extension_number number-base_Package">
+					<ownedEnd xmi:id="extension_number" name="extension_number" type="number" isComposite="true" lower="0" upper="1" memberEnd="extension_number number-base_Package"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="name" name="name">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="name-base_Package" name="base_Package" association="Package_name">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="name-name" name="name">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_name" name="A_Package_name" memberEnd="extension_name name-base_Package">
+					<ownedEnd xmi:id="extension_name" name="extension_name" type="name" isComposite="true" lower="0" upper="1" memberEnd="extension_name name-base_Package"/>
+				</packagedElement>
+			</uml:Profile>
+		</profiles>
+		<diagrams>
+			<diagram xmi:id="EAID_06F4C256_8783_46fa_9A84_D9AF5F0265B8">
+				<model package="EAPK_D90BD086_CCEB_4bc0_BD0E_A719D64F217C" localID="35723" owner="EAPK_D90BD086_CCEB_4bc0_BD0E_A719D64F217C"/>
+				<properties name="Context Diagram: CountryCode" type="Logical"/>
+				<project author="friisan" version="1.0" created="2008-04-10 12:17:05" modified="2008-04-10 12:17:05"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=0;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=0;PPgs.cy=0;DocSize.cx=1000;DocSize.cy=1000;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=1;HideProps=1;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=1;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="SaveTag=CACF1C01;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=21;Top=34;Right=103;Bottom=86;" subject="EAID_3D013C27_C2CC_4052_8F57_6B447F885F61" seqno="1" style="DUID=0CFD3E26;"/>
+					<element geometry="Left=278;Top=148;Right=438;Bottom=198;" subject="EAID_BC933ACB_A617_4784_9DC3_95EA2B6FAADF" seqno="2" style="DUID=3FE6F76E;"/>
+				</elements>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
+</xmi:XMI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:thecustomprofile="http://www.sparxsystems.com/profiles/thecustomprofile/1.0">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_9EEFC17E_B60B_4381_BBB5_B304CA7F7039" name="ISO 19152-5 Edition 1" visibility="public"/>
+		<thecustomprofile:name base_Package="EAPK_9EEFC17E_B60B_4381_BBB5_B304CA7F7039" name="Spatial Planning"/>
+		<thecustomprofile:edition base_Package="EAPK_9EEFC17E_B60B_4381_BBB5_B304CA7F7039" edition="1"/>
+		<thecustomprofile:number base_Package="EAPK_9EEFC17E_B60B_4381_BBB5_B304CA7F7039" number="19152-5"/>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_9EEFC17E_B60B_4381_BBB5_B304CA7F7039" xmi:type="uml:Package" name="ISO 19152-5 Edition 1" scope="public">
+				<model package2="EAID_9EEFC17E_B60B_4381_BBB5_B304CA7F7039" package="EAPK_7A4CC887_A327_4429_8179_2A8725409A3D" tpos="0" ea_localid="9230" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Spatial Planning" scope="public"/>
+				<project author="knjetl" version="1.0" phase="1.0" created="2019-12-10 06:21:59" modified="2019-12-10 06:30:32" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_F64C3501_2D58_4449_8808_64781A1BF031" name="edition" value="1" modelElement="EAID_9EEFC17E_B60B_4381_BBB5_B304CA7F7039"/>
+					<tag xmi:id="EAID_9C7DA966_ACB4_4cf1_930A_A704FEEED773" name="name" value="Spatial Planning" modelElement="EAID_9EEFC17E_B60B_4381_BBB5_B304CA7F7039"/>
+					<tag xmi:id="EAID_31C2D88D_D2E7_4838_BE77_9DE624DD5814" name="number" value="19152-5" modelElement="EAID_9EEFC17E_B60B_4381_BBB5_B304CA7F7039"/>
+					<tag xmi:id="EAID_EE8ECE3D_2153_425b_B919_35572BF4B952" name="publicationDate" modelElement="EAID_9EEFC17E_B60B_4381_BBB5_B304CA7F7039"/>
+					<tag xmi:id="EAID_32512593_F931_4ee4_9967_0E95EC63ECA8" name="yearVersion" modelElement="EAID_9EEFC17E_B60B_4381_BBB5_B304CA7F7039"/>
+				</tags>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="ISO 19152 Land Administration Domain Model (LADM)"/>
+				<packageproperties version="1.0" tpos="0"/>
+				<paths/>
+				<times created="2019-12-10 06:21:59" modified="2019-12-10 06:30:32" lastloaddate="2019-12-10 06:26:53" lastsavedate="2019-12-10 06:26:53"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+		</elements>
+		<connectors/>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles>
+			<uml:Profile xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1/" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:id="thecustomprofile" nsPrefix="thecustomprofile" name="thecustomprofile" metamodelReference="mmref01">
+				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="thecustomprofile">
+					<body> Version:1.0</body>
+				</ownedComment>
+				<packageImport xmi:id="mmref01">
+					<importedPackage href="http://schema.omg.org/spec/UML/2.1/"/>
+				</packageImport>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="edition" name="edition">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="edition-base_Package" name="base_Package" association="Package_edition">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="edition-edition" name="edition">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_edition" name="A_Package_edition" memberEnd="extension_edition edition-base_Package">
+					<ownedEnd xmi:id="extension_edition" name="extension_edition" type="edition" isComposite="true" lower="0" upper="1" memberEnd="extension_edition edition-base_Package"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="number" name="number">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="number-base_Package" name="base_Package" association="Package_number">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="number-number" name="number">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_number" name="A_Package_number" memberEnd="extension_number number-base_Package">
+					<ownedEnd xmi:id="extension_number" name="extension_number" type="number" isComposite="true" lower="0" upper="1" memberEnd="extension_number number-base_Package"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="name" name="name">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="name-base_Package" name="base_Package" association="Package_name">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="name-name" name="name">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_name" name="A_Package_name" memberEnd="extension_name name-base_Package">
+					<ownedEnd xmi:id="extension_name" name="extension_name" type="name" isComposite="true" lower="0" upper="1" memberEnd="extension_name name-base_Package"/>
+				</packagedElement>
+			</uml:Profile>
+		</profiles>
+		<diagrams/>
+	</xmi:Extension>
+</xmi:XMI>
