@@ -9,8 +9,13 @@ option explicit
 ' Date: 20200805
 '
 
-const sourcePackageGUID = "{991BB5AA-EECE-48ab-BBFA-4734CE37BBD7}"
-const targetPackageGUID = "{8A4650C0-9720-4072-9722-BE7BCB5083DC}"
+'ISO DAMD 19115-1 Edition 1 (Amendment 1): 
+'const sourcePackageGUID = "{E01F8948-760C-4724-80C4-EE201B9DE4A1}"
+'ISO DAMD 19115-1 Edition 1 (Amendment 2): 
+const sourcePackageGUID = "{9D7C5D0A-1142-46bc-91C3-FA2B6D31C59A}"
+
+'ISO 19115-1 Edition 1 (Complete):
+const targetPackageGUID = "{487216E5-A26A-4a5b-B4A1-E60590EAE13D}"
 
 dim sourcePackage as EA.Package
 dim targetPackage as EA.Package
