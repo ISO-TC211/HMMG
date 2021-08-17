@@ -67,6 +67,8 @@
 					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_5FFEB2B1_4481_43af_AEDA_D814F4C3CD65" visibility="public" supplier="EAPK_ABA38243_1D64_47c3_8056_229A18850187" client="EAID_66C3BDCC_FDE6_416a_98FE_7A95AEF0F549"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_A65236A4_1ED7_48ea_93C4_539DAFFEF7FB" name="By-function " visibility="public"/>
 					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_E84B12B7_7CFF_491e_88B4_A6444B5708DD" visibility="public" supplier="EAID_1EF6EB4C_E351_4924_96D6_189DD8207657" client="EAID_A65236A4_1ED7_48ea_93C4_539DAFFEF7FB"/>
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A" name="Coordinates" visibility="public"/>
+					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_FB8C889B_0CF7_4147_B9EF_FFCFBBDB49E5" visibility="public" supplier="EAPK_ABA38243_1D64_47c3_8056_229A18850187" client="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_9F2AEFDC_E3D1_4766_A82C_B6E6B8F55BEF" name="Coverage-envelope" visibility="public"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_41EA7C6D_6B24_4efc_A870_3BCFD260BEF1" name="CRS" visibility="public"/>
 					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_F654E59F_013E_499a_840D_4D08B48F745A" visibility="public" supplier="EAPK_FD19DD4C_24C0_4771_9033_3B4949D232AD" client="EAID_41EA7C6D_6B24_4efc_A870_3BCFD260BEF1"/>
@@ -78,11 +80,9 @@
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_C8A29C49_2AF5_45d2_AC8C_036E98DADC9D" name="Envelope-tight" visibility="public"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_2925B19A_F733_451c_80DF_283655E2B34F" name="GV-pair" visibility="public"/>
 					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_E2DCB4BA_797D_4b29_842E_BF9C4642ED05" visibility="public" supplier="EAID_1EF6EB4C_E351_4924_96D6_189DD8207657" client="EAID_2925B19A_F733_451c_80DF_283655E2B34F"/>
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_0E4A799B_8F67_4493_A669_5CBAE32169CF" name="InterpolationMethod" visibility="public"/>
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_0E4A799B_8F67_4493_A669_5CBAE32169CF" name="Interpolation-method" visibility="public"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_DD8D18C5_ADDB_41a6_A42D_D62A7BF0EA3D" name="IOS19111-crs" visibility="public"/>
 					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_76DF624A_893C_43b0_8EF0_6D8618962393" visibility="public" supplier="EAPK_4F2DAF3D_CD2C_4646_9E70_F2D211DD1B3F" client="EAID_DD8D18C5_ADDB_41a6_A42D_D62A7BF0EA3D"/>
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A" name="ISO19107-coordinates" visibility="public"/>
-					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_FB8C889B_0CF7_4147_B9EF_FFCFBBDB49E5" visibility="public" supplier="EAPK_ABA38243_1D64_47c3_8056_229A18850187" client="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_6DF732C6_215A_44a2_9F41_E4928281E784" name="ISO19107-interpolation" visibility="public"/>
 					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_B6C9D466_F47E_47f3_AD1A_7AAAFB09D9B2" visibility="public" supplier="EAPK_ABA38243_1D64_47c3_8056_229A18850187" client="EAID_6DF732C6_215A_44a2_9F41_E4928281E784"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_F9AE0A6C_61AA_4bb0_A989_C5B9FC892764" name="Measurement" visibility="public"/>
@@ -118,26 +118,26 @@
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_176D672F_1A3C_49f7_9E53_E1922D93DF88" name="Figure 12: Class GridCoverage " visibility="public"/>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_77CE633E_3D21_4480_B399_8CDCBBF2D229" name="MultiCurveCoverage" visibility="public">
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036" name="Multi-curve-coverage" visibility="public"/>
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036" name="Multi-curve" visibility="public"/>
 					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_37E795F8_759C_4906_A8AF_5524138B875D" visibility="public" supplier="EAID_462FA8EA_CFD3_447d_82F3_3935530C4F70" client="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_F97E4CD4_7F9C_4aec_AE12_07F717252A37" name="Multi-curve-evaluate" visibility="public"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_462FA8EA_CFD3_447d_82F3_3935530C4F70" name="Figure 16: Class MultiCurveCoverage" visibility="public"/>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_46F2A6C4_5F96_4572_AC64_F5C0470A3851" name="MultiPointCoverage" visibility="public">
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D" name="Multi-point-coverage" visibility="public"/>
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D" name="Multi-point" visibility="public"/>
 					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_F7FE5D95_0DD6_482e_80BF_DF5E47F567F1" visibility="public" supplier="EAID_3D4593B5_3414_4d58_8008_86CFCBB823FD" client="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_BD9FFD69_398B_4c97_A000_2E618B00FB24" name="Multi-point-evaluate" visibility="public"/>
 					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_F95BAC15_A517_4b46_BB0F_F2576BA19486" visibility="public" supplier="EAPK_ABA38243_1D64_47c3_8056_229A18850187" client="EAID_BD9FFD69_398B_4c97_A000_2E618B00FB24"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_3D4593B5_3414_4d58_8008_86CFCBB823FD" name="Figure 8: Class MultiPointCoverage" visibility="public"/>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_B6EDF0B1_4EFA_428a_862D_AF2E1E491AEF" name="MultiSolidCoverage" visibility="public">
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B" name="Multi-solid-coverage" visibility="public"/>
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B" name="Multi-solid" visibility="public"/>
 					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_6681F628_5958_4756_8AA3_CD5526BA1FE4" visibility="public" supplier="EAID_0FFEB713_99F6_46e9_9127_9D2E761596DE" client="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_BEC06FA6_1599_44ec_B5B4_52812D190F61" name="Multi-solid-evaluate" visibility="public"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_0FFEB713_99F6_46e9_9127_9D2E761596DE" name="Figure 23: Class MultiSolidCoverage " visibility="public"/>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_DC241594_5961_4de5_A9D7_99662E134489" name="MultiSurfaceCoverage" visibility="public">
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E" name="Multi-surface-coverage" visibility="public"/>
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E" name="Multi-surface" visibility="public"/>
 					<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_B965548E_B780_4d42_9D98_06465821F9D4" visibility="public" supplier="EAID_1CEA913A_5B94_47cc_A71D_7FAE26789B42" client="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_E38B33C2_F800_4c4d_B35C_86A8E59C8586" name="Multi-surface-evaluate" visibility="public"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_1CEA913A_5B94_47cc_A71D_7FAE26789B42" name="Figure 18: Class MultiSurfaceCoverage " visibility="public"/>
@@ -161,6 +161,7 @@
 		<ISO_TC_211_Conformance_and_testing:RequirementsSuite base_Package="EAPK_8CA07472_81C5_4b93_AD46_CB8271AA6B43"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_66C3BDCC_FDE6_416a_98FE_7A95AEF0F549" URI="https://standards.isotc211.org/19123/-1/1/req/core/associated"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_A65236A4_1ED7_48ea_93C4_539DAFFEF7FB" URI="https://standards.isotc211.org/19123/-1/1/req/core/by-function "/>
+		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A" URI="https://standards.isotc211.org/19123/-1/1/req/core/coordinates"/>
 		<ISO_TC_211_Conformance_and_testing:Recommendation base_Class="EAID_9F2AEFDC_E3D1_4766_A82C_B6E6B8F55BEF" URI="https://standards.isotc211.org/19123/-1/1/req/core/coverage-envelope"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_41EA7C6D_6B24_4efc_A870_3BCFD260BEF1" URI="https://standards.isotc211.org/19123/-1/1/req/core/crs"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_08840E95_3610_465b_881D_CAEB1C28B4D0" URI="https://standards.isotc211.org/19123/-1/1/req/core/cyclefree-hierarchies"/>
@@ -171,7 +172,6 @@
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_2925B19A_F733_451c_80DF_283655E2B34F" URI="https://standards.isotc211.org/19123/-1/1/req/core/gv-pair"/>
 		<ISO_TC_211_Conformance_and_testing:Recommendation base_Class="EAID_0E4A799B_8F67_4493_A669_5CBAE32169CF" URI="https://standards.isotc211.org/19123/-1/1/req/core/interpolation-method"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_DD8D18C5_ADDB_41a6_A42D_D62A7BF0EA3D" URI="https://standards.isotc211.org/19123/-1/1/req/core/iso19111-crs"/>
-		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A" URI="https://standards.isotc211.org/19123/-1/1/req/core/iso19107-coordinates"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_6DF732C6_215A_44a2_9F41_E4928281E784" URI="https://standards.isotc211.org/19123/-1/1/req/core/iso19107-interpolation"/>
 		<ISO_TC_211_Conformance_and_testing:Recommendation base_Class="EAID_F9AE0A6C_61AA_4bb0_A989_C5B9FC892764" URI="https://standards.isotc211.org/19123/-1/1/req/core/measurement"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_B7BAB674_6332_463f_A8FD_6AE8DB1709DD" URI="https://standards.isotc211.org/19123/-1/1/req/core/mininfo"/>
@@ -193,16 +193,16 @@
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_C8DB6970_2D23_4963_968E_5F4AAA7DDFAC" URI="https://standards.isotc211.org/19123/-1/1/req/grid/ single-point-value"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_88574130_7D48_44b0_AC8B_D1FACC58B312" URI="https://standards.isotc211.org/19123/-1/1/req/grid/sub-coverage"/>
 		<ISO_TC_211_Conformance_and_testing:RequirementsClass base_Package="EAPK_EF57CDD0_5FA8_4230_8EE1_08B77867E667"/>
-		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036" URI="https://standards.isotc211.org/19123/-1/1/req/multi-curve/multi-curve-coverage"/>
+		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036" URI="https://standards.isotc211.org/19123/-1/1/req/multi-curve/multi-curve"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_F97E4CD4_7F9C_4aec_AE12_07F717252A37" URI="https://standards.isotc211.org/19123/-1/1/req/multi-curve/multi-curve-evaluate"/>
 		<ISO_TC_211_Conformance_and_testing:RequirementsClass base_Package="EAPK_77CE633E_3D21_4480_B399_8CDCBBF2D229"/>
-		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D" URI="https://standards.isotc211.org/19123/-1/1/req/multi-point/multi-point-coverage"/>
+		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D" URI="https://standards.isotc211.org/19123/-1/1/req/multi-point/multi-point"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_BD9FFD69_398B_4c97_A000_2E618B00FB24" URI="https://standards.isotc211.org/19123/-1/1/req/multi-point/multi-point-evaluate"/>
 		<ISO_TC_211_Conformance_and_testing:RequirementsClass base_Package="EAPK_46F2A6C4_5F96_4572_AC64_F5C0470A3851"/>
-		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B" URI="https://standards.isotc211.org/19123/-1/1/req/multi-solid/multi-solid-coverage"/>
+		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B" URI="https://standards.isotc211.org/19123/-1/1/req/multi-solid/multi-solid"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_BEC06FA6_1599_44ec_B5B4_52812D190F61" URI="https://standards.isotc211.org/19123/-1/1/req/multi-solid/evaluate"/>
 		<ISO_TC_211_Conformance_and_testing:RequirementsClass base_Package="EAPK_B6EDF0B1_4EFA_428a_862D_AF2E1E491AEF"/>
-		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E" URI="https://standards.isotc211.org/19123/-1/1/req/multi-surface/multi-surface-coverage"/>
+		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E" URI="https://standards.isotc211.org/19123/-1/1/req/multi-surface/multi-surface"/>
 		<ISO_TC_211_Conformance_and_testing:Requirement base_Class="EAID_E38B33C2_F800_4c4d_B35C_86A8E59C8586" URI="https://standards.isotc211.org/19123/-1/1/req/multi-surface/multi-surface-evaluate"/>
 		<ISO_TC_211_Conformance_and_testing:RequirementsClass base_Package="EAPK_DC241594_5961_4de5_A9D7_99662E134489"/>
 	</uml:Model>
@@ -547,6 +547,24 @@
 					<Dependency xmi:id="EAID_211E96F6_9FB2_4ff7_831F_F26FBAC9202F" start="EAID_AFCDD524_B3CA_4880_9AE1_C7D1A2202E36" end="EAID_A65236A4_1ED7_48ea_93C4_539DAFFEF7FB"/>
 				</links>
 			</element>
+			<element xmi:idref="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A" xmi:type="uml:Class" name="Coordinates" scope="public">
+				<model package="EAPK_0196651B_746E_45bd_AD5D_165F8923FB3C" tpos="0" ea_localid="91459" ea_eleType="element"/>
+				<properties documentation="An instantiation of package CV_Coverage shall make use of ISO 19107 package Coordinates" isSpecification="false" sType="Class" nType="0" scope="public" stereotype="Requirement" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 09:19:25" modified="2021-08-17 10:04:17" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_58075EF2_AECC_a0ae_A950_70453EF364A8" name="externalReference" value="#NOTES#Description: reference to an external description&#xA;" modelElement="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A"/>
+					<tag xmi:id="EAID_00415985_4B3F_5f4b_A888_8C82967DA9BE" name="text" modelElement="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A"/>
+					<tag xmi:id="EAID_000200D0_16EA_eb16_AA99_888FC8268024" name="URI" value="https://standards.isotc211.org/19123/-1/1/req/core/coordinates#NOTES#Description: identifier which references elsewhere the object's defining information; alternatively an identifier by which this object can be referenced&#xA;" modelElement="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={6DB9B11D-75A0-4fcf-92CD-0C0EA418027B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Requirement;GUID={F05B2704-322D-49a4-B66D-CA3662CFF49F};FQName=ISO/TC 211 Conformance and testing::Requirement;@ENDSTEREO;$DES;$CLT={A79436B4-06F6-4472-A61A-5B3292BE170A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="CoverageCore"/>
+				<links>
+					<Dependency xmi:id="EAID_FB8C889B_0CF7_4147_B9EF_FFCFBBDB49E5" start="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A" end="EAID_ABA38243_1D64_47c3_8056_229A18850187"/>
+					<Dependency xmi:id="EAID_8EFCB1A9_B84D_4be1_AD46_EA04C62BF31B" start="EAID_AFCDD524_B3CA_4880_9AE1_C7D1A2202E36" end="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A"/>
+				</links>
+			</element>
 			<element xmi:idref="EAID_9F2AEFDC_E3D1_4766_A82C_B6E6B8F55BEF" xmi:type="uml:Class" name="Coverage-envelope" scope="public">
 				<model package="EAPK_0196651B_746E_45bd_AD5D_165F8923FB3C" tpos="0" ea_localid="91482" ea_eleType="element"/>
 				<properties documentation="Coverages should contain an Envelope" isSpecification="false" sType="Class" nType="0" scope="public" stereotype="Recommendation" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
@@ -683,10 +701,10 @@
 					<Dependency xmi:id="EAID_169A63A1_9449_4325_8CAB_74695035895D" start="EAID_AFCDD524_B3CA_4880_9AE1_C7D1A2202E36" end="EAID_2925B19A_F733_451c_80DF_283655E2B34F"/>
 				</links>
 			</element>
-			<element xmi:idref="EAID_0E4A799B_8F67_4493_A669_5CBAE32169CF" xmi:type="uml:Class" name="InterpolationMethod" scope="public">
+			<element xmi:idref="EAID_0E4A799B_8F67_4493_A669_5CBAE32169CF" xmi:type="uml:Class" name="Interpolation-method" scope="public">
 				<model package="EAPK_0196651B_746E_45bd_AD5D_165F8923FB3C" tpos="0" ea_localid="91474" ea_eleType="element"/>
 				<properties documentation="An application may apply one interpolation method collectively along all axes of the coverage, or it may allow indicating individual interpolation methods applied to different axes of the coverage.&#xA;EXAMPLE&lt;b&gt;  &lt;/b&gt; In an image timeseries having Latitude, Longitude, and time axes several ways of interpolation are relevant:&#xA;— Linear interpolation along latitude and longitude (“bilinear interpolation”), with temporal resolution unchanged (in plain words: all existing timeslices get extracted) and, hence, no interpolation occurring along time.&#xA;— Interpolate each pixel’s history (i.e., along time) using linear interpolation, without any spatial interpolation.&#xA;— Linear interpolation along latitude, longitude, and time simultaneously (“trilinear interpolation”).&#xA;Note 5	As this standard is a data model and not a processing nor service model use of a particular interpolation method on a given coverage cannot be enforced. Rather, a coverage may provide information on the set of interpolation methods that should be applied whenever, in the course of performing some general processing, interpolation needs to be performed (such as in rescaling a coverage along one or more axes).&#xA;Note 6	Interpolation methods may require additional control parameters; these are not considered in this Document.&#xA;" isSpecification="false" sType="Class" nType="0" scope="public" stereotype="Recommendation" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 10:13:19" modified="2021-08-16 10:14:17" complexity="1" status="Proposed"/>
+				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 10:13:19" modified="2021-08-17 10:05:10" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -713,24 +731,6 @@
 				<links>
 					<Dependency xmi:id="EAID_76DF624A_893C_43b0_8EF0_6D8618962393" start="EAID_DD8D18C5_ADDB_41a6_A42D_D62A7BF0EA3D" end="EAID_4F2DAF3D_CD2C_4646_9E70_F2D211DD1B3F"/>
 					<Dependency xmi:id="EAID_27F812A0_85F4_4284_92C3_32423E2BB599" start="EAID_AFCDD524_B3CA_4880_9AE1_C7D1A2202E36" end="EAID_DD8D18C5_ADDB_41a6_A42D_D62A7BF0EA3D"/>
-				</links>
-			</element>
-			<element xmi:idref="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A" xmi:type="uml:Class" name="ISO19107-coordinates" scope="public">
-				<model package="EAPK_0196651B_746E_45bd_AD5D_165F8923FB3C" tpos="0" ea_localid="91459" ea_eleType="element"/>
-				<properties documentation="An instantiation of package CV_Coverage shall make use of ISO 19107 package Coordinates" isSpecification="false" sType="Class" nType="0" scope="public" stereotype="Requirement" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 09:19:25" modified="2021-08-16 12:09:35" complexity="1" status="Proposed"/>
-				<code gentype="Java"/>
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-				<tags>
-					<tag xmi:id="EAID_58075EF2_AECC_a0ae_A950_70453EF364A8" name="externalReference" value="#NOTES#Description: reference to an external description&#xA;" modelElement="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A"/>
-					<tag xmi:id="EAID_00415985_4B3F_5f4b_A888_8C82967DA9BE" name="text" modelElement="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A"/>
-					<tag xmi:id="EAID_000200D0_16EA_eb16_AA99_888FC8268024" name="URI" value="https://standards.isotc211.org/19123/-1/1/req/core/iso19107-coordinates#NOTES#Description: identifier which references elsewhere the object's defining information; alternatively an identifier by which this object can be referenced&#xA;" modelElement="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A"/>
-				</tags>
-				<xrefs value="$XREFPROP=$XID={6DB9B11D-75A0-4fcf-92CD-0C0EA418027B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Requirement;GUID={F05B2704-322D-49a4-B66D-CA3662CFF49F};FQName=ISO/TC 211 Conformance and testing::Requirement;@ENDSTEREO;$DES;$CLT={A79436B4-06F6-4472-A61A-5B3292BE170A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-				<extendedProperties tagged="0" package_name="CoverageCore"/>
-				<links>
-					<Dependency xmi:id="EAID_FB8C889B_0CF7_4147_B9EF_FFCFBBDB49E5" start="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A" end="EAID_ABA38243_1D64_47c3_8056_229A18850187"/>
-					<Dependency xmi:id="EAID_8EFCB1A9_B84D_4be1_AD46_EA04C62BF31B" start="EAID_AFCDD524_B3CA_4880_9AE1_C7D1A2202E36" end="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A"/>
 				</links>
 			</element>
 			<element xmi:idref="EAID_6DF732C6_215A_44a2_9F41_E4928281E784" xmi:type="uml:Class" name="ISO19107-interpolation" scope="public">
@@ -1144,16 +1144,16 @@
 				<times created="2021-08-16 09:00:36" modified="2021-08-16 09:00:36"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" usedtd="FALSE" logxml="FALSE"/>
 			</element>
-			<element xmi:idref="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036" xmi:type="uml:Class" name="Multi-curve-coverage" scope="public">
+			<element xmi:idref="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036" xmi:type="uml:Class" name="Multi-curve" scope="public">
 				<model package="EAPK_77CE633E_3D21_4480_B399_8CDCBBF2D229" tpos="0" ea_localid="91501" ea_eleType="element"/>
 				<properties documentation="A MultiCurveCoverage shall contain only elements of the same type, which is ISO 19107 data type CurveData or a subtype thereof, as described by Figure 16." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="Requirement" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 11:21:33" modified="2021-08-16 11:23:56" complexity="1" status="Proposed"/>
+				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 11:21:33" modified="2021-08-17 10:07:23" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
 					<tag xmi:id="EAID_58075EF2_AECC_a0ae_8F0A_87AA8575D588" name="externalReference" value="#NOTES#Description: reference to an external description&#xA;" modelElement="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036"/>
 					<tag xmi:id="EAID_00415985_4B3F_5f4b_B499_7565691F5A87" name="text" modelElement="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036"/>
-					<tag xmi:id="EAID_000200D0_16EA_eb16_A418_47134A29EC70" name="URI" value="https://standards.isotc211.org/19123/-1/1/req/multi-curve/multi-curve-coverage#NOTES#Description: identifier which references elsewhere the object's defining information; alternatively an identifier by which this object can be referenced&#xA;" modelElement="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036"/>
+					<tag xmi:id="EAID_000200D0_16EA_eb16_A418_47134A29EC70" name="URI" value="https://standards.isotc211.org/19123/-1/1/req/multi-curve/multi-curve#NOTES#Description: identifier which references elsewhere the object's defining information; alternatively an identifier by which this object can be referenced&#xA;" modelElement="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036"/>
 				</tags>
 				<xrefs value="$XREFPROP=$XID={3979F7DA-42A9-4b3c-AF10-AD70DED5B2E2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Requirement;GUID={F05B2704-322D-49a4-B66D-CA3662CFF49F};FQName=ISO/TC 211 Conformance and testing::Requirement;@ENDSTEREO;$DES;$CLT={0F789560-0D9E-4441-91C7-51B53B4D3036}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="MultiCurveCoverage"/>
@@ -1208,16 +1208,16 @@
 				<times created="2021-08-16 09:00:49" modified="2021-08-16 09:00:50"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" usedtd="FALSE" logxml="FALSE"/>
 			</element>
-			<element xmi:idref="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D" xmi:type="uml:Class" name="Multi-point-coverage" scope="public">
+			<element xmi:idref="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D" xmi:type="uml:Class" name="Multi-point" scope="public">
 				<model package="EAPK_46F2A6C4_5F96_4572_AC64_F5C0470A3851" tpos="0" ea_localid="91487" ea_eleType="element"/>
 				<properties documentation="A MultiPointCoverage shall contain only elements of the same type, which is ISO 19107 data type PointData or a subtype thereof, as described by Figure 8." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="Requirement" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 10:33:45" modified="2021-08-16 11:21:43" complexity="1" status="Proposed"/>
+				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 10:33:45" modified="2021-08-17 10:05:58" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
 					<tag xmi:id="EAID_58075EF2_AECC_a0ae_9B05_13FB888D4796" name="externalReference" value="#NOTES#Description: reference to an external description&#xA;" modelElement="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D"/>
 					<tag xmi:id="EAID_00415985_4B3F_5f4b_A6FE_C0C7D5C00E4B" name="text" modelElement="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D"/>
-					<tag xmi:id="EAID_000200D0_16EA_eb16_9C84_D93996DBE7FD" name="URI" value="https://standards.isotc211.org/19123/-1/1/req/multi-point/multi-point-coverage#NOTES#Description: identifier which references elsewhere the object's defining information; alternatively an identifier by which this object can be referenced&#xA;" modelElement="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D"/>
+					<tag xmi:id="EAID_000200D0_16EA_eb16_9C84_D93996DBE7FD" name="URI" value="https://standards.isotc211.org/19123/-1/1/req/multi-point/multi-point#NOTES#Description: identifier which references elsewhere the object's defining information; alternatively an identifier by which this object can be referenced&#xA;" modelElement="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D"/>
 				</tags>
 				<xrefs value="$XREFPROP=$XID={BF0FE4B1-96BF-42bb-A1B6-4F058356D223}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Requirement;GUID={F05B2704-322D-49a4-B66D-CA3662CFF49F};FQName=ISO/TC 211 Conformance and testing::Requirement;@ENDSTEREO;$DES;$CLT={68641B39-2DA8-4d71-9ADE-1BF1372F140D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="MultiPointCoverage"/>
@@ -1269,16 +1269,16 @@
 				<times created="2021-08-16 09:01:08" modified="2021-08-16 09:01:08"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" usedtd="FALSE" logxml="FALSE"/>
 			</element>
-			<element xmi:idref="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B" xmi:type="uml:Class" name="Multi-solid-coverage" scope="public">
+			<element xmi:idref="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B" xmi:type="uml:Class" name="Multi-solid" scope="public">
 				<model package="EAPK_B6EDF0B1_4EFA_428a_862D_AF2E1E491AEF" tpos="0" ea_localid="91507" ea_eleType="element"/>
 				<properties documentation="A MultiSolidCoverage shall contain only elements of the same type, which is ISO 19107 data type SolidData or a subtype thereof, as described by Figure 23." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="Requirement" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 11:30:45" modified="2021-08-16 11:33:46" complexity="1" status="Proposed"/>
+				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 11:30:45" modified="2021-08-17 10:08:51" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
 					<tag xmi:id="EAID_58075EF2_AECC_a0ae_BE9B_ADC98DC3D34D" name="externalReference" value="#NOTES#Description: reference to an external description&#xA;" modelElement="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B"/>
 					<tag xmi:id="EAID_00415985_4B3F_5f4b_A597_0F2C7747E643" name="text" modelElement="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B"/>
-					<tag xmi:id="EAID_000200D0_16EA_eb16_80C6_734B00A69341" name="URI" value="https://standards.isotc211.org/19123/-1/1/req/multi-solid/multi-solid-coverage#NOTES#Description: identifier which references elsewhere the object's defining information; alternatively an identifier by which this object can be referenced&#xA;" modelElement="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B"/>
+					<tag xmi:id="EAID_000200D0_16EA_eb16_80C6_734B00A69341" name="URI" value="https://standards.isotc211.org/19123/-1/1/req/multi-solid/multi-solid#NOTES#Description: identifier which references elsewhere the object's defining information; alternatively an identifier by which this object can be referenced&#xA;" modelElement="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B"/>
 				</tags>
 				<xrefs value="$XREFPROP=$XID={4205D900-3FC5-4ab6-9779-7A785A8FA48C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Requirement;GUID={F05B2704-322D-49a4-B66D-CA3662CFF49F};FQName=ISO/TC 211 Conformance and testing::Requirement;@ENDSTEREO;$DES;$CLT={F7A15ACB-0CD8-4a2d-ABAD-E228C830609B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="MultiSolidCoverage"/>
@@ -1331,16 +1331,16 @@
 				<times created="2021-08-16 09:01:25" modified="2021-08-16 09:01:25"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" usedtd="FALSE" logxml="FALSE"/>
 			</element>
-			<element xmi:idref="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E" xmi:type="uml:Class" name="Multi-surface-coverage" scope="public">
+			<element xmi:idref="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E" xmi:type="uml:Class" name="Multi-surface" scope="public">
 				<model package="EAPK_DC241594_5961_4de5_A9D7_99662E134489" tpos="0" ea_localid="91504" ea_eleType="element"/>
 				<properties documentation="A MultiSurfaceCoverage shall contain only elements implementing ISO 19107 data type SurfaceData or a subtype thereof, as described by Figure 18." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="Requirement" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 11:26:33" modified="2021-08-16 11:26:51" complexity="1" status="Proposed"/>
+				<project author="knjetl" version="1.0" phase="1.0" created="2021-08-16 11:26:33" modified="2021-08-17 10:08:03" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
 					<tag xmi:id="EAID_58075EF2_AECC_a0ae_8EC1_1415F2DF5656" name="externalReference" value="#NOTES#Description: reference to an external description&#xA;" modelElement="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E"/>
 					<tag xmi:id="EAID_00415985_4B3F_5f4b_AD59_F5C3B661561D" name="text" modelElement="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E"/>
-					<tag xmi:id="EAID_000200D0_16EA_eb16_9EDB_115814F42FA7" name="URI" value="https://standards.isotc211.org/19123/-1/1/req/multi-surface/multi-surface-coverage#NOTES#Description: identifier which references elsewhere the object's defining information; alternatively an identifier by which this object can be referenced&#xA;" modelElement="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E"/>
+					<tag xmi:id="EAID_000200D0_16EA_eb16_9EDB_115814F42FA7" name="URI" value="https://standards.isotc211.org/19123/-1/1/req/multi-surface/multi-surface#NOTES#Description: identifier which references elsewhere the object's defining information; alternatively an identifier by which this object can be referenced&#xA;" modelElement="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E"/>
 				</tags>
 				<xrefs value="$XREFPROP=$XID={251A37CF-6AB4-4014-8360-0F3F5276F2E4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Requirement;GUID={F05B2704-322D-49a4-B66D-CA3662CFF49F};FQName=ISO/TC 211 Conformance and testing::Requirement;@ENDSTEREO;$DES;$CLT={67AB0CCD-7FB2-4389-995B-2FBDD26A0E3E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="MultiSurfaceCoverage"/>
@@ -1790,7 +1790,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A">
-					<model ea_localid="91459" type="Class" name="ISO19107-coordinates"/>
+					<model ea_localid="91459" type="Class" name="Coordinates"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2417,7 +2417,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036">
-					<model ea_localid="91501" type="Class" name="Multi-curve-coverage"/>
+					<model ea_localid="91501" type="Class" name="Multi-curve"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2450,7 +2450,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036">
-					<model ea_localid="91501" type="Class" name="Multi-curve-coverage"/>
+					<model ea_localid="91501" type="Class" name="Multi-curve"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2549,7 +2549,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B">
-					<model ea_localid="91507" type="Class" name="Multi-solid-coverage"/>
+					<model ea_localid="91507" type="Class" name="Multi-solid"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2615,7 +2615,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E">
-					<model ea_localid="91504" type="Class" name="Multi-surface-coverage"/>
+					<model ea_localid="91504" type="Class" name="Multi-surface"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2692,6 +2692,39 @@
 					<tags/>
 				</target>
 				<model ea_localid="141054"/>
+				<properties ea_type="Dependency" direction="Source -&gt; Destination"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_FB8C889B_0CF7_4147_B9EF_FFCFBBDB49E5">
+				<source xmi:idref="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A">
+					<model ea_localid="91459" type="Class" name="Coordinates"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_ABA38243_1D64_47c3_8056_229A18850187">
+					<model ea_localid="77373" type="Package" name="ISO 19107 Spatial schema"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="141041"/>
 				<properties ea_type="Dependency" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -2824,39 +2857,6 @@
 					<tags/>
 				</target>
 				<model ea_localid="141055"/>
-				<properties ea_type="Dependency" direction="Source -&gt; Destination"/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_FB8C889B_0CF7_4147_B9EF_FFCFBBDB49E5">
-				<source xmi:idref="EAID_A79436B4_06F6_4472_A61A_5B3292BE170A">
-					<model ea_localid="91459" type="Class" name="ISO19107-coordinates"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_ABA38243_1D64_47c3_8056_229A18850187">
-					<model ea_localid="77373" type="Package" name="ISO 19107 Spatial schema"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="141041"/>
 				<properties ea_type="Dependency" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -3132,7 +3132,7 @@
 			</connector>
 			<connector xmi:idref="EAID_37E795F8_759C_4906_A8AF_5524138B875D">
 				<source xmi:idref="EAID_0F789560_0D9E_4441_91C7_51B53B4D3036">
-					<model ea_localid="91501" type="Class" name="Multi-curve-coverage"/>
+					<model ea_localid="91501" type="Class" name="Multi-curve"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3165,7 +3165,7 @@
 			</connector>
 			<connector xmi:idref="EAID_F7FE5D95_0DD6_482e_80BF_DF5E47F567F1">
 				<source xmi:idref="EAID_68641B39_2DA8_4d71_9ADE_1BF1372F140D">
-					<model ea_localid="91487" type="Class" name="Multi-point-coverage"/>
+					<model ea_localid="91487" type="Class" name="Multi-point"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3231,7 +3231,7 @@
 			</connector>
 			<connector xmi:idref="EAID_6681F628_5958_4756_8AA3_CD5526BA1FE4">
 				<source xmi:idref="EAID_F7A15ACB_0CD8_4a2d_ABAD_E228C830609B">
-					<model ea_localid="91507" type="Class" name="Multi-solid-coverage"/>
+					<model ea_localid="91507" type="Class" name="Multi-solid"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3264,7 +3264,7 @@
 			</connector>
 			<connector xmi:idref="EAID_B965548E_B780_4d42_9D98_06465821F9D4">
 				<source xmi:idref="EAID_67AB0CCD_7FB2_4389_995B_2FBDD26A0E3E">
-					<model ea_localid="91504" type="Class" name="Multi-surface-coverage"/>
+					<model ea_localid="91504" type="Class" name="Multi-surface"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
