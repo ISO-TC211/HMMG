@@ -13,7 +13,6 @@ A HTML view of the model can be found at [http://iso.sparxcloud.com](http://iso.
 
 See also the wiki https://github.com/ISO-TC211/UML-Best-Practices/wiki for best practices on using UML for geographic information. 
 
-To report any technical errors in the models or in the scripts and macros, or to make contributions to this site, please contact the HMMG chairs:
-* [Dr. John R. Herring](mailto:John.Herring@oracle.com), USA
-* [Mr. Knut Jetlund](mailto:knut.jetlund@vegvesen.no), Norway.
+To report any technical errors in the models or in the scripts and macros, or to make contributions to this site, please contact the HMMG convenor:
+* [Dr. Knut Jetlund](mailto:knut.jetlund@vegvesen.no), Norway.
 
