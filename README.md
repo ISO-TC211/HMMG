@@ -15,4 +15,7 @@ See also the wiki https://github.com/ISO-TC211/UML-Best-Practices/wiki for best 
 
 To report any technical errors in the models or in the scripts and macros, or to make contributions to this site, please contact the HMMG convenor:
 * [Dr. Knut Jetlund](mailto:knut.jetlund@vegvesen.no), Norway.
+---------------------------------------------------------------------------------
+
+
 
