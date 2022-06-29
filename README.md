@@ -1,7 +1,7 @@
 ## ISO/TC211 Geographic information/Geomatics 
 # The Harmonized Model Maintenance Group
 
-The ISO/TC211 Harmonized Model Management Group (HMMG) maintains this repository for use by the members of the ISO TC 211 community in the assessment and creation of standards. 
+The ISO/TC211 Harmonized Model Maintenance Group (HMMG) maintains this repository for use by the members of the ISO TC 211 community in the assessment and creation of standards. 
 
 See the [HMMG Wiki](https://github.com/ISO-TC211/HMMG/wiki) for information about the Harmonized Model Repository and how to access and use it. 
 
