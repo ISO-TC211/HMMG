@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="windows-1252"?>
-<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:thecustomprofile="http://www.sparxsystems.com/profiles/thecustomprofile/1.0">
-	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+<?xml  version='1.0' encoding='windows-1252' ?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:thecustomprofile="http://www.sparxsystems.com/profiles/thecustomprofile/1.0" xmlns:SysPhS="http://www.sparxsystems.com/profiles/SysPhS/1.0">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5" exporterID="1604"/>
 	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
 		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_0AC7C3DA_F0BC_4c0a_B813_7C45D8CAFFD7" name="ISO 19131 Data product specifications XML" visibility="public">
 			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_01D1C165_1341_45c8_BDF1_526537FADF3E" name="ISO 19131 Edition 2 XML" visibility="public">
@@ -64,8 +64,8 @@
 				</packagedElement>
 			</packagedElement>
 		</packagedElement>
-		<thecustomprofile:name base_Package="EAPK_01D1C165_1341_45c8_BDF1_526537FADF3E" name="Data product specifications"/>
 		<thecustomprofile:publicationDate base_Package="EAPK_01D1C165_1341_45c8_BDF1_526537FADF3E" publicationDate="2020"/>
+		<SysPhS:ModelicaParameter base_Package="EAPK_01D1C165_1341_45c8_BDF1_526537FADF3E" name="Data product specifications"/>
 		<thecustomprofile:edition base_Package="EAPK_01D1C165_1341_45c8_BDF1_526537FADF3E" edition="2"/>
 		<thecustomprofile:number base_Package="EAPK_01D1C165_1341_45c8_BDF1_526537FADF3E" number="19131"/>
 		<thecustomprofile:yearVersion base_Package="EAPK_01D1C165_1341_45c8_BDF1_526537FADF3E" yearVersion="2020"/>
@@ -96,7 +96,7 @@
 	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
 		<elements>
 			<element xmi:idref="EAPK_0AC7C3DA_F0BC_4c0a_B813_7C45D8CAFFD7" xmi:type="uml:Package" name="ISO 19131 Data product specifications XML" scope="public">
-				<model package2="EAID_0AC7C3DA_F0BC_4c0a_B813_7C45D8CAFFD7" package="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E" tpos="7" ea_localid="9439" ea_eleType="package"/>
+				<model package2="EAID_0AC7C3DA_F0BC_4c0a_B813_7C45D8CAFFD7" package="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E" tpos="7" ea_localid="68" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
 				<project author="Knut Jetlund" version="1.0" phase="1.0" created="2020-02-14 09:16:46" modified="2020-02-14 09:17:29" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -107,10 +107,10 @@
 				<packageproperties version="1.0" tpos="7"/>
 				<paths/>
 				<times created="2020-02-14 09:16:46" modified="2020-02-14 09:36:31" lastloaddate="2020-02-14 09:36:31" lastsavedate="2020-02-14 09:36:31"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_01D1C165_1341_45c8_BDF1_526537FADF3E" xmi:type="uml:Package" name="ISO 19131 Edition 2 XML" scope="public">
-				<model package2="EAID_01D1C165_1341_45c8_BDF1_526537FADF3E" package="EAPK_0AC7C3DA_F0BC_4c0a_B813_7C45D8CAFFD7" tpos="5" ea_localid="9440" ea_eleType="package"/>
+				<model package2="EAID_01D1C165_1341_45c8_BDF1_526537FADF3E" package="EAPK_0AC7C3DA_F0BC_4c0a_B813_7C45D8CAFFD7" tpos="5" ea_localid="71" ea_eleType="package"/>
 				<properties documentation="import from drafts with STrip GUIDS 2014-07-10" isSpecification="false" sType="Package" nType="0" alias="Methodology for feature cataloguing" scope="public"/>
 				<project author="karmag" version="1.0" created="2020-01-31 15:23:25" modified="2020-02-14 09:16:58" complexity="1"/>
 				<code gentype="Java"/>
@@ -127,10 +127,10 @@
 				<packageproperties version="1.0" xmiver="Enterprise Architect XMI/UML 1.3" tpos="5"/>
 				<paths/>
 				<times created="2020-01-31 15:23:25" modified="2020-01-31 16:36:01" lastloaddate="2018-05-28 17:20:34" lastsavedate="2008-04-17 08:53:38"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="Recurse=0;"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0" packageFlags="Recurse=0;"/>
 			</element>
 			<element xmi:idref="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" xmi:type="uml:Package" name="Encoding Description" scope="public">
-				<model package2="EAID_4963D149_93CC_4e61_B735_D481796A86B0" package="EAPK_01D1C165_1341_45c8_BDF1_526537FADF3E" tpos="1" ea_localid="9441" ea_eleType="package"/>
+				<model package2="EAID_4963D149_93CC_4e61_B735_D481796A86B0" package="EAPK_01D1C165_1341_45c8_BDF1_526537FADF3E" tpos="1" ea_localid="72" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-01-31 15:23:31" modified="2020-02-12 15:01:52" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -141,10 +141,10 @@
 				<packageproperties version="1.0" tpos="1"/>
 				<paths/>
 				<times created="2020-01-31 15:23:32" modified="2020-02-12 15:01:52" lastloaddate="2013-09-20 11:09:08" lastsavedate="2013-09-20 11:09:08"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_4CE11DED_6B55_4f61_9AAB_AF2EA2563CF4" xmi:type="uml:Package" name="cit" scope="public">
-				<model package2="EAID_4CE11DED_6B55_4f61_9AAB_AF2EA2563CF4" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9442" ea_eleType="package"/>
+				<model package2="EAID_4CE11DED_6B55_4f61_9AAB_AF2EA2563CF4" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="73" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-01-31 15:23:39" modified="2020-01-31 16:02:58" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -152,13 +152,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={1D26747E-68C5-4275-9957-B8BB9B113825}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={4CE11DED-6B55-4f61-9AAB-AF2EA2563CF4}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-01-31 15:23:43" modified="2020-01-31 16:02:58" lastloaddate="2014-07-10 22:32:21" lastsavedate="2014-07-10 22:32:21"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_D66C4D45_A812_4ceb_8A23_26F80D5C9902" xmi:type="uml:Package" name="dps" scope="public">
-				<model package2="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9443" ea_eleType="package"/>
+				<model package2="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="74" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="NLesage" version="1.0" phase="1.0" created="2020-01-31 15:23:38" modified="2020-01-31 15:34:17" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -166,13 +166,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={5B9FCBC8-5159-4ba5-9A41-43131BD1F152}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={D66C4D45-A812-4ceb-8A23-26F80D5C9902}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-01-31 15:23:45" modified="2020-01-31 15:34:17" lastloaddate="2013-09-20 11:09:08" lastsavedate="2013-09-20 11:09:08"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_8C398F0A_0D66_4e42_92B7_03737EC171FB" xmi:type="uml:Package" name="gco" scope="public">
-				<model package2="EAID_8C398F0A_0D66_4e42_92B7_03737EC171FB" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9444" ea_eleType="package"/>
+				<model package2="EAID_8C398F0A_0D66_4e42_92B7_03737EC171FB" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="75" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="Magnus Karge" version="1.0" phase="1.0" created="2020-01-31 15:23:34" modified="2020-01-31 15:39:24" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -180,13 +180,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={D837BCBB-19BC-4321-84D7-2E817AAA67D9}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={8C398F0A-0D66-4e42-92B7-03737EC171FB}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-01-31 15:23:44" modified="2020-01-31 15:39:24" lastloaddate="2014-07-10 22:32:21" lastsavedate="2014-07-10 22:32:21"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_AB9DAD8D_76C3_4898_82CE_134E8C52AA32" xmi:type="uml:Package" name="gex" scope="public">
-				<model package2="EAID_AB9DAD8D_76C3_4898_82CE_134E8C52AA32" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9445" ea_eleType="package"/>
+				<model package2="EAID_AB9DAD8D_76C3_4898_82CE_134E8C52AA32" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="76" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-02-04 16:17:58" modified="2020-02-04 16:29:37" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -194,13 +194,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={38BF4173-BBC1-491d-8E8E-2E6A1B4E77AB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={AB9DAD8D-76C3-4898-82CE-134E8C52AA32}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-02-04 16:18:01" modified="2020-02-04 16:29:37" lastloaddate="2014-07-10 22:32:21" lastsavedate="2014-07-10 22:32:21"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_760A368E_A118_44a7_8D91_4E5326A6ABB3" xmi:type="uml:Package" name="lan" scope="public">
-				<model package2="EAID_760A368E_A118_44a7_8D91_4E5326A6ABB3" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9446" ea_eleType="package"/>
+				<model package2="EAID_760A368E_A118_44a7_8D91_4E5326A6ABB3" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="77" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-01-31 15:23:35" modified="2020-01-31 16:05:09" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -208,13 +208,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={5C915497-0514-4dd4-9735-3BA3BE575925}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={760A368E-A118-44a7-8D91-4E5326A6ABB3}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-01-31 15:23:48" modified="2020-01-31 16:05:09" lastloaddate="2014-07-10 22:32:21" lastsavedate="2014-07-10 22:32:21"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_FB031C3E_1500_415f_B8C5_7F7B875C40B3" xmi:type="uml:Package" name="mas" scope="public">
-				<model package2="EAID_FB031C3E_1500_415f_B8C5_7F7B875C40B3" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9447" ea_eleType="package"/>
+				<model package2="EAID_FB031C3E_1500_415f_B8C5_7F7B875C40B3" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="78" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-01-31 16:38:13" modified="2020-02-04 16:33:09" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -222,13 +222,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={16C44546-C74A-48ff-99C5-CA082918B073}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={FB031C3E-1500-415f-B8C5-7F7B875C40B3}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-01-31 16:38:16" modified="2020-02-04 16:33:09" lastloaddate="2013-09-20 11:09:08" lastsavedate="2013-09-20 11:09:08"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_593FF680_9BB4_4366_A713_3C26F06B4692" xmi:type="uml:Package" name="mcc" scope="public">
-				<model package2="EAID_593FF680_9BB4_4366_A713_3C26F06B4692" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9448" ea_eleType="package"/>
+				<model package2="EAID_593FF680_9BB4_4366_A713_3C26F06B4692" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="79" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-01-31 16:38:10" modified="2020-01-31 16:40:18" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -236,13 +236,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={E8325969-48D1-4f35-8077-CA6E628DA016}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={593FF680-9BB4-4366-A713-3C26F06B4692}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-01-31 16:38:14" modified="2020-01-31 16:40:18" lastloaddate="2016-01-08 10:24:20" lastsavedate="2016-01-08 10:24:20"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_F99DB9CB_B743_40d1_B9D6_755E800EE6C9" xmi:type="uml:Package" name="mco" scope="public">
-				<model package2="EAID_F99DB9CB_B743_40d1_B9D6_755E800EE6C9" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9449" ea_eleType="package"/>
+				<model package2="EAID_F99DB9CB_B743_40d1_B9D6_755E800EE6C9" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="80" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="Magnus Karge" version="1.0" phase="1.0" created="2020-01-31 16:38:12" modified="2020-02-04 15:23:14" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -250,13 +250,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={24F96B54-5392-4c90-AFBD-B42B77451BA4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={F99DB9CB-B743-40d1-B9D6-755E800EE6C9}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-01-31 16:38:19" modified="2020-02-04 15:23:14" lastloaddate="2014-07-10 22:32:21" lastsavedate="2014-07-10 22:32:21"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_2FF110F2_3198_4022_8564_F4BC3EFDAFA3" xmi:type="uml:Package" name="mdq" scope="public">
-				<model package2="EAID_2FF110F2_3198_4022_8564_F4BC3EFDAFA3" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9450" ea_eleType="package"/>
+				<model package2="EAID_2FF110F2_3198_4022_8564_F4BC3EFDAFA3" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="81" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-01-31 16:38:09" modified="2020-02-04 15:36:37" complexity="1" status="Approved"/>
 				<code gentype="Java"/>
@@ -264,13 +264,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={7E65245F-F754-4c9f-B3E3-6889194511CE}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={2FF110F2-3198-4022-8564-F4BC3EFDAFA3}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-01-31 16:38:20" modified="2020-02-04 15:36:37" lastloaddate="2014-07-10 22:32:21" lastsavedate="2014-07-10 22:32:21"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_632B35D5_E213_4654_85F4_18299BEC18D1" xmi:type="uml:Package" name="mmi" scope="public">
-				<model package2="EAID_632B35D5_E213_4654_85F4_18299BEC18D1" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9451" ea_eleType="package"/>
+				<model package2="EAID_632B35D5_E213_4654_85F4_18299BEC18D1" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="82" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-02-04 16:17:59" modified="2020-02-04 16:37:44" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -278,13 +278,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={55C09B56-F225-4ee8-B1CF-250255E760B4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={632B35D5-E213-4654-85F4-18299BEC18D1}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-02-04 16:18:02" modified="2020-02-04 16:37:44" lastloaddate="2016-01-08 10:24:20" lastsavedate="2016-01-08 10:24:20"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_7CD7952F_94A0_4448_B428_1C3F081ED17D" xmi:type="uml:Package" name="mrc" scope="public">
-				<model package2="EAID_7CD7952F_94A0_4448_B428_1C3F081ED17D" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9452" ea_eleType="package"/>
+				<model package2="EAID_7CD7952F_94A0_4448_B428_1C3F081ED17D" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="83" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-01-31 15:23:37" modified="2020-02-04 16:19:12" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -292,13 +292,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={4DBAC87C-FC9A-4f1e-AF0E-ED456720768A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={7CD7952F-94A0-4448-B428-1C3F081ED17D}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-01-31 15:23:42" modified="2020-02-04 16:19:12" lastloaddate="2016-01-08 10:24:20" lastsavedate="2016-01-08 10:24:20"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_240BCC9D_053D_4000_B4C1_1D5A7ACFDD7E" xmi:type="uml:Package" name="mri" scope="public">
-				<model package2="EAID_240BCC9D_053D_4000_B4C1_1D5A7ACFDD7E" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9453" ea_eleType="package"/>
+				<model package2="EAID_240BCC9D_053D_4000_B4C1_1D5A7ACFDD7E" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="84" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-02-04 16:17:55" modified="2020-02-04 16:29:47" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -306,13 +306,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={61C05DAB-ABEE-483c-9DA5-75B91281871C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={240BCC9D-053D-4000-B4C1-1D5A7ACFDD7E}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-02-04 16:18:01" modified="2020-02-04 16:29:47" lastloaddate="2016-01-08 10:24:20" lastsavedate="2016-01-08 10:24:20"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_D3BD4A1B_E621_45a3_9E1A_3BBF00DA277D" xmi:type="uml:Package" name="mrl" scope="public">
-				<model package2="EAID_D3BD4A1B_E621_45a3_9E1A_3BBF00DA277D" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9454" ea_eleType="package"/>
+				<model package2="EAID_D3BD4A1B_E621_45a3_9E1A_3BBF00DA277D" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="92" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-01-31 16:38:07" modified="2020-01-31 16:42:25" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -320,13 +320,13 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={B16E57BB-2BD5-44e7-B3C3-54B2C24FAED5}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={D3BD4A1B-E621-45a3-9E1A-3BBF00DA277D}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-01-31 16:38:15" modified="2020-01-31 16:42:25" lastloaddate="2014-07-10 22:32:21" lastsavedate="2014-07-10 22:32:21"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 			<element xmi:idref="EAPK_8C042514_65BA_44b7_92D4_5BFA2341BFF6" xmi:type="uml:Package" name="mrs" scope="public">
-				<model package2="EAID_8C042514_65BA_44b7_92D4_5BFA2341BFF6" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="9455" ea_eleType="package"/>
+				<model package2="EAID_8C042514_65BA_44b7_92D4_5BFA2341BFF6" package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0" ea_localid="93" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="XMLnamespace"/>
 				<project author="karmag" version="1.0" phase="1.0" created="2020-02-04 16:17:52" modified="2020-02-04 16:40:04" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -334,16 +334,16 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={E3895A46-F95D-473f-B5D8-E8A1A361D1E8}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XMLnamespace;GUID={3C2875D0-7EA7-4a19-9F01-5B7C7E501B93};@ENDSTEREO;$DES;$CLT={8C042514-65BA-44b7-92D4-5BFA2341BFF6}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Encoding Description"/>
-				<packageproperties version="1.0"/>
+				<packageproperties version="1.0" tpos="0"/>
 				<paths/>
 				<times created="2020-02-04 16:18:03" modified="2020-02-04 16:40:04" lastloaddate="2014-07-10 22:32:21" lastsavedate="2014-07-10 22:32:21"/>
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+				<flags iscontrolled="0" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0"/>
 			</element>
 		</elements>
 		<connectors>
 			<connector xmi:idref="EAID_DDA1288D_81AA_4f2e_BC4E_D9930C770B53">
 				<source xmi:idref="EAID_4CE11DED_6B55_4f61_9AAB_AF2EA2563CF4">
-					<model ea_localid="77866" type="Package" name="cit"/>
+					<model ea_localid="7314" type="Package" name="cit"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -354,7 +354,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -364,7 +364,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123237"/>
+				<model ea_localid="8412"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -377,7 +377,7 @@
 			</connector>
 			<connector xmi:idref="EAID_BAE6C340_FE57_42ec_A46F_BB81592594E7">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -388,7 +388,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_4CE11DED_6B55_4f61_9AAB_AF2EA2563CF4">
-					<model ea_localid="77866" type="Package" name="cit"/>
+					<model ea_localid="7314" type="Package" name="cit"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -398,19 +398,19 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123238"/>
+				<model ea_localid="8413"/>
 				<properties ea_type="Package" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;«import»"/>
-				<extendedProperties conditional=" &#xA;«import»" virtualInheritance="0"/>
+				<extendedProperties conditional="   «import»" virtualInheritance="0"/>
 				<style/>
-				<xrefs value="$XREFPROP=$XID={F4049B60-DA87-4e46-9914-AACAC2850694}$XID;$NAM=CustomProperties$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isDerived@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={BAE6C340-FE57-42ec-A46F-BB81592594E7}$CLT;$ENDXREF;$XREFPROP=$XID={A0F33653-EA14-46d6-8B69-3F095A377276}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=import;GUID={720A56E4-DAC0-444b-A623-5165575B2C9E};@ENDSTEREO;$DES;$CLT={BAE6C340-FE57-42ec-A46F-BB81592594E7}$CLT;$ENDXREF;"/>
+				<xrefs value="$XREFPROP=$XID={A0F33653-EA14-46d6-8B69-3F095A377276}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=import;GUID={720A56E4-DAC0-444b-A623-5165575B2C9E};@ENDSTEREO;$DES;$CLT={BAE6C340-FE57-42ec-A46F-BB81592594E7}$CLT;$ENDXREF;$XREFPROP=$XID={F4049B60-DA87-4e46-9914-AACAC2850694}$XID;$NAM=CustomProperties$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isDerived@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={BAE6C340-FE57-42ec-A46F-BB81592594E7}$CLT;$ENDXREF;"/>
 				<tags/>
 			</connector>
 			<connector xmi:idref="EAID_0A342E45_0BE1_4ce6_93B2_C02104121209">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -421,7 +421,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_240BCC9D_053D_4000_B4C1_1D5A7ACFDD7E">
-					<model ea_localid="77864" type="Package" name="mri"/>
+					<model ea_localid="7312" type="Package" name="mri"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -431,7 +431,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123242"/>
+				<model ea_localid="8417"/>
 				<properties ea_type="Dependency" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -443,7 +443,7 @@
 			</connector>
 			<connector xmi:idref="EAID_25959901_4E8D_4d3d_9B0D_EC95FBFE8E6B">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -454,7 +454,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_593FF680_9BB4_4366_A713_3C26F06B4692">
-					<model ea_localid="77867" type="Package" name="mcc"/>
+					<model ea_localid="7315" type="Package" name="mcc"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -464,7 +464,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123236"/>
+				<model ea_localid="8411"/>
 				<properties ea_type="Dependency" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -476,7 +476,7 @@
 			</connector>
 			<connector xmi:idref="EAID_2F390F88_4181_4aa2_9457_406BEFA51C24">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -487,7 +487,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_632B35D5_E213_4654_85F4_18299BEC18D1">
-					<model ea_localid="77868" type="Package" name="mmi"/>
+					<model ea_localid="7316" type="Package" name="mmi"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -497,7 +497,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123234"/>
+				<model ea_localid="8409"/>
 				<properties ea_type="Dependency" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -509,7 +509,7 @@
 			</connector>
 			<connector xmi:idref="EAID_4336994A_F1E9_4405_9B5C_4E6CD02EEE0F" name="import">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -520,7 +520,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_FB031C3E_1500_415f_B8C5_7F7B875C40B3">
-					<model ea_localid="77877" type="Package" name="mas"/>
+					<model ea_localid="7325" type="Package" name="mas"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -530,7 +530,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123219"/>
+				<model ea_localid="8394"/>
 				<properties ea_type="Dependency" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -542,7 +542,7 @@
 			</connector>
 			<connector xmi:idref="EAID_4E15F73C_BB18_4272_9506_593BA52FBC31">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -553,7 +553,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_6AA97CBF_D935_4eb8_ACB3_6A9B05CC7A4E">
-					<model ea_localid="77775" type="Package" name="ISO 19131 Edition 2"/>
+					<model ea_localid="10631" type="Package" name="ISO FDIS 19131 Edition 2"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -563,7 +563,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123218"/>
+				<model ea_localid="8364"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -576,7 +576,7 @@
 			</connector>
 			<connector xmi:idref="EAID_6A1257C1_2781_46ed_A7A2_9996E73C85B5">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -587,7 +587,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_760A368E_A118_44a7_8D91_4E5326A6ABB3">
-					<model ea_localid="77869" type="Package" name="lan"/>
+					<model ea_localid="7317" type="Package" name="lan"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -597,19 +597,19 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123231"/>
+				<model ea_localid="8406"/>
 				<properties ea_type="Package" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;«import»"/>
-				<extendedProperties conditional=" &#xA;«import»" virtualInheritance="0"/>
+				<extendedProperties conditional="   «import»" virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
 				<tags/>
 			</connector>
 			<connector xmi:idref="EAID_875398FE_02E3_4b63_AF4C_0ED5C119B911">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -620,7 +620,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_AB9DAD8D_76C3_4898_82CE_134E8C52AA32">
-					<model ea_localid="77873" type="Package" name="gex"/>
+					<model ea_localid="7321" type="Package" name="gex"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -630,7 +630,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123222"/>
+				<model ea_localid="8397"/>
 				<properties ea_type="Dependency" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -642,7 +642,7 @@
 			</connector>
 			<connector xmi:idref="EAID_8BC670C3_176E_4b48_9981_1340CDD12F78">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -653,7 +653,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_D3BD4A1B_E621_45a3_9E1A_3BBF00DA277D">
-					<model ea_localid="77874" type="Package" name="mrl"/>
+					<model ea_localid="7322" type="Package" name="mrl"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -663,7 +663,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123220"/>
+				<model ea_localid="8395"/>
 				<properties ea_type="Dependency" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -675,7 +675,7 @@
 			</connector>
 			<connector xmi:idref="EAID_936A0FAD_3451_4326_9B4A_E3632FC4D24E">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -686,7 +686,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_2FF110F2_3198_4022_8564_F4BC3EFDAFA3">
-					<model ea_localid="77865" type="Package" name="mdq"/>
+					<model ea_localid="7313" type="Package" name="mdq"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -696,7 +696,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123239"/>
+				<model ea_localid="8414"/>
 				<properties ea_type="Dependency" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -708,7 +708,7 @@
 			</connector>
 			<connector xmi:idref="EAID_9624E352_4D81_4496_8ABD_AC12B051DB29">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -719,7 +719,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_7CD7952F_94A0_4448_B428_1C3F081ED17D">
-					<model ea_localid="77870" type="Package" name="mrc"/>
+					<model ea_localid="7318" type="Package" name="mrc"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -729,7 +729,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123228"/>
+				<model ea_localid="8403"/>
 				<properties ea_type="Dependency" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -741,7 +741,7 @@
 			</connector>
 			<connector xmi:idref="EAID_A8CE760C_F49E_4c26_A6E3_2A28E53634FC">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -752,7 +752,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_8C042514_65BA_44b7_92D4_5BFA2341BFF6">
-					<model ea_localid="77871" type="Package" name="mrs"/>
+					<model ea_localid="7319" type="Package" name="mrs"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -762,19 +762,19 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123226"/>
+				<model ea_localid="8401"/>
 				<properties ea_type="Dependency" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;«import»"/>
-				<extendedProperties conditional=" &#xA;«import»" virtualInheritance="0"/>
+				<extendedProperties conditional="   «import»" virtualInheritance="0"/>
 				<style/>
 				<xrefs value="$XREFPROP=$XID={3EA94E7E-5479-4dad-B656-C5E5FB117A4F}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=import;GUID={00D80C91-B2ED-4357-8227-6AD34BC1E95B};@ENDSTEREO;$DES;$CLT={A8CE760C-F49E-4c26-A6E3-2A28E53634FC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 				<tags/>
 			</connector>
 			<connector xmi:idref="EAID_B73F1B9E_51F9_4e0d_A656_5F28E503E67A">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -785,7 +785,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_F99DB9CB_B743_40d1_B9D6_755E800EE6C9">
-					<model ea_localid="77876" type="Package" name="mco"/>
+					<model ea_localid="7324" type="Package" name="mco"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -795,7 +795,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123217"/>
+				<model ea_localid="8363"/>
 				<properties ea_type="Dependency" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -807,7 +807,7 @@
 			</connector>
 			<connector xmi:idref="EAID_C4A087AC_E0D0_4171_81D8_3A24F2025361">
 				<source xmi:idref="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902">
-					<model ea_localid="77875" type="Package" name="dps"/>
+					<model ea_localid="7323" type="Package" name="dps"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -818,7 +818,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_8C398F0A_0D66_4e42_92B7_03737EC171FB">
-					<model ea_localid="77872" type="Package" name="gco"/>
+					<model ea_localid="7320" type="Package" name="gco"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -828,19 +828,19 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123224"/>
+				<model ea_localid="8399"/>
 				<properties ea_type="Package" stereotype="import" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;«import»"/>
-				<extendedProperties conditional=" &#xA;«import»" virtualInheritance="0"/>
+				<extendedProperties conditional="   «import»" virtualInheritance="0"/>
 				<style/>
 				<xrefs value="$XREFPROP=$XID={0641811A-115D-43ee-9B33-87656D45FE64}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=import;GUID={E7C9D0F8-5AB4-4efc-B385-66039FD9E7ED};@ENDSTEREO;$DES;$CLT={C4A087AC-E0D0-4171-81D8-3A24F2025361}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 				<tags/>
 			</connector>
 			<connector xmi:idref="EAID_228A7ECF_F14C_42e3_B240_6DD61EDA0F7A">
 				<source xmi:idref="EAID_8C398F0A_0D66_4e42_92B7_03737EC171FB">
-					<model ea_localid="77872" type="Package" name="gco"/>
+					<model ea_localid="7320" type="Package" name="gco"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -851,7 +851,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -861,7 +861,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123225"/>
+				<model ea_localid="8400"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -874,7 +874,7 @@
 			</connector>
 			<connector xmi:idref="EAID_2129AF97_B320_4990_A2BE_F87DAD8D1EF1">
 				<source xmi:idref="EAID_AB9DAD8D_76C3_4898_82CE_134E8C52AA32">
-					<model ea_localid="77873" type="Package" name="gex"/>
+					<model ea_localid="7321" type="Package" name="gex"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -885,7 +885,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -895,7 +895,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123223"/>
+				<model ea_localid="8398"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -908,7 +908,7 @@
 			</connector>
 			<connector xmi:idref="EAID_5612C9AA_E69A_4edf_9D98_DBE29D23A787">
 				<source xmi:idref="EAID_760A368E_A118_44a7_8D91_4E5326A6ABB3">
-					<model ea_localid="77869" type="Package" name="lan"/>
+					<model ea_localid="7317" type="Package" name="lan"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -919,7 +919,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -929,7 +929,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123232"/>
+				<model ea_localid="8407"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -942,7 +942,7 @@
 			</connector>
 			<connector xmi:idref="EAID_86E48EA8_8444_4e84_A4D3_19679D1BE364">
 				<source xmi:idref="EAID_760A368E_A118_44a7_8D91_4E5326A6ABB3">
-					<model ea_localid="77869" type="Package" name="lan"/>
+					<model ea_localid="7317" type="Package" name="lan"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -953,7 +953,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_00B016EF_E11D_403c_9A17_6532A7012980">
-					<model ea_localid="75997" type="Package" name="Language-characterset localization information"/>
+					<model ea_localid="7917" type="Package" name="Language-characterset localization information"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -963,7 +963,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123230"/>
+				<model ea_localid="8405"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -976,7 +976,7 @@
 			</connector>
 			<connector xmi:idref="EAID_CB52F6DA_EAE2_4789_89CE_A8FAA4A89A7B">
 				<source xmi:idref="EAID_FB031C3E_1500_415f_B8C5_7F7B875C40B3">
-					<model ea_localid="77877" type="Package" name="mas"/>
+					<model ea_localid="7325" type="Package" name="mas"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -987,7 +987,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -997,7 +997,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123215"/>
+				<model ea_localid="8361"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -1010,7 +1010,7 @@
 			</connector>
 			<connector xmi:idref="EAID_DE98C04B_0210_47fa_A39D_26EEC019A802">
 				<source xmi:idref="EAID_593FF680_9BB4_4366_A713_3C26F06B4692">
-					<model ea_localid="77867" type="Package" name="mcc"/>
+					<model ea_localid="7315" type="Package" name="mcc"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1021,7 +1021,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1031,7 +1031,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123235"/>
+				<model ea_localid="8410"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -1044,7 +1044,7 @@
 			</connector>
 			<connector xmi:idref="EAID_8FA3B76C_6B76_422b_86A6_8EFA01BC0547">
 				<source xmi:idref="EAID_F99DB9CB_B743_40d1_B9D6_755E800EE6C9">
-					<model ea_localid="77876" type="Package" name="mco"/>
+					<model ea_localid="7324" type="Package" name="mco"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1055,7 +1055,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1065,7 +1065,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123216"/>
+				<model ea_localid="8362"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -1078,7 +1078,7 @@
 			</connector>
 			<connector xmi:idref="EAID_2CF8D44B_9D94_439d_8CAB_0AFFF7D8F05E">
 				<source xmi:idref="EAID_2FF110F2_3198_4022_8564_F4BC3EFDAFA3">
-					<model ea_localid="77865" type="Package" name="mdq"/>
+					<model ea_localid="7313" type="Package" name="mdq"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1089,7 +1089,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_5B014A3E_1925_4585_B834_9125B73C7F24">
-					<model ea_localid="75572" type="Package" name="ISO 19157 Edition 1"/>
+					<model ea_localid="6606" type="Package" name="ISO 19157 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1099,7 +1099,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123240"/>
+				<model ea_localid="8415"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -1112,7 +1112,7 @@
 			</connector>
 			<connector xmi:idref="EAID_54A45C3F_5DA8_4932_915F_668F0B562877">
 				<source xmi:idref="EAID_632B35D5_E213_4654_85F4_18299BEC18D1">
-					<model ea_localid="77868" type="Package" name="mmi"/>
+					<model ea_localid="7316" type="Package" name="mmi"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1123,7 +1123,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1133,7 +1133,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123233"/>
+				<model ea_localid="8408"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -1146,7 +1146,7 @@
 			</connector>
 			<connector xmi:idref="EAID_4B95A836_D0DD_4645_95F2_57F0DBD96E35">
 				<source xmi:idref="EAID_7CD7952F_94A0_4448_B428_1C3F081ED17D">
-					<model ea_localid="77870" type="Package" name="mrc"/>
+					<model ea_localid="7318" type="Package" name="mrc"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1157,7 +1157,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1167,7 +1167,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123229"/>
+				<model ea_localid="8404"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -1180,7 +1180,7 @@
 			</connector>
 			<connector xmi:idref="EAID_432E3C70_A79D_49d8_AE7B_51C9A3AA337B">
 				<source xmi:idref="EAID_240BCC9D_053D_4000_B4C1_1D5A7ACFDD7E">
-					<model ea_localid="77864" type="Package" name="mri"/>
+					<model ea_localid="7312" type="Package" name="mri"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1191,7 +1191,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1201,7 +1201,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123241"/>
+				<model ea_localid="8416"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -1214,7 +1214,7 @@
 			</connector>
 			<connector xmi:idref="EAID_5F95B197_C77B_43e7_8B5F_4A39A4FB2760">
 				<source xmi:idref="EAID_D3BD4A1B_E621_45a3_9E1A_3BBF00DA277D">
-					<model ea_localid="77874" type="Package" name="mrl"/>
+					<model ea_localid="7322" type="Package" name="mrl"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1225,7 +1225,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1235,7 +1235,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123221"/>
+				<model ea_localid="8396"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -1248,7 +1248,7 @@
 			</connector>
 			<connector xmi:idref="EAID_201E83CE_C3B4_433f_8879_49C08BFED175">
 				<source xmi:idref="EAID_8C042514_65BA_44b7_92D4_5BFA2341BFF6">
-					<model ea_localid="77871" type="Package" name="mrs"/>
+					<model ea_localid="7319" type="Package" name="mrs"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1259,7 +1259,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_165D8C0F_72E3_47e2_B9DA_A890F560A895">
-					<model ea_localid="75948" type="Package" name="ISO 19115-1 Edition 1"/>
+					<model ea_localid="7868" type="Package" name="ISO 19115-1 Edition 1"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1269,7 +1269,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="123227"/>
+				<model ea_localid="8402"/>
 				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -1285,7 +1285,7 @@
 			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
 		</primitivetypes>
 		<profiles>
-			<uml:Profile xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1/" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:id="thecustomprofile" nsPrefix="thecustomprofile" name="thecustomprofile" metamodelReference="mmref01">
+			<uml:Profile xmlns:uml="http://schema.omg.org/spec/UML/2.1/" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="thecustomprofile" nsPrefix="thecustomprofile" name="thecustomprofile" metamodelReference="mmref01">
 				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="thecustomprofile">
 					<body> Version:1.0</body>
 				</ownedComment>
@@ -1298,7 +1298,7 @@
 					</ownedAttribute>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Extension" xmi:id="Package_XMLnamespace" name="A_Package_XMLnamespace" memberEnd="extension_XMLnamespace XMLnamespace-base_Package">
-					<ownedEnd xmi:id="extension_XMLnamespace" name="extension_XMLnamespace" type="XMLnamespace" isComposite="true" lower="0" upper="1" memberEnd="extension_XMLnamespace XMLnamespace-base_Package"/>
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_XMLnamespace" name="extension_XMLnamespace" type="XMLnamespace" isComposite="true" lower="0" upper="1" memberEnd="extension_XMLnamespace XMLnamespace-base_Package"/>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Stereotype" xmi:id="edition" name="edition">
 					<ownedAttribute xmi:type="uml:Property" xmi:id="edition-base_Package" name="base_Package" association="Package_edition">
@@ -1309,7 +1309,7 @@
 					</ownedAttribute>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Extension" xmi:id="Package_edition" name="A_Package_edition" memberEnd="extension_edition edition-base_Package">
-					<ownedEnd xmi:id="extension_edition" name="extension_edition" type="edition" isComposite="true" lower="0" upper="1" memberEnd="extension_edition edition-base_Package"/>
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_edition" name="extension_edition" type="edition" isComposite="true" lower="0" upper="1" memberEnd="extension_edition edition-base_Package"/>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Stereotype" xmi:id="number" name="number">
 					<ownedAttribute xmi:type="uml:Property" xmi:id="number-base_Package" name="base_Package" association="Package_number">
@@ -1320,7 +1320,7 @@
 					</ownedAttribute>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Extension" xmi:id="Package_number" name="A_Package_number" memberEnd="extension_number number-base_Package">
-					<ownedEnd xmi:id="extension_number" name="extension_number" type="number" isComposite="true" lower="0" upper="1" memberEnd="extension_number number-base_Package"/>
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_number" name="extension_number" type="number" isComposite="true" lower="0" upper="1" memberEnd="extension_number number-base_Package"/>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Stereotype" xmi:id="import" name="import">
 					<ownedAttribute xmi:type="uml:Property" xmi:id="import-base_ElementImport" name="base_ElementImport" association="ElementImport_import">
@@ -1328,18 +1328,7 @@
 					</ownedAttribute>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Extension" xmi:id="ElementImport_import" name="A_ElementImport_import" memberEnd="extension_import import-base_ElementImport">
-					<ownedEnd xmi:id="extension_import" name="extension_import" type="import" isComposite="true" lower="0" upper="1" memberEnd="extension_import import-base_ElementImport"/>
-				</packagedElement>
-				<packagedElement xmi:type="uml:Stereotype" xmi:id="name" name="name">
-					<ownedAttribute xmi:type="uml:Property" xmi:id="name-base_Package" name="base_Package" association="Package_name">
-						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
-					</ownedAttribute>
-					<ownedAttribute xmi:type="uml:Property" xmi:id="name-name" name="name">
-						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
-					</ownedAttribute>
-				</packagedElement>
-				<packagedElement xmi:type="uml:Extension" xmi:id="Package_name" name="A_Package_name" memberEnd="extension_name name-base_Package">
-					<ownedEnd xmi:id="extension_name" name="extension_name" type="name" isComposite="true" lower="0" upper="1" memberEnd="extension_name name-base_Package"/>
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_import" name="extension_import" type="import" isComposite="true" lower="0" upper="1" memberEnd="extension_import import-base_ElementImport"/>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Stereotype" xmi:id="yearVersion" name="yearVersion">
 					<ownedAttribute xmi:type="uml:Property" xmi:id="yearVersion-base_Package" name="base_Package" association="Package_yearVersion">
@@ -1350,7 +1339,7 @@
 					</ownedAttribute>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Extension" xmi:id="Package_yearVersion" name="A_Package_yearVersion" memberEnd="extension_yearVersion yearVersion-base_Package">
-					<ownedEnd xmi:id="extension_yearVersion" name="extension_yearVersion" type="yearVersion" isComposite="true" lower="0" upper="1" memberEnd="extension_yearVersion yearVersion-base_Package"/>
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_yearVersion" name="extension_yearVersion" type="yearVersion" isComposite="true" lower="0" upper="1" memberEnd="extension_yearVersion yearVersion-base_Package"/>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Stereotype" xmi:id="publicationDate" name="publicationDate">
 					<ownedAttribute xmi:type="uml:Property" xmi:id="publicationDate-base_Package" name="base_Package" association="Package_publicationDate">
@@ -1361,20 +1350,141 @@
 					</ownedAttribute>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Extension" xmi:id="Package_publicationDate" name="A_Package_publicationDate" memberEnd="extension_publicationDate publicationDate-base_Package">
-					<ownedEnd xmi:id="extension_publicationDate" name="extension_publicationDate" type="publicationDate" isComposite="true" lower="0" upper="1" memberEnd="extension_publicationDate publicationDate-base_Package"/>
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_publicationDate" name="extension_publicationDate" type="publicationDate" isComposite="true" lower="0" upper="1" memberEnd="extension_publicationDate publicationDate-base_Package"/>
+				</packagedElement>
+			</uml:Profile>
+			<uml:Profile xmlns:uml="http://schema.omg.org/spec/UML/2.1/" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="21AEC04F-C" nsPrefix="SysPhS" name="SysPhS" metamodelReference="mmref01">
+				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="21AEC04F-C">
+					<body>UML Profile for SysPhS Version:1.0</body>
+				</ownedComment>
+				<packageImport xmi:id="mmref01">
+					<importedPackage href="http://schema.omg.org/spec/UML/2.1/"/>
+				</packageImport>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="PhSVariable" name="PhSVariable">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="PhSVariable-base_Part" name="base_Part" association="Part_PhSVariable">
+						<type href="http://schema.omg.org/spec/UML/2.1/Part"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="PhSVariable-isInitialValueFixed" name="isInitialValueFixed">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="PhSVariable-isContinuous" name="isContinuous">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="PhSVariable-changeCycle" name="changeCycle">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="PhSVariable-isConserved" name="isConserved">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Part_PhSVariable" name="A_Part_PhSVariable" memberEnd="extension_PhSVariable PhSVariable-base_Part">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_PhSVariable" name="extension_PhSVariable" type="PhSVariable" isComposite="true" lower="0" upper="1" memberEnd="extension_PhSVariable PhSVariable-base_Part"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="ModelicaParameter" name="ModelicaParameter">
+					<generalization xmi:type="uml:Generalization" xmi:id="ModelicaParameter_PhSConstant_generalization" general="PhSConstant"/>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ModelicaParameter-name" name="name">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ModelicaParameter-value" name="value">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="ModelicaBlock" name="ModelicaBlock">
+					<generalization xmi:type="uml:Generalization" xmi:id="ModelicaBlock_SysML1.4::Block_generalization" general="SysML1.4::Block"/>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ModelicaBlock-base_Class" name="base_Class" association="Class_ModelicaBlock">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ModelicaBlock-name" name="name">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_ModelicaBlock" name="A_Class_ModelicaBlock" memberEnd="extension_ModelicaBlock ModelicaBlock-base_Class">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_ModelicaBlock" name="extension_ModelicaBlock" type="ModelicaBlock" isComposite="true" lower="0" upper="1" memberEnd="extension_ModelicaBlock ModelicaBlock-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="SimulinkBlock" name="SimulinkBlock">
+					<generalization xmi:type="uml:Generalization" xmi:id="SimulinkBlock_SysML1.4::Block_generalization" general="SysML1.4::Block"/>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="SimulinkBlock-base_Class" name="base_Class" association="Class_SimulinkBlock">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="SimulinkBlock-name" name="name">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_SimulinkBlock" name="A_Class_SimulinkBlock" memberEnd="extension_SimulinkBlock SimulinkBlock-base_Class">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_SimulinkBlock" name="extension_SimulinkBlock" type="SimulinkBlock" isComposite="true" lower="0" upper="1" memberEnd="extension_SimulinkBlock SimulinkBlock-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="SimulinkPort" name="SimulinkPort">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="SimulinkPort-base_Port" name="base_Port" association="Port_SimulinkPort">
+						<type href="http://schema.omg.org/spec/UML/2.1/Port"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="SimulinkPort-edge" name="edge">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="SimulinkPort-name" name="name">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Port_SimulinkPort" name="A_Port_SimulinkPort" memberEnd="extension_SimulinkPort SimulinkPort-base_Port">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_SimulinkPort" name="extension_SimulinkPort" type="SimulinkPort" isComposite="true" lower="0" upper="1" memberEnd="extension_SimulinkPort SimulinkPort-base_Port"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="MultidimensionalElement" name="MultidimensionalElement">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="MultidimensionalElement-base_MultiplicityElement" name="base_MultiplicityElement" association="MultiplicityElement_MultidimensionalElement">
+						<type href="http://schema.omg.org/spec/UML/2.1/MultiplicityElement"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="MultidimensionalElement-base_Slot" name="base_Slot" association="Slot_MultidimensionalElement">
+						<type href="http://schema.omg.org/spec/UML/2.1/Slot"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="MultidimensionalElement-dimension" name="dimension">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="MultiplicityElement_MultidimensionalElement" name="A_MultiplicityElement_MultidimensionalElement" memberEnd="extension_MultidimensionalElement MultidimensionalElement-base_MultiplicityElement">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_MultidimensionalElement" name="extension_MultidimensionalElement" type="MultidimensionalElement" isComposite="true" lower="0" upper="1" memberEnd="extension_MultidimensionalElement MultidimensionalElement-base_MultiplicityElement"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Slot_MultidimensionalElement" name="A_Slot_MultidimensionalElement" memberEnd="extension_MultidimensionalElement MultidimensionalElement-base_Slot">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_MultidimensionalElement" name="extension_MultidimensionalElement" type="MultidimensionalElement" isComposite="true" lower="0" upper="1" memberEnd="extension_MultidimensionalElement MultidimensionalElement-base_Slot"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="ModelicaPort" name="ModelicaPort">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ModelicaPort-base_Port" name="base_Port" association="Port_ModelicaPort">
+						<type href="http://schema.omg.org/spec/UML/2.1/Port"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="ModelicaPort-name" name="name">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Port_ModelicaPort" name="A_Port_ModelicaPort" memberEnd="extension_ModelicaPort ModelicaPort-base_Port">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_ModelicaPort" name="extension_ModelicaPort" type="ModelicaPort" isComposite="true" lower="0" upper="1" memberEnd="extension_ModelicaPort ModelicaPort-base_Port"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="PhSConstant" name="PhSConstant">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="PhSConstant-base_Part" name="base_Part" association="Part_PhSConstant">
+						<type href="http://schema.omg.org/spec/UML/2.1/Part"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Part_PhSConstant" name="A_Part_PhSConstant" memberEnd="extension_PhSConstant PhSConstant-base_Part">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_PhSConstant" name="extension_PhSConstant" type="PhSConstant" isComposite="true" lower="0" upper="1" memberEnd="extension_PhSConstant PhSConstant-base_Part"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="SimulinkParameter" name="SimulinkParameter">
+					<generalization xmi:type="uml:Generalization" xmi:id="SimulinkParameter_PhSConstant_generalization" general="PhSConstant"/>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="SimulinkParameter-name" name="name">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="SimulinkParameter-value" name="value">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
 				</packagedElement>
 			</uml:Profile>
 		</profiles>
 		<diagrams>
 			<diagram xmi:id="EAID_D65045F3_DDE3_45d1_83C1_8AFC7AC0B40F">
-				<model package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" localID="38233" owner="EAPK_4963D149_93CC_4e61_B735_D481796A86B0"/>
+				<model package="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" localID="3460" owner="EAPK_4963D149_93CC_4e61_B735_D481796A86B0" tpos="0"/>
 				<properties name="Figure E.1 - XML Packaging" type="Package"/>
 				<project author="karmag" version="1.0" created="2020-01-31 15:25:08" modified="2020-02-07 10:50:29"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=819;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=50;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=0;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=0;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=0;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 				<style2 value="SaveTag=D4BA6675;ExcludeRTF=0;DocAll=0;HideQuals=1;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=0;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
-				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
+				<xrefs/>
 				<elements>
 					<element geometry="Left=971;Top=375;Right=1101;Bottom=432;" subject="EAID_8C042514_65BA_44b7_92D4_5BFA2341BFF6" seqno="1" style=" DUID=7F1403BB;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
 					<element geometry="Left=543;Top=462;Right=673;Bottom=519;" subject="EAID_632B35D5_E213_4654_85F4_18299BEC18D1" seqno="2" style=" DUID=2095397D;NSL=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LCol=0;BCol=12632256;BFol=0;LWth=0;font=Calibri;fontsz=80;"/>
@@ -1393,7 +1503,8 @@
 					<element geometry="Left=106;Top=375;Right=236;Bottom=432;" subject="EAID_4CE11DED_6B55_4f61_9AAB_AF2EA2563CF4" seqno="15" style="DUID=F3389ACD;"/>
 					<element geometry="Left=18;Top=462;Right=148;Bottom=519;" subject="EAID_8C398F0A_0D66_4e42_92B7_03737EC171FB" seqno="16" style="DUID=673AE841;"/>
 					<element geometry="Left=330;Top=198;Right=460;Bottom=255;" subject="EAID_D66C4D45_A812_4ceb_8A23_26F80D5C9902" seqno="17" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;AttPro=0;AttPri=0;AttPub=0;AttPkg=0;OpPro=0;OpPri=0;OpPub=0;OpPkg=0;RzO=1;DUID=BF2F1C0B;"/>
-					<element geometry="SX=-20;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=36:CY=13:OX=4:OY=-5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B73F1B9E_51F9_4e0d_A656_5F28E503E67A" style="Mode=3;EOID=2E5DB8BF;SOID=BF2F1C0B;Color=-1;LWidth=0;TREE=LV;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=1036:-632$502:-632$;" subject="EAID_201E83CE_C3B4_433f_8879_49C08BFED175" style="Mode=3;EOID=44D35D50;SOID=7F1403BB;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=608:-632$502:-632$;" subject="EAID_54A45C3F_5DA8_4932_915F_668F0B562877" style="Mode=3;EOID=44D35D50;SOID=2095397D;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=958:-632$502:-632$;" subject="EAID_2129AF97_B320_4990_A2BE_F87DAD8D1EF1" style="Mode=3;EOID=44D35D50;SOID=4167BF19;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=783:-632$502:-632$;" subject="EAID_432E3C70_A79D_49d8_AE7B_51C9A3AA337B" style="Mode=3;EOID=44D35D50;SOID=923CD466;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
 					<element geometry="EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E0C6D8B7_21BC_4f66_B4E7_748CC523D609" style="Mode=3;EOID=44D35D50;SOID=B307658D;Color=-1;LWidth=0;Hidden=1;"/>
@@ -1406,9 +1517,9 @@
 					<element geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3C9E434C_D3D7_4539_B638_07B73F27289A" style="Mode=3;EOID=44D35D50;SOID=B854B011;Color=-1;LWidth=0;Hidden=1;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=517:-632$502:-632$;" subject="EAID_4B95A836_D0DD_4645_95F2_57F0DBD96E35" style="Mode=3;EOID=44D35D50;SOID=E9BA1874;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=863:-632$502:-632$;" subject="EAID_5612C9AA_E69A_4edf_9D98_DBE29D23A787" style="Mode=3;EOID=44D35D50;SOID=FDEE0B63;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
-					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=608:-632$502:-632$;" subject="EAID_54A45C3F_5DA8_4932_915F_668F0B562877" style="Mode=3;EOID=44D35D50;SOID=2095397D;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
+					<element geometry="SX=-8;SY=-5;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=162:-632$502:-632$;" subject="EAID_DDA1288D_81AA_4f2e_BC4E_D9930C770B53" style="Mode=3;EOID=44D35D50;SOID=F3389ACD;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
 					<element geometry="SX=-22;SY=-28;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=61:-632$502:-632$;" subject="EAID_228A7ECF_F14C_42e3_B240_6DD61EDA0F7A" style="Mode=3;EOID=44D35D50;SOID=673AE841;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
-					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=1036:-632$502:-632$;" subject="EAID_201E83CE_C3B4_433f_8879_49C08BFED175" style="Mode=3;EOID=44D35D50;SOID=7F1403BB;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
+					<element geometry="SX=-20;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=36:CY=13:OX=4:OY=-5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B73F1B9E_51F9_4e0d_A656_5F28E503E67A" style="Mode=3;EOID=2E5DB8BF;SOID=BF2F1C0B;Color=-1;LWidth=0;TREE=LV;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4E15F73C_BB18_4272_9506_593BA52FBC31" style="Mode=3;EOID=B307658D;SOID=BF2F1C0B;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=-6;SY=-28;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=CX=26:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4336994A_F1E9_4405_9B5C_4E6CD02EEE0F" style="Mode=3;EOID=7F1D40A1;SOID=BF2F1C0B;Color=-1;LWidth=0;TREE=LV;Hidden=0;"/>
 					<element geometry="SX=-34;SY=-23;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=36:CY=13:OX=-7:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=258:-226$;" subject="EAID_8BC670C3_176E_4b48_9981_1340CDD12F78" style="Mode=3;EOID=F78C04A1;SOID=BF2F1C0B;Color=-1;LWidth=0;TREE=LV;Hidden=0;"/>
@@ -1422,7 +1533,6 @@
 					<element geometry="SX=-54;SY=10;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=36:CY=13:OX=-6:OY=10:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=171:-226$;" subject="EAID_BAE6C340_FE57_42ec_A46F_BB81592594E7" style="Mode=3;EOID=F3389ACD;SOID=BF2F1C0B;Color=-1;LWidth=0;TREE=LV;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=36:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=719:-226$;" subject="EAID_936A0FAD_3451_4326_9B4A_E3632FC4D24E" style="Mode=3;EOID=AC059721;SOID=BF2F1C0B;Color=-1;LWidth=0;TREE=LV;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=36:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=783:-226$;" subject="EAID_0A342E45_0BE1_4ce6_93B2_C02104121209" style="Mode=3;EOID=923CD466;SOID=BF2F1C0B;Color=-1;LWidth=0;TREE=LV;Hidden=0;"/>
-					<element geometry="SX=-8;SY=-5;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=162:-632$502:-632$;" subject="EAID_DDA1288D_81AA_4f2e_BC4E_D9930C770B53" style="Mode=3;EOID=44D35D50;SOID=F3389ACD;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
 				</elements>
 			</diagram>
 		</diagrams>
