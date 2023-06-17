@@ -1,0 +1,290 @@
+<?xml  version='1.0' encoding='UTF-8' ?>
+<MDG.Technology version="1.0">
+	<Documentation id="ISO19103" name="ISO 19103 profile" version="0.1.0" notes="For DIS"/>
+	<UMLProfiles>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="C0EA473B-7" name="ISO19103" version="0.1.0" notes="ISO19103"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="AbstractSchema" notes="" cx="0" cy="0" bgcolor="-1"
+						fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0"
+						generalizes="GI_Element" baseStereotypes="GI_Element">
+						<AppliesTo>
+							<Apply type="Package">
+								<Property name="URI" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="CodeList" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1"
+						bordercolor="-1" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+							<Apply type="DataType"/>
+							<Apply type="Enumeration"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="codeList" type="String" description="" unit="" values=""
+								default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="GI_Class" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1"
+						bordercolor="-1" borderwidth="1" hideicon="0" generalizes="GI_Element"
+						baseStereotypes="GI_Element">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GI_CodeSet" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1"
+						bordercolor="-1" borderwidth="1" hideicon="0" generalizes="GI_Element"
+						baseStereotypes="GI_Element">
+						<AppliesTo>
+							<Apply type="DataType"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GI_DataType" notes="" cx="0" cy="0" bgcolor="-1"
+						fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0"
+						generalizes="GI_Element" baseStereotypes="GI_Element">
+						<AppliesTo>
+							<Apply type="DataType"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GI_Element" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1"
+						bordercolor="-1" borderwidth="1" hideicon="0" isAbstract="true">
+						<TaggedValues>
+							<Tag name="IRI" type="IRI" description="" unit="" values="" default=""/>
+							<Tag name="designation" type="SingleLineCharacterString" description=""
+								unit="" values="" default=""/>
+							<Tag name="definition" type="SingleLineCharacterString" description=""
+								unit="" values="" default=""/>
+							<Tag name="description" type="CharacterString" description="" unit=""
+								values="" default="&lt;memo&gt;"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="GI_Enumeration" notes="" cx="0" cy="0" bgcolor="-1"
+						fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0"
+						generalizes="GI_Element" baseStereotypes="GI_Element">
+						<AppliesTo>
+							<Apply type="Enumeration"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GI_EnumerationLiteral" notes="" cx="0" cy="0" bgcolor="-1"
+						fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0"
+						generalizes="GI_Element" baseStereotypes="GI_Element">
+						<AppliesTo>
+							<Apply type="EnumerationLiteral"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GI_Interface" notes="" cx="0" cy="0" bgcolor="-1"
+						fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0"
+						generalizes="GI_Element" baseStereotypes="GI_Element">
+						<AppliesTo>
+							<Apply type="Interface"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GI_Property" notes="" cx="0" cy="0" bgcolor="-1"
+						fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0"
+						generalizes="GI_Element" baseStereotypes="GI_Element">
+						<AppliesTo>
+							<Apply type="Property"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Leaf" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1"
+						bordercolor="-1" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Package">
+								<Property name="URI" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Union" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1"
+						bordercolor="-1" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+							<Apply type="DataType"/>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes>
+					<TaggedValueType property="CharacterString" description="" notes="Type=Memo;"/>
+					<TaggedValueType property="IRI" description="" notes="Type=String;"/>
+					<TaggedValueType property="SingleLineCharacterString" description=""
+						notes="Type=String;"/>
+				</TaggedValueTypes>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UMLProfiles>
+	<DiagramProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="01882DD1-5" name="ISO19103" version="0.1.0" notes="ISO19103"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="ClassDiagram" alias="class diagram"
+						notes="Elements for class diagrams in conceptual schemas" cx="0" cy="0"
+						bgcolor="16777215" fontcolor="0" bordercolor="0" borderwidth="-1"
+						hideicon="0">
+						<AppliesTo>
+							<Apply type="Diagram_Logical">
+								<Property name="alias" value="Class"/>
+								<Property name="diagramID" value="ISO19103"/>
+								<Property name="toolbox" value="ISO19103"/>
+								<Property name="styleex" value="NoFullScope=1;"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="PackageDiagram" alias="package diagram"
+						notes="Elements for package diagrams in conceptual schemas" cx="0" cy="0"
+						bgcolor="16777215" fontcolor="0" bordercolor="0" borderwidth="-1"
+						hideicon="0">
+						<AppliesTo>
+							<Apply type="Diagram_Package">
+								<Property name="alias" value="Package"/>
+								<Property name="diagramID" value="ISO19103"/>
+								<Property name="toolbox" value="ISO19103"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</DiagramProfile>
+	<UIToolboxes>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="5BEB7B6B-E" name="ISO19103" version="0.1.0" notes="ISO19103"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Packages" alias="Packages"
+						notes="Packages for conceptual schemas" cx="0" cy="0" bgcolor="16777215"
+						fontcolor="0" bordercolor="0" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="ISO19103::AbstractSchema(UML::Package)" type=""
+								description="" unit="" values="" default="abstract schema"/>
+							<Tag name="UML::Package" type="" description="" unit="" values=""
+								default="package"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="AbstractSchemaClassifiers" alias="Abstract schema classifiers"
+						notes="Classifiers for abstract schemas" cx="0" cy="0" bgcolor="16777215"
+						fontcolor="0" bordercolor="0" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="ISO19103::GI_Interface(UML::Interface)" type=""
+								description="" unit="" values="" default="interface"/>
+							<Tag name="ISO19103::GI_DataType(UML::DataType)" type="" description=""
+								unit="" values="" default="data type"/>
+							<Tag name="ISO19103::GI_Enumeration(UML::Enumeration)" type=""
+								description="" unit="" values="" default="enumeration"/>
+							<Tag name="ISO19103::GI_CodeSet(UML::DataType)" type="" description=""
+								unit="" values="" default="code set"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="AllClassifiers" alias="Conceptual schema classifiers"
+						notes="Classifiers for conceptual schemas" cx="0" cy="0" bgcolor="16777215"
+						fontcolor="0" bordercolor="0" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="isCollapsed" type="" description="" unit="" values=""
+								default="true"/>
+							<Tag name="ISO19103::GI_Class(UML::Class)" type="" description=""
+								unit="" values="" default="class"/>
+							<Tag name="ISO19103::GI_Interface(UML::Interface)" type=""
+								description="" unit="" values="" default="interface"/>
+							<Tag name="ISO19103::GI_DataType(UML::DataType)" type="" description=""
+								unit="" values="" default="data type"/>
+							<Tag name="ISO19103::GI_Enumeration(UML::Enumeration)" type=""
+								description="" unit="" values="" default="enumeration"/>
+							<Tag name="ISO19103::GI_CodeSet(UML::DataType)" type="" description=""
+								unit="" values="" default="code set"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="FeaturesAndInstanceSpecifications"
+						alias="Features and instance specifications"
+						notes="Features for conceptual schemas" cx="0" cy="0" bgcolor="16777215"
+						fontcolor="0" bordercolor="0" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="ISO19103::GI_Property(UML::Attribute)" type="" description=""
+								unit="" values="" default="attribute"/>
+							<Tag name="ISO19103::GI_Property(UML::AssociationEnd)" type=""
+								description="" unit="" values="" default="association end"/>
+							<Tag name="ISO19103::GI_EnumerationLiteral(UML::EnumerationLiteral)"
+								type="" description="" unit="" values=""
+								default="enumeration literal"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Relationships" alias="Relationships"
+						notes="Relationships for conceptual schemas" cx="0" cy="0"
+						bgcolor="16777215" fontcolor="0" bordercolor="0" borderwidth="-1"
+						hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="UML::Abstraction" type="" description="" unit="" values=""
+								default="abstraction"/>
+							<Tag name="UML::Aggregation" type="" description="" unit="" values=""
+								default="aggregation"/>
+							<Tag name="UML::Association" type="" description="" unit="" values=""
+								default="association"/>
+							<Tag name="UML::Composition" type="" description="" unit="" values=""
+								default="composition"/>
+							<Tag name="UML::Dependency" type="" description="" unit="" values=""
+								default="dependency"/>
+							<Tag name="UML::Generalization" type="" description="" unit="" values=""
+								default="generalization"/>
+							<Tag name="UML::Realization" type="" description="" unit="" values=""
+								default="realization"/>
+							<Tag name="UML::TemplateBinding" type="" description="" unit=""
+								values="" default="template binding"/>
+							<Tag name="UML::Usage" type="" description="" unit="" values=""
+								default="usage"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="DeprecatedStereotypes" alias="Deprecated stereotypes"
+						notes="Deprecated stereotypes" cx="0" cy="0" bgcolor="16777215"
+						fontcolor="0" bordercolor="0" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="isCollapsed" type="" description="" unit="" values=""
+								default="true"/>
+							<Tag name="ISO19103::CodeList(UML::Class)" type="" description=""
+								unit="" values="" default="code list (modelled as class)"/>
+							<Tag name="ISO19103::CodeList(UML::DataType)" type="" description=""
+								unit="" values="" default="code list (modelled as data type)"/>
+							<Tag name="ISO19103::CodeList(UML::Enumeration)" type="" description=""
+								unit="" values="" default="code list (modelled as enumeration)"/>
+							<Tag name="ISO19103::Leaf(UML::Package)" type="" description="" unit=""
+								values="" default="leaf"/>
+							<Tag name="ISO19103::Union(UML::DataType)" type="" description=""
+								unit="" values="" default="union"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UIToolboxes>
+</MDG.Technology>
