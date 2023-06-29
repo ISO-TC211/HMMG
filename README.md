@@ -6,7 +6,7 @@ The ISO/TC211 Harmonized Model Maintenance Group (HMMG) maintains this repositor
 See the [HMMG Wiki](https://github.com/ISO-TC211/HMMG/wiki) for information about the Harmonized Model Repository and how to access and use it. 
 
 The models may be downloaded from folders in this repository:
-* [EA](https://github.com/ISO-TC211/HMMG/tree/master/EA): Enterprise Architect Projects with The Harmonized Model
+* [EA](https://github.com/ISO-TC211/HMMG/tree/master/EA): Enterprise Architect Projects with The Harmonized Model + MDG Technologies for import in Enterprise Architect
 * [XMI](https://github.com/ISO-TC211/HMMG/tree/master/XMI): XMI Files for packages in The Harmonized Model
 
 A HTML view of the model can be found at [http://iso.sparxcloud.com](http://iso.sparxcloud.com/index.php).
