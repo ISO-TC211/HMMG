@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252" standalone="no" ?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2024-04-22 21:49:17">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2024-04-22 22:42:29">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -13,7 +13,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="Core Data Types" xmi.id="EAPK_A32F1AF0_EDFD_4228_8280_12F129A6D96B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_B3CB5DE7_594F_4b67_B28C_D25FFED617B5"/>
+						<UML:Stereotype xmi.idref="EAID_DE881C49_956A_4e40_835A_2BD10541A2CD"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="core data types&#xA;(this documentation was created from the tagged values)"/>
@@ -27,10 +27,11 @@
 						<UML:TaggedValue tag="version" value="2024"/>
 						<UML:TaggedValue tag="isprotected" value="0"/>
 						<UML:TaggedValue tag="usedtd" value="0"/>
+						<UML:TaggedValue tag="owner" value="jetknu"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="0"/>
 						<UML:TaggedValue tag="tpos" value="0"/>
-						<UML:TaggedValue tag="packageFlags" value="Recurse=0;"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=1;"/>
 						<UML:TaggedValue tag="batchsave" value="1"/>
 						<UML:TaggedValue tag="batchload" value="1"/>
 						<UML:TaggedValue tag="phase" value="FDIS"/>
@@ -3367,7 +3368,7 @@
 						</UML:Association>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_B3CB5DE7_594F_4b67_B28C_D25FFED617B5" name="AbstractSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_DE881C49_956A_4e40_835A_2BD10541A2CD" name="AbstractSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
@@ -3602,7 +3603,7 @@
 				<UML:DiagramElement geometry="Left=423;Top=72;Right=556;Bottom=108;" subject="EAID_C571177E_3FF9_488e_9CEA_5033D70BB2DF" seqno="6" style="DUID=F8D34243;"/>
 				<UML:DiagramElement geometry="Left=259;Top=39;Right=385;Bottom=96;" subject="EAID_D5256EEA_F479_4500_BDD8_3D9CBC04DB1B" seqno="7" style="DUID=35AD8A57;"/>
 				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_49993B00_F83B_47ee_88C1_BC4724A0C313" style="Mode=3;EOID=7A3E737D;SOID=D27FF730;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=2;SY=-3;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=86:CY=13:OX=227:OY=-16:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=99:-146$322:-146$;" subject="EAID_D0D68990_E82E_4803_AC38_906014ECAC66" style="Mode=3;EOID=35AD8A57;SOID=FD634E18;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=2;SY=-3;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=86:CY=13:OX=227:OY=-16:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=99:-146$322:-146$;" subject="EAID_D0D68990_E82E_4803_AC38_906014ECAC66" style="Mode=3;EOID=35AD8A57;SOID=FD634E18;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=4;SY=1;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=90:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=251:-146$322:-146$;" subject="EAID_FE190416_BCD0_4f1c_8650_AA4A9F928B49" style="Mode=3;EOID=35AD8A57;SOID=15CD0BA1;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
 				<UML:DiagramElement geometry="EX=0;EY=0;EDGE=1;SX=6;SY=-4;$LLB=;LLT=;LMT=;LMB=CX=90:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=553:-146$322:-146$;" subject="EAID_FC15527D_10AE_44ac_B4B7_AC72B051C2AA" style="Mode=3;EOID=35AD8A57;SOID=7A3E737D;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=1;SY=5;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=90:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=398:-146$322:-146$;" subject="EAID_9D007BC3_C50E_4261_BE0A_4686AB053F59" style="Mode=3;EOID=35AD8A57;SOID=829648A7;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
@@ -3636,7 +3637,7 @@
 				<UML:DiagramElement geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F8B826A8_EFAE_416c_A5B9_6D91B1785CA4" style="Mode=3;EOID=B8D67CFB;SOID=66F82C71;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=9;SY=17;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=78:CY=14:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=372:-130$227:-130$;" subject="EAID_5A18E704_A1D0_4197_83AC_71F3EE4BD7AD" style="Mode=3;EOID=B8D67CFB;SOID=D4B8D7DB;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=4;SY=5;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=78:CY=14:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=91:-130$227:-130$;" subject="EAID_AC582903_ADF9_476a_A25E_1AD1A65B22FB" style="Mode=3;EOID=B8D67CFB;SOID=A49AC61B;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=4;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=86:CY=13:OX=4:OY=-13:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=227:-130$227:-130$;" subject="EAID_8ECF5944_DE96_4201_87F0_736D4765FFB4" style="Mode=3;EOID=B8D67CFB;SOID=B5E7E50F;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=4;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=86:CY=13:OX=4:OY=-13:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=227:-130$227:-130$;" subject="EAID_8ECF5944_DE96_4201_87F0_736D4765FFB4" style="Mode=3;EOID=B8D67CFB;SOID=B5E7E50F;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 		<UML:Diagram name="Fig 36 Character" xmi.id="EAID_B47B6228_3417_493f_8508_03D365303363" diagramType="ClassDiagram" owner="EAPK_A32F1AF0_EDFD_4228_8280_12F129A6D96B" toolName="Enterprise Architect 2.5">
