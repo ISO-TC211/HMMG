@@ -8,8 +8,7 @@ Two projects are currently available:
 
 Besides, [MDG Technologies](https://sparxsystems.com/eahelp/modeling_frameworks/mdg_technologies.html) for import in Enterprise Architect are available for ISO 19103 and ISO 19109. The MDG Technologies include the UML profiles and toolboxes.
 
-
 * ISO 19103 MDG: [ISO19103MDG v0.2.0.xml](https://github.com/ISO-TC211/HMMG/blob/master/EA/ISO19103MDG%20v0.2.0.xml)
 * ISO 19109 MDG: [ISO19109MDG v0.1.0.xml](https://github.com/ISO-TC211/HMMG/blob/master/EA/ISO19109MDGv0.1.0.xml)
 
-Se the EA user guide for instruction on installing MDG technologies: https://sparxsystems.com/eahelp/importmdgtechnologies.html
+**See the EA user guide for instruction on how to install MDG technologies: https://sparxsystems.com/eahelp/importmdgtechnologies.html**
