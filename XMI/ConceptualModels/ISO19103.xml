@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="windows-1252" standalone="no" ?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2024-04-22 22:42:20">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2024-09-27 17:07:12">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
 			<XMI.exporterVersion>2.5</XMI.exporterVersion>
-			<XMI.exporterID>1622</XMI.exporterID>
+			<XMI.exporterID>1702</XMI.exporterID>
 		</XMI.documentation>
 	</XMI.header>
 	<XMI.content>
@@ -13,12 +13,12 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="ISO19103" xmi.id="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_6991886B_7ABC_467b_B9DA_5928A5B58448"/>
+						<UML:Stereotype xmi.idref="EAID_1CA645D5_42B5_4dae_85E7_DF4DEFDE9DFF"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_33655311_A838_4bd4_8485_B7857A072437"/>
 						<UML:TaggedValue tag="created" value="2022-03-21 12:18:56"/>
-						<UML:TaggedValue tag="modified" value="2024-04-19 20:20:23"/>
+						<UML:TaggedValue tag="modified" value="2024-09-27 16:53:24"/>
 						<UML:TaggedValue tag="iscontrolled" value="1"/>
 						<UML:TaggedValue tag="xmlpath" value="C:\DATA\GitHub\ISO TC211\HMMG\XMI\ConceptualModels\ISO19103.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2024-04-19 20:34:42"/>
@@ -33,7 +33,7 @@
 						<UML:TaggedValue tag="packageFlags" value="Recurse=1;"/>
 						<UML:TaggedValue tag="batchsave" value="1"/>
 						<UML:TaggedValue tag="batchload" value="1"/>
-						<UML:TaggedValue tag="phase" value="FDIS"/>
+						<UML:TaggedValue tag="phase" value="IS"/>
 						<UML:TaggedValue tag="status" value="Approved"/>
 						<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 						<UML:TaggedValue tag="complexity" value="1"/>
@@ -56,11 +56,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-08-23 12:56:53"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -106,6 +106,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=2;SX=36;SY=-2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
@@ -127,6 +128,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31682"/>
 								<UML:TaggedValue tag="ea_targetID" value="20911"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-2;SY=-2;EX=-2;EY=2;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -158,11 +160,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-08-23 14:17:35"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -208,6 +210,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=2;EX=0;EY=0;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
@@ -229,6 +232,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31679"/>
 								<UML:TaggedValue tag="ea_targetID" value="20910"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=-12;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -258,11 +262,11 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2023-06-01 18:30:36"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -285,11 +289,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-03-21 20:46:48"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -319,6 +323,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31686"/>
 								<UML:TaggedValue tag="ea_targetID" value="20924"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=6;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -348,11 +353,11 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2023-06-08 15:17:05"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -376,11 +381,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-08-25 10:41:29"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -410,6 +415,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31687"/>
 								<UML:TaggedValue tag="ea_targetID" value="20910"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-2;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -447,6 +453,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31687"/>
 								<UML:TaggedValue tag="ea_targetID" value="20906"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-2;SY=-22;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -478,11 +485,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-03-21 12:29:25"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="product_name" value="&lt;none&gt;"/>
@@ -636,6 +643,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
@@ -673,6 +681,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
@@ -710,6 +719,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-2;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
@@ -747,6 +757,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
@@ -784,6 +795,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=2;SX=0;SY=-1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
@@ -821,6 +833,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=2;EX=0;EY=9;SX=4;SY=0;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
@@ -834,11 +847,11 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2023-06-08 15:17:13"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -860,11 +873,11 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-08-25 12:02:50"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -887,11 +900,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-03-21 20:32:39"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -950,6 +963,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31676"/>
 								<UML:TaggedValue tag="ea_targetID" value="20924"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-1;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -979,11 +993,11 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2024-02-16 11:59:29"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1003,11 +1017,11 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2023-06-01 18:33:47"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1028,11 +1042,11 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2023-06-08 13:49:25"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1054,11 +1068,11 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-08-23 15:45:26"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1079,11 +1093,11 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-08-25 12:53:13"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1104,11 +1118,11 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2024-02-16 12:11:20"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1130,11 +1144,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-08-25 10:39:18"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1192,6 +1206,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31677"/>
 								<UML:TaggedValue tag="ea_targetID" value="20911"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=5;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1229,6 +1244,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31677"/>
 								<UML:TaggedValue tag="ea_targetID" value="20910"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=6;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1266,6 +1282,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31677"/>
 								<UML:TaggedValue tag="ea_targetID" value="20906"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=9;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1297,11 +1314,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-08-23 13:38:35"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1331,6 +1348,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31684"/>
 								<UML:TaggedValue tag="ea_targetID" value="20921"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=2;EX=0;EY=1;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1362,11 +1380,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-08-23 13:38:46"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1396,6 +1414,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31680"/>
 								<UML:TaggedValue tag="ea_targetID" value="20910"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=8;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1427,11 +1446,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-08-23 13:38:58"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1461,6 +1480,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31685"/>
 								<UML:TaggedValue tag="ea_targetID" value="20925"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1492,11 +1512,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2023-06-01 18:10:45"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1526,6 +1546,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31678"/>
 								<UML:TaggedValue tag="ea_targetID" value="20906"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-3;SY=-3;EX=-3;EY=2;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1555,11 +1576,11 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-05-24 22:07:49"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1582,11 +1603,11 @@
 								<UML:TaggedValue tag="version" value="2024"/>
 								<UML:TaggedValue tag="package" value="EAPK_C0EA473B_7E3F_428f_98A2_349BFB0CB00C"/>
 								<UML:TaggedValue tag="date_created" value="2022-08-23 13:36:18"/>
-								<UML:TaggedValue tag="date_modified" value="2024-04-22 21:20:03"/>
+								<UML:TaggedValue tag="date_modified" value="2024-09-27 16:53:24"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO19103"/>
-								<UML:TaggedValue tag="phase" value="FDIS"/>
+								<UML:TaggedValue tag="phase" value="IS"/>
 								<UML:TaggedValue tag="author" value="ISO 19103 project team"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Approved"/>
@@ -1616,6 +1637,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="31683"/>
 								<UML:TaggedValue tag="ea_targetID" value="20912"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=3;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1637,7 +1659,7 @@
 						</UML:Association>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_6991886B_7ABC_467b_B9DA_5928A5B58448" name="profile" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_1CA645D5_42B5_4dae_85E7_DF4DEFDE9DFF" name="profile" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" name="String" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
