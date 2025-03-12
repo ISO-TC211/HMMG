@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252" standalone="no" ?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2025-01-30 21:04:32">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2025-03-12 08:53:35">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -702,7 +702,7 @@
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
 								<UML:TaggedValue tag="ea_sourceID" value="21934"/>
-								<UML:TaggedValue tag="ea_targetID" value="6902"/>
+								<UML:TaggedValue tag="ea_targetID" value="43784"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -1300,7 +1300,7 @@
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
 								<UML:TaggedValue tag="ea_sourceID" value="21936"/>
-								<UML:TaggedValue tag="ea_targetID" value="6903"/>
+								<UML:TaggedValue tag="ea_targetID" value="43785"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -1912,7 +1912,7 @@
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
 								<UML:TaggedValue tag="ea_sourceID" value="21938"/>
-								<UML:TaggedValue tag="ea_targetID" value="6902"/>
+								<UML:TaggedValue tag="ea_targetID" value="43784"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -12731,86 +12731,6 @@
 										</UML:Constraint>
 									</UML:ModelElement.constraint>
 								</UML:Class>
-								<UML:Association name="Target" xmi.id="EAID_4F3D893F_0F78_4400_9D7B_5CD70AF1891C" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="style" value="3"/>
-										<UML:TaggedValue tag="ea_type" value="Association"/>
-										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-										<UML:TaggedValue tag="linemode" value="3"/>
-										<UML:TaggedValue tag="linecolor" value="-1"/>
-										<UML:TaggedValue tag="linewidth" value="0"/>
-										<UML:TaggedValue tag="seqno" value="0"/>
-										<UML:TaggedValue tag="headStyle" value="0"/>
-										<UML:TaggedValue tag="lineStyle" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="25724"/>
-										<UML:TaggedValue tag="ea_sourceName" value="CoordinateOperation"/>
-										<UML:TaggedValue tag="ea_targetName" value="DirectPosition"/>
-										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
-										<UML:TaggedValue tag="ea_targetType" value="DataType"/>
-										<UML:TaggedValue tag="ea_sourceID" value="22024"/>
-										<UML:TaggedValue tag="ea_targetID" value="6925"/>
-										<UML:TaggedValue tag="virtualInheritance" value="0"/>
-										<UML:TaggedValue tag="mt" value="Target"/>
-										<UML:TaggedValue tag="rb" value="0..1"/>
-										<UML:TaggedValue tag="rt" value="+targetPosition"/>
-									</UML:ModelElement.taggedValue>
-									<UML:Association.connection>
-										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_98FCAE29_D489_462a_A24F_55B038727001">
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="containment" value="Unspecified"/>
-												<UML:TaggedValue tag="sourcestyle" value="Union=0;AllowDuplicates=0;Owned=0;Derived=0;Navigable=Non-Navigable;"/>
-												<UML:TaggedValue tag="ea_end" value="source"/>
-											</UML:ModelElement.taggedValue>
-										</UML:AssociationEnd>
-										<UML:AssociationEnd visibility="public" multiplicity="0..1" name="targetPosition" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_772BDA4F_873D_42cd_9008_84BF3C9470F1">
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="containment" value="Unspecified"/>
-												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-												<UML:TaggedValue tag="ea_end" value="target"/>
-											</UML:ModelElement.taggedValue>
-										</UML:AssociationEnd>
-									</UML:Association.connection>
-								</UML:Association>
-								<UML:Association name="Source" xmi.id="EAID_B74A0D3E_EA27_4f2c_8647_1808E8E10FA3" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="style" value="3"/>
-										<UML:TaggedValue tag="ea_type" value="Association"/>
-										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-										<UML:TaggedValue tag="linemode" value="3"/>
-										<UML:TaggedValue tag="linecolor" value="-1"/>
-										<UML:TaggedValue tag="linewidth" value="0"/>
-										<UML:TaggedValue tag="seqno" value="0"/>
-										<UML:TaggedValue tag="headStyle" value="0"/>
-										<UML:TaggedValue tag="lineStyle" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="25723"/>
-										<UML:TaggedValue tag="ea_sourceName" value="CoordinateOperation"/>
-										<UML:TaggedValue tag="ea_targetName" value="DirectPosition"/>
-										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
-										<UML:TaggedValue tag="ea_targetType" value="DataType"/>
-										<UML:TaggedValue tag="ea_sourceID" value="22024"/>
-										<UML:TaggedValue tag="ea_targetID" value="6925"/>
-										<UML:TaggedValue tag="virtualInheritance" value="0"/>
-										<UML:TaggedValue tag="mt" value="Source"/>
-										<UML:TaggedValue tag="rb" value="0..1"/>
-										<UML:TaggedValue tag="rt" value="+sourcePosition"/>
-									</UML:ModelElement.taggedValue>
-									<UML:Association.connection>
-										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_98FCAE29_D489_462a_A24F_55B038727001">
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="containment" value="Unspecified"/>
-												<UML:TaggedValue tag="sourcestyle" value="Union=0;AllowDuplicates=0;Owned=0;Derived=0;Navigable=Non-Navigable;"/>
-												<UML:TaggedValue tag="ea_end" value="source"/>
-											</UML:ModelElement.taggedValue>
-										</UML:AssociationEnd>
-										<UML:AssociationEnd visibility="public" multiplicity="0..1" name="sourcePosition" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_772BDA4F_873D_42cd_9008_84BF3C9470F1">
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="containment" value="Unspecified"/>
-												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-												<UML:TaggedValue tag="ea_end" value="target"/>
-											</UML:ModelElement.taggedValue>
-										</UML:AssociationEnd>
-									</UML:Association.connection>
-								</UML:Association>
 								<UML:Collaboration xmi.id="EAID_CF427313_DB4E_4546_BB63_905C669BC579_Collaboration" name="Collaborations">
 									<UML:Namespace.ownedElement>
 										<UML:ClassifierRole name="From ISO 19107" xmi.id="EAID_9D1AC414_2FED_4f12_A276_28AB5F7A0C77" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
@@ -13744,7 +13664,7 @@
 										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 										<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 										<UML:TaggedValue tag="ea_sourceID" value="22026"/>
-										<UML:TaggedValue tag="ea_targetID" value="6961"/>
+										<UML:TaggedValue tag="ea_targetID" value="43843"/>
 										<UML:TaggedValue tag="src_visibility" value="Public"/>
 										<UML:TaggedValue tag="src_aggregation" value="0"/>
 										<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -15232,9 +15152,9 @@
 		</EANoteLink>
 		<EAStub xmi.id="EAID_D3B12984_EC12_49ff_BF2E_46B1CF626DE8" name="CI_Citation" UMLType="Class"/>
 		<EAStub xmi.id="EAID_D41D335A_81C0_4617_9C51_7A5CE6E1D18D" name="CI_Citation" UMLType="Class"/>
-		<EAStub xmi.id="EAID_772BDA4F_873D_42cd_9008_84BF3C9470F1" name="DirectPosition" UMLType="DataType"/>
 		<EAStub xmi.id="EAID_0A614EA9_13B7_4ebe_85ED_AA187D27CBD1" name="CharacterString" UMLType="Interface"/>
 		<EAStub xmi.id="EAID_F80E8EC0_F7E2_4472_9446_C7F4917821CE" name="GenericName" UMLType="Interface"/>
+		<EAStub xmi.id="EAID_772BDA4F_873D_42cd_9008_84BF3C9470F1" name="DirectPosition" UMLType="DataType"/>
 		<EAStub xmi.id="EAID_C42C8A3D_C337_497c_960F_8892EC1B2BD2" name="Measure" UMLType="Interface"/>
 		<EAStub xmi.id="EAID_E28922BD_7139_4f8e_84E1_58B45896D473" name="UnitOfMeasure" UMLType="Interface"/>
 		<EAStub xmi.id="EAID_ABB27DE7_0DDC_46f7_8578_7AE9FB99A71F" name="Number" UMLType="Interface"/>
