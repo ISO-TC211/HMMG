@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252" standalone="no" ?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2026-06-14 13:27:18">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2026-06-23 09:23:12">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -13,19 +13,22 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="ISO/CD TR 19121 Edition 2" xmi.id="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="documentation" value="Informative ISO/CD TR 19121 UML package corrected for ISO/TC 211 Harmonised Model review. The package is treated as a conceptual UML model unless the project team decides to develop it into a formal normative implementation model. Corrections applied: consistent class naming, ISO 19103 CharacterString datatype for camera colour attributes, definitions for model elements, removal of placeholder Class1, and inclusion of referenced SD/SE classes in the main diagram."/>
 						<UML:TaggedValue tag="parent" value="EAPK_42D367B3_F77C_45c5_925B_EBF730B1B6A2"/>
 						<UML:TaggedValue tag="created" value="2026-06-14 13:22:58"/>
-						<UML:TaggedValue tag="modified" value="2026-06-14 13:24:46"/>
-						<UML:TaggedValue tag="iscontrolled" value="1"/>
-						<UML:TaggedValue tag="xmlpath" value="C:\DATA\GitHub\ISO TC211\HMMG\XMI\ConceptualModels\ISOCD TR 19121 Edition 2.xml"/>
+						<UML:TaggedValue tag="modified" value="2026-06-22 15:42:37"/>
+						<UML:TaggedValue tag="iscontrolled" value="0"/>
+						<UML:TaggedValue tag="xmlpath" value="ISOCD TR 19121 Edition 2.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2026-06-14 13:22:58"/>
 						<UML:TaggedValue tag="lastsavedate" value="2026-06-14 13:22:58"/>
 						<UML:TaggedValue tag="version" value="2026"/>
 						<UML:TaggedValue tag="isprotected" value="0"/>
 						<UML:TaggedValue tag="usedtd" value="0"/>
+						<UML:TaggedValue tag="owner" value="jetknu"/>
+						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="0"/>
 						<UML:TaggedValue tag="tpos" value="0"/>
-						<UML:TaggedValue tag="packageFlags" value="isModel=1;VICON=3;"/>
+						<UML:TaggedValue tag="packageFlags" value="isModel=1;VICON=3;Recurse=1;"/>
 						<UML:TaggedValue tag="batchsave" value="1"/>
 						<UML:TaggedValue tag="batchload" value="1"/>
 						<UML:TaggedValue tag="phase" value="CD"/>
@@ -40,13 +43,14 @@
 					<UML:Namespace.ownedElement>
 						<UML:Class name="IG_SonarData" xmi.id="EAID_80265139_6EA9_CD9F_ABD6_556721DB9666" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of data acquired from sonar systems and related acoustic measurement or gridded representations."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -62,6 +66,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_80265139_6EA9_CD9F_ABD6_556721DB9666" supertype="EAID_A71E73FB_A7F4_3F22_81B8_1D12B28E3F9F" xmi.id="EAID_B5394D47_BDE4_7109_9973_902560F77DAA" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -73,7 +78,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68421"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_SonarData"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Data, 5.4"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_DataAndDataModelling"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59100"/>
@@ -97,15 +102,16 @@
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
-						<UML:Class name="IG_DataProducts, 5.7" xmi.id="EAID_81C15586_D8C2_A548_9D59_57BEDF400747" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="IG_DataProductStandards" xmi.id="EAID_81C15586_D8C2_A548_9D59_57BEDF400747" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of standards defining product specifications and requirements for derived imagery and gridded data products."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -122,6 +128,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_A766A27A_28E3_AC4F_8DB0_B071CDF6A22A" supertype="EAID_81C15586_D8C2_A548_9D59_57BEDF400747" xmi.id="EAID_86059885_6B76_0794_961C_A5D59EB6C718" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -133,7 +140,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68420"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_19124_2_SAR"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_DataProducts, 5.7"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_DataProductStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59132"/>
@@ -159,6 +166,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_A3B8FBA4_E39C_1306_9317_29FEB2A6340C" supertype="EAID_81C15586_D8C2_A548_9D59_57BEDF400747" xmi.id="EAID_8866D6C6_2B94_17AB_978F_1232D21EADDD" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -170,7 +178,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68419"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_19124_3_Optical"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_DataProducts, 5.7"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_DataProductStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59127"/>
@@ -196,6 +204,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_81C15586_D8C2_A548_9D59_57BEDF400747" supertype="EAID_B33D3B0D_ED39_4235_BA2A_FC46744E6919" xmi.id="EAID_96D941D2_139A_0528_9BC1_A9D540C56C6E" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -206,7 +215,7 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68418"/>
-								<UML:TaggedValue tag="ea_sourceName" value="IG_DataProducts, 5.7"/>
+								<UML:TaggedValue tag="ea_sourceName" value="IG_DataProductStandards"/>
 								<UML:TaggedValue tag="ea_targetName" value="IG_ImageryGriddedData"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
@@ -233,6 +242,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_A0B06DA2_A3A4_6E40_AB98_A6395392635C" supertype="EAID_81C15586_D8C2_A548_9D59_57BEDF400747" xmi.id="EAID_A2EAE651_E3E7_CF3A_9846_D7BF0CBBF0FB" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -244,7 +254,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68417"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_19124_1_Fundamentals"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_DataProducts, 5.7"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_DataProductStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59125"/>
@@ -270,6 +280,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_9EEF98E9_7A13_FBD0_914C_15F6B8327362" supertype="EAID_81C15586_D8C2_A548_9D59_57BEDF400747" xmi.id="EAID_A8B56EAC_A7C0_114D_AF46_9A0C5528E8F4" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -281,7 +292,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68416"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_19176_1_ARD"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_DataProducts, 5.7"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_DataProductStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59123"/>
@@ -307,13 +318,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_19101_2_Reference" xmi.id="EAID_8469407E_8EFC_3D6F_8601_EB9AD537E822" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to ISO 19101-2 concepts relevant to geographic imagery and gridded data reference modelling."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -329,6 +341,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_8469407E_8EFC_3D6F_8601_EB9AD537E822" supertype="EAID_9E4A7A4B_F491_0EE9_A224_F09E1FEAE8E4" xmi.id="EAID_A40A7A77_7B83_3DB8_AA60_3BFBBBDC60E5" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -340,7 +353,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68415"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_19101_2_Reference"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Model, 5.2"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_FrameworkAndReferenceModel"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59102"/>
@@ -366,13 +379,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_SAR3D" xmi.id="EAID_8562A398_82EC_34CA_B071_C6B6AE26A5B2" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of three-dimensional SAR-related processing, calibration, validation, or product concepts."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -388,6 +402,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_8562A398_82EC_34CA_B071_C6B6AE26A5B2" supertype="EAID_9313926A_9A1B_FD6F_A8E0_799F2F3C43E5" xmi.id="EAID_A789F3A0_0B34_CA4F_AB57_0F97E342F273" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -425,13 +440,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_Storage" xmi.id="EAID_88DF586D_5759_DEB9_90D0_1B1357D1275C" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of storage-related standards, formats, encodings, and packaging approaches for imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -448,6 +464,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_88DF586D_5759_DEB9_90D0_1B1357D1275C" supertype="EAID_B33D3B0D_ED39_4235_BA2A_FC46744E6919" xmi.id="EAID_A9EB26E7_8E78_24EB_8B82_20650508578A" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -485,6 +502,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_A3BEEF66_7529_3E07_8908_991E7EF3BF78" supertype="EAID_88DF586D_5759_DEB9_90D0_1B1357D1275C" xmi.id="EAID_B7A77481_8E47_FFB8_8B88_499E9C06FCE3" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -495,7 +513,7 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68412"/>
-								<UML:TaggedValue tag="ea_sourceName" value="IG_Encoding, 5.10"/>
+								<UML:TaggedValue tag="ea_sourceName" value="IG_EncodingStandards"/>
 								<UML:TaggedValue tag="ea_targetName" value="IG_Storage"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
@@ -522,13 +540,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_Sonar" xmi.id="EAID_88E75A9F_DF14_32E1_8EB7_B75EA9ED826C" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of sonar sensor standards and related acoustic imagery or gridded data concepts."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -544,6 +563,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_88E75A9F_DF14_32E1_8EB7_B75EA9ED826C" supertype="EAID_ADC96703_CAD8_D2CC_A148_BF07EFE0276E" xmi.id="EAID_ADBF342A_08BB_5A72_B01D_F80A064E6BF3" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -555,7 +575,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68411"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_Sonar"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Sensors, 5.3"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_SensorStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59105"/>
@@ -581,13 +601,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_OpticalData" xmi.id="EAID_8C04AA6E_C917_8244_8B68_0FB25F0695CC" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of optical imagery data acquired by optical camera or imaging sensors."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -603,6 +624,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_8C04AA6E_C917_8244_8B68_0FB25F0695CC" supertype="EAID_A71E73FB_A7F4_3F22_81B8_1D12B28E3F9F" xmi.id="EAID_B6EBF109_3F67_A9AE_B18E_3E71F0E18E2C" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -614,7 +636,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68410"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_OpticalData"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Data, 5.4"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_DataAndDataModelling"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59106"/>
@@ -640,13 +662,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_DataCube" xmi.id="EAID_8E38501A_0BBA_D7F4_8EEA_6FBD48FA35F0" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of data cube concepts used to organise and analyse multi-dimensional imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -662,6 +685,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_8E38501A_0BBA_D7F4_8EEA_6FBD48FA35F0" supertype="EAID_A5618566_0A1A_44BB_9659_A8BDAB5A2999" xmi.id="EAID_8775B98C_901A_D544_A130_3B5C2CC6654B" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -673,7 +697,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68409"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_DataCube"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Outlook, 7"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_InteroperabilityOutlook"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59107"/>
@@ -699,13 +723,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_Lidar" xmi.id="EAID_8EB902D1_3709_C6AD_8FDA_A3A0AF858342" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of lidar sensor standards and related point cloud or derived gridded product concepts."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -721,6 +746,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_8EB902D1_3709_C6AD_8FDA_A3A0AF858342" supertype="EAID_ADC96703_CAD8_D2CC_A148_BF07EFE0276E" xmi.id="EAID_A7453EE0_38A6_9965_961D_7C3E566B4EA4" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -732,7 +758,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68408"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_Lidar"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Sensors, 5.3"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_SensorStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59108"/>
@@ -758,13 +784,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_SARData" xmi.id="EAID_8FE906B0_904E_631F_B907_AC393E72A6FF" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of imagery or gridded data acquired or derived from synthetic aperture radar sensors."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -780,6 +807,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_8FE906B0_904E_631F_B907_AC393E72A6FF" supertype="EAID_A71E73FB_A7F4_3F22_81B8_1D12B28E3F9F" xmi.id="EAID_831A932F_CF76_2E4B_BE00_56042C76E441" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -791,7 +819,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68407"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_SARData"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Data, 5.4"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_DataAndDataModelling"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59109"/>
@@ -817,13 +845,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_19159_4_CalVal_Microwave" xmi.id="EAID_9159254E_66ED_BEC1_BB82_6F9352011B33" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to calibration and validation concepts for microwave radiometer sensors and related imagery or gridded data products."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -839,6 +868,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_9159254E_66ED_BEC1_BB82_6F9352011B33" supertype="EAID_A428B9B5_D977_8610_B68D_0544F485B93D" xmi.id="EAID_B9439CEB_44FF_1A1A_A451_EFFB07E5C676" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -874,15 +904,16 @@
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
-						<UML:Class name="IG_DataFormats, 5.8" xmi.id="EAID_92CE9AF1_FE39_589D_A2CC_B19ECC289AF8" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="IG_DataFormatStandards" xmi.id="EAID_92CE9AF1_FE39_589D_A2CC_B19ECC289AF8" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of data format standards defining file or container structures for imagery and gridded data exchange and storage."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -899,6 +930,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_92CE9AF1_FE39_589D_A2CC_B19ECC289AF8" supertype="EAID_A3BEEF66_7529_3E07_8908_991E7EF3BF78" xmi.id="EAID_AF2A4329_D46E_49A2_BDE9_DE59E3F44D29" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -909,8 +941,8 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68405"/>
-								<UML:TaggedValue tag="ea_sourceName" value="IG_DataFormats, 5.8"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Encoding, 5.10"/>
+								<UML:TaggedValue tag="ea_sourceName" value="IG_DataFormatStandards"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_EncodingStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59111"/>
@@ -936,13 +968,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_19159_3_CalVal_SAR" xmi.id="EAID_9313926A_9A1B_FD6F_A8E0_799F2F3C43E5" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to calibration and validation concepts for synthetic aperture radar sensors and products."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -958,6 +991,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_B0587FAE_8DC9_4E6D_8C27_808950C80BC2" supertype="EAID_9313926A_9A1B_FD6F_A8E0_799F2F3C43E5" xmi.id="EAID_8712508F_C9E2_0A88_8C1B_7BD8111CCF6D" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -995,6 +1029,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_9313926A_9A1B_FD6F_A8E0_799F2F3C43E5" supertype="EAID_A428B9B5_D977_8610_B68D_0544F485B93D" xmi.id="EAID_A5A12256_70E0_2FA1_AEE1_13C37056C51F" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1032,13 +1067,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_19159_1_CalVal_Imagery" xmi.id="EAID_94984908_6A58_6763_A707_B896D382777C" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to calibration and validation concepts for remote sensing imagery sensors."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1054,6 +1090,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_94984908_6A58_6763_A707_B896D382777C" supertype="EAID_A428B9B5_D977_8610_B68D_0544F485B93D" xmi.id="EAID_AC116BBB_910C_E5DC_AB66_9031F41DA723" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1091,13 +1128,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_Classification" xmi.id="EAID_967E0398_80D6_5DF5_8DAC_70D5E21D3E1A" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of classification tasks, methods, or outputs applied to imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1113,6 +1151,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_967E0398_80D6_5DF5_8DAC_70D5E21D3E1A" supertype="EAID_A428B9B5_D977_8610_B68D_0544F485B93D" xmi.id="EAID_841F11CE_E040_FDAC_ABE1_3750446F90F2" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1150,13 +1189,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_19115_4_JSON" xmi.id="EAID_96F0A53F_9531_5CB3_8381_AF54C87FDA49" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to JSON-based metadata encoding concepts related to ISO 19115 metadata for imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1172,6 +1212,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_96F0A53F_9531_5CB3_8381_AF54C87FDA49" supertype="EAID_99BD384D_D967_F027_A1EF_7810A353DEF3" xmi.id="EAID_867B8B6A_757E_98A0_A4B7_7C7DC4CE1601" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1183,7 +1224,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68400"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_19115_4_JSON"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Metadata, 5.5"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_MetadataStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59115"/>
@@ -1212,13 +1253,14 @@
 								<UML:Stereotype name="CodeList"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Referenced data modelling method codelist or classification element retained for traceability. It should be reviewed by the project team to confirm whether it belongs in ISO 19121 or should be maintained as an external referenced element."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1243,6 +1285,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Codelist value representing an absolute value data modelling method."/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
 										<UML:TaggedValue tag="length" value="0"/>
@@ -1268,6 +1311,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Codelist value representing a basic sequential modelling method."/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
 										<UML:TaggedValue tag="length" value="0"/>
@@ -1293,6 +1337,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Codelist value representing a collection plane modelling method."/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
 										<UML:TaggedValue tag="length" value="0"/>
@@ -1318,6 +1363,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Codelist value representing a rectified image modelling method."/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
 										<UML:TaggedValue tag="length" value="0"/>
@@ -1343,6 +1389,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Reserved codelist value retained for compatibility or future specification."/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
 										<UML:TaggedValue tag="length" value="0"/>
@@ -1368,6 +1415,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Codelist value representing a vector modelling method."/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
 										<UML:TaggedValue tag="length" value="0"/>
@@ -1393,6 +1441,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Codelist value indicating that the data modelling method is not applicable."/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
 										<UML:TaggedValue tag="length" value="0"/>
@@ -1414,13 +1463,14 @@
 						</UML:Class>
 						<UML:Class name="IG_PointCloudData" xmi.id="EAID_99726857_987D_4C92_973A_B6575245BE48" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of data represented as collections of spatially referenced points, including native point clouds and products derived from point cloud processing."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1436,6 +1486,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_A0560125_48F6_EA49_8A93_EDE9EC3F775F" supertype="EAID_99726857_987D_4C92_973A_B6575245BE48" xmi.id="EAID_8CB55721_FCAF_F9E4_B629_3D4E02F08A6D" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1473,6 +1524,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_AD4AAB1A_31DE_2523_B198_8C6E1C47D5BD" supertype="EAID_99726857_987D_4C92_973A_B6575245BE48" xmi.id="EAID_A1AC91F1_BBC3_CC57_A636_CB928035D437" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1510,6 +1562,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_AA6C81CB_0806_FC3D_AF4C_D64025D80FE5" supertype="EAID_99726857_987D_4C92_973A_B6575245BE48" xmi.id="EAID_AB6E2C37_D4D9_EF52_A564_AB1DF0D19CC4" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1547,6 +1600,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_99726857_987D_4C92_973A_B6575245BE48" supertype="EAID_A71E73FB_A7F4_3F22_81B8_1D12B28E3F9F" xmi.id="EAID_AF363AF5_A3C0_9767_8E8A_3F8859985C24" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1558,7 +1612,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68396"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_PointCloudData"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Data, 5.4"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_DataAndDataModelling"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59117"/>
@@ -1582,15 +1636,16 @@
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
-						<UML:Class name="IG_Metadata, 5.5" xmi.id="EAID_99BD384D_D967_F027_A1EF_7810A353DEF3" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="IG_MetadataStandards" xmi.id="EAID_99BD384D_D967_F027_A1EF_7810A353DEF3" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of metadata standards for discovery, identification, lineage, quality, acquisition, distribution, and use of imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1607,6 +1662,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_9CE1AB63_D549_DF74_A381_FABFB34CB2FD" supertype="EAID_99BD384D_D967_F027_A1EF_7810A353DEF3" xmi.id="EAID_9B5DB9FC_8AA7_739D_9027_57185B1BDCE4" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1618,7 +1674,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68395"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_19115_2_Acquisition"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Metadata, 5.5"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_MetadataStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59121"/>
@@ -1644,6 +1700,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_99BD384D_D967_F027_A1EF_7810A353DEF3" supertype="EAID_B33D3B0D_ED39_4235_BA2A_FC46744E6919" xmi.id="EAID_AAFFDC68_3692_9613_A1A0_475DC674C3DA" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1654,7 +1711,7 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68394"/>
-								<UML:TaggedValue tag="ea_sourceName" value="IG_Metadata, 5.5"/>
+								<UML:TaggedValue tag="ea_sourceName" value="IG_MetadataStandards"/>
 								<UML:TaggedValue tag="ea_targetName" value="IG_ImageryGriddedData"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
@@ -1681,13 +1738,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_ScanningData" xmi.id="EAID_99E8441B_0CE7_AFF8_B8E9_47ED30AEC2D3" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of data acquired through scanning technologies and associated data modelling approaches."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1703,6 +1761,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_99E8441B_0CE7_AFF8_B8E9_47ED30AEC2D3" supertype="EAID_A71E73FB_A7F4_3F22_81B8_1D12B28E3F9F" xmi.id="EAID_9C8A8562_E25D_E2AF_AB62_B5061C377933" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1714,7 +1773,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68393"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_ScanningData"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Data, 5.4"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_DataAndDataModelling"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59119"/>
@@ -1740,13 +1799,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_Intelligence" xmi.id="EAID_9B2729A9_57E0_6A61_8BB4_41336C3472CF" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of analytical or intelligence-oriented uses of imagery and gridded data, including AI-enabled interpretation."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1762,6 +1822,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_9B2729A9_57E0_6A61_8BB4_41336C3472CF" supertype="EAID_A5618566_0A1A_44BB_9659_A8BDAB5A2999" xmi.id="EAID_88EB1871_4352_81BD_9074_99848E116C6F" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1773,7 +1834,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68392"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_Intelligence"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Outlook, 7"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_InteroperabilityOutlook"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59120"/>
@@ -1799,13 +1860,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_19115_2_Acquisition" xmi.id="EAID_9CE1AB63_D549_DF74_A381_FABFB34CB2FD" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to ISO 19115-2 metadata elements relevant to imagery acquisition, sensor information, and related metadata extensions."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1819,15 +1881,16 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Class>
-						<UML:Class name="IG_Model, 5.2" xmi.id="EAID_9E4A7A4B_F491_0EE9_A224_F09E1FEAE8E4" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="IG_FrameworkAndReferenceModel" xmi.id="EAID_9E4A7A4B_F491_0EE9_A224_F09E1FEAE8E4" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of framework and reference model standards that provide conceptual foundations and architectural principles for geographic imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1844,6 +1907,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_B64D0E43_60A1_44E9_8821_267E8D556043" supertype="EAID_9E4A7A4B_F491_0EE9_A224_F09E1FEAE8E4" xmi.id="EAID_A8B66950_A537_C842_B71E_139B2FC4C400" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1855,7 +1919,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68391"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_19129_Framework"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Model, 5.2"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_FrameworkAndReferenceModel"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59143"/>
@@ -1881,6 +1945,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_9E4A7A4B_F491_0EE9_A224_F09E1FEAE8E4" supertype="EAID_B33D3B0D_ED39_4235_BA2A_FC46744E6919" xmi.id="EAID_B3BC87EE_B869_B085_90D8_AE01C0590A2F" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1891,7 +1956,7 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68390"/>
-								<UML:TaggedValue tag="ea_sourceName" value="IG_Model, 5.2"/>
+								<UML:TaggedValue tag="ea_sourceName" value="IG_FrameworkAndReferenceModel"/>
 								<UML:TaggedValue tag="ea_targetName" value="IG_ImageryGriddedData"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
@@ -1918,6 +1983,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_B5E90351_691A_F277_AABF_8CD58D0CC49E" supertype="EAID_9E4A7A4B_F491_0EE9_A224_F09E1FEAE8E4" xmi.id="EAID_BA4F3FCE_B227_C305_89BE_A9B095D7E99A" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -1928,8 +1994,8 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68389"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Profiles, 6"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Model, 5.2"/>
+								<UML:TaggedValue tag="ea_sourceName" value="IG_Profiles"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_FrameworkAndReferenceModel"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59142"/>
@@ -1955,13 +2021,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_19176_1_ARD" xmi.id="EAID_9EEF98E9_7A13_FBD0_914C_15F6B8327362" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to analysis ready data concepts supporting immediate analytical use of imagery and gridded datasets."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1977,13 +2044,14 @@
 						</UML:Class>
 						<UML:Class name="IG_Orthophoto" xmi.id="EAID_A0560125_48F6_EA49_8A93_EDE9EC3F775F" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of geometrically corrected image products in which scale and positional displacement have been adjusted for mapping use."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -1999,13 +2067,14 @@
 						</UML:Class>
 						<UML:Class name="IG_19124_1_Fundamentals" xmi.id="EAID_A0B06DA2_A3A4_6E40_AB98_A6395392635C" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to fundamental concepts for imagery and gridded data product specifications."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2019,37 +2088,16 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Class>
-						<UML:Class name="Class1" xmi.id="EAID_A27B26C8_44F5_BF72_8B81_205B8C92285A" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="isSpecification" value="false"/>
-								<UML:TaggedValue tag="ea_stype" value="Class"/>
-								<UML:TaggedValue tag="ea_ntype" value="0"/>
-								<UML:TaggedValue tag="version" value="2026"/>
-								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
-								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
-								<UML:TaggedValue tag="gentype" value="Java"/>
-								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
-								<UML:TaggedValue tag="phase" value="CD"/>
-								<UML:TaggedValue tag="author" value="kresse"/>
-								<UML:TaggedValue tag="complexity" value="1"/>
-								<UML:TaggedValue tag="status" value="Proposed"/>
-								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="59126"/>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-							</UML:ModelElement.taggedValue>
-						</UML:Class>
 						<UML:Class name="IG_19124_3_Optical" xmi.id="EAID_A3B8FBA4_E39C_1306_9317_29FEB2A6340C" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to product specification concepts for optical imagery products."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2063,15 +2111,16 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Class>
-						<UML:Class name="IG_Encoding, 5.10" xmi.id="EAID_A3BEEF66_7529_3E07_8908_991E7EF3BF78" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="IG_EncodingStandards" xmi.id="EAID_A3BEEF66_7529_3E07_8908_991E7EF3BF78" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of encoding standards defining machine-readable representation of imagery, gridded data, and associated metadata."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2088,13 +2137,14 @@
 						</UML:Class>
 						<UML:Class name="IG_Tasks" xmi.id="EAID_A428B9B5_D977_8610_B68D_0544F485B93D" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of processing tasks and operational activities relevant to imagery and gridded data workflows."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2110,6 +2160,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_BBD1B3EF_3FF5_35E8_98BB_70A673416CAC" supertype="EAID_A428B9B5_D977_8610_B68D_0544F485B93D" xmi.id="EAID_9662B8EC_36FC_B678_B716_40F3C640A874" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2147,6 +2198,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_A428B9B5_D977_8610_B68D_0544F485B93D" supertype="EAID_B33D3B0D_ED39_4235_BA2A_FC46744E6919" xmi.id="EAID_BB5B315E_5153_73A8_B0E9_C96FA6C2B0BD" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2182,15 +2234,16 @@
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
-						<UML:Class name="IG_Outlook, 7" xmi.id="EAID_A5618566_0A1A_44BB_9659_A8BDAB5A2999" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="IG_InteroperabilityOutlook" xmi.id="EAID_A5618566_0A1A_44BB_9659_A8BDAB5A2999" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of emerging standards, technologies, and activities relevant to future interoperability of imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2207,6 +2260,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_B3E23E46_F83B_2C22_AC47_F0CA8FEFE3F1" supertype="EAID_A5618566_0A1A_44BB_9659_A8BDAB5A2999" xmi.id="EAID_85294774_C621_4107_88BE_312202EB28E5" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2218,7 +2272,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68386"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_DigitalTwins"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Outlook, 7"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_InteroperabilityOutlook"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59140"/>
@@ -2244,6 +2298,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_A5618566_0A1A_44BB_9659_A8BDAB5A2999" supertype="EAID_B33D3B0D_ED39_4235_BA2A_FC46744E6919" xmi.id="EAID_AB16239E_B2EE_1724_B717_61BD616F6667" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2254,7 +2309,7 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68385"/>
-								<UML:TaggedValue tag="ea_sourceName" value="IG_Outlook, 7"/>
+								<UML:TaggedValue tag="ea_sourceName" value="IG_InteroperabilityOutlook"/>
 								<UML:TaggedValue tag="ea_targetName" value="IG_ImageryGriddedData"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
@@ -2279,15 +2334,16 @@
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
-						<UML:Class name="IG_Data, 5.4" xmi.id="EAID_A71E73FB_A7F4_3F22_81B8_1D12B28E3F9F" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="IG_DataAndDataModelling" xmi.id="EAID_A71E73FB_A7F4_3F22_81B8_1D12B28E3F9F" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of standards that define structures, models, and representations for imagery, raster, point cloud, elevation, scanning, sonar, and related gridded datasets."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2304,6 +2360,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_A71E73FB_A7F4_3F22_81B8_1D12B28E3F9F" supertype="EAID_B33D3B0D_ED39_4235_BA2A_FC46744E6919" xmi.id="EAID_8BA22CCA_1BBF_E153_B59F_0311BAEEFC79" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2314,7 +2371,7 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68384"/>
-								<UML:TaggedValue tag="ea_sourceName" value="IG_Data, 5.4"/>
+								<UML:TaggedValue tag="ea_sourceName" value="IG_DataAndDataModelling"/>
 								<UML:TaggedValue tag="ea_targetName" value="IG_ImageryGriddedData"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
@@ -2341,13 +2398,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_19124_2_SAR" xmi.id="EAID_A766A27A_28E3_AC4F_8DB0_B071CDF6A22A" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to product specification concepts for SAR-derived imagery and gridded data products."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2361,15 +2419,16 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Class>
-						<UML:Class name="IG_Processing, 5.6" xmi.id="EAID_A8ED7522_DFC7_C551_A74A_9ED0F16FAA7E" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="IG_ProcessingStandards" xmi.id="EAID_A8ED7522_DFC7_C551_A74A_9ED0F16FAA7E" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of standards describing processing, transformation, calibration, validation, classification, orientation, and analytical workflows for imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2386,6 +2445,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_A8ED7522_DFC7_C551_A74A_9ED0F16FAA7E" supertype="EAID_B33D3B0D_ED39_4235_BA2A_FC46744E6919" xmi.id="EAID_8452451B_444D_EB08_BA40_AD9F992068ED" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2396,7 +2456,7 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68383"/>
-								<UML:TaggedValue tag="ea_sourceName" value="IG_Processing, 5.6"/>
+								<UML:TaggedValue tag="ea_sourceName" value="IG_ProcessingStandards"/>
 								<UML:TaggedValue tag="ea_targetName" value="IG_ImageryGriddedData"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
@@ -2423,6 +2483,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_B9F29173_4388_F908_A45C_1BD43D8FE497" supertype="EAID_A8ED7522_DFC7_C551_A74A_9ED0F16FAA7E" xmi.id="EAID_8E9B73E3_687A_F8D4_8F37_0D8FFD83651A" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2433,8 +2494,8 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68382"/>
-								<UML:TaggedValue tag="ea_sourceName" value="IG_Services, 5.9"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Processing, 5.6"/>
+								<UML:TaggedValue tag="ea_sourceName" value="IG_ServiceStandards"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_ProcessingStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59145"/>
@@ -2460,6 +2521,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_BAF3C527_3DBC_45CF_A9F3_09FFEC7FA1F3" supertype="EAID_A8ED7522_DFC7_C551_A74A_9ED0F16FAA7E" xmi.id="EAID_AB59299B_492B_31BD_A7E9_4130A0DCD97B" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2471,7 +2533,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68381"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_Orientation"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Processing, 5.6"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_ProcessingStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59146"/>
@@ -2497,13 +2559,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_ElevationData" xmi.id="EAID_AA6C81CB_0806_FC3D_AF4C_D64025D80FE5" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of elevation data products, including gridded elevation surfaces derived from sensors or processing workflows."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2519,13 +2582,14 @@
 						</UML:Class>
 						<UML:Class name="SE_SensorModel" xmi.id="EAID_AB7BB2AC_1872_24C2_8745_98151DF3B7DB" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Referenced sensor model element retained for traceability. It should be reviewed by the project team to confirm whether it belongs in ISO 19121 or should be maintained as an external referenced model element."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2547,6 +2611,7 @@
 										<UML:Classifier xmi.idref="eaxmiid1"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Optional data modelling method associated with the sensor model."/>
 										<UML:TaggedValue tag="type" value="SE_DataModelingMethod[0..1]"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2573,6 +2638,7 @@
 										<UML:Classifier xmi.idref="eaxmiid2"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Optional name or identifier of the sensor manufacturer."/>
 										<UML:TaggedValue tag="type" value="CharacterString[0..1]"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2595,6 +2661,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_AB7BB2AC_1872_24C2_8745_98151DF3B7DB" supertype="EAID_B76ADA2A_B714_4017_B371_0C9DC7A8A3B4" xmi.id="EAID_8800701E_DBD5_5920_9FB5_7CB2023341B4" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2632,13 +2699,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_3DModels" xmi.id="EAID_AD4AAB1A_31DE_2523_B198_8C6E1C47D5BD" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of three-dimensional data models or products derived from imagery, lidar, scanning, or related geospatial acquisition methods."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2652,15 +2720,16 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Class>
-						<UML:Class name="IG_Sensors, 5.3" xmi.id="EAID_ADC96703_CAD8_D2CC_A148_BF07EFE0276E" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="IG_SensorStandards" xmi.id="EAID_ADC96703_CAD8_D2CC_A148_BF07EFE0276E" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of standards describing sensors, sensor metadata, calibration, validation, acquisition conditions, and observation processes for imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2677,6 +2746,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_ADC96703_CAD8_D2CC_A148_BF07EFE0276E" supertype="EAID_B33D3B0D_ED39_4235_BA2A_FC46744E6919" xmi.id="EAID_9002B743_77C4_FC5D_A09A_DF9C9EDE5D86" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2687,7 +2757,7 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68379"/>
-								<UML:TaggedValue tag="ea_sourceName" value="IG_Sensors, 5.3"/>
+								<UML:TaggedValue tag="ea_sourceName" value="IG_SensorStandards"/>
 								<UML:TaggedValue tag="ea_targetName" value="IG_ImageryGriddedData"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
@@ -2714,6 +2784,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_B5E77269_0AF8_E62B_B6B6_88215448EF8C" supertype="EAID_ADC96703_CAD8_D2CC_A148_BF07EFE0276E" xmi.id="EAID_9A84E9AC_6206_D5D4_AC67_051EC5847534" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2725,7 +2796,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68378"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_Cameras"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Sensors, 5.3"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_SensorStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59141"/>
@@ -2751,6 +2822,7 @@
 						</UML:Generalization>
 						<UML:Generalization subtype="EAID_BAF60EB9_117C_6B52_8CD1_2D82C10836D7" supertype="EAID_ADC96703_CAD8_D2CC_A148_BF07EFE0276E" xmi.id="EAID_B0805605_BC75_BAC3_BC3F_52EC53676D42" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2762,7 +2834,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="68377"/>
 								<UML:TaggedValue tag="ea_sourceName" value="IG_SAR"/>
-								<UML:TaggedValue tag="ea_targetName" value="IG_Sensors, 5.3"/>
+								<UML:TaggedValue tag="ea_targetName" value="IG_SensorStandards"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="59147"/>
@@ -2788,13 +2860,14 @@
 						</UML:Generalization>
 						<UML:Class name="IG_CornerReflectorSAR" xmi.id="EAID_B0587FAE_8DC9_4E6D_8C27_808950C80BC2" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of SAR calibration or validation concepts involving corner reflectors."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2810,13 +2883,14 @@
 						</UML:Class>
 						<UML:Class name="IG_ImageryGriddedData" xmi.id="EAID_B33D3B0D_ED39_4235_BA2A_FC46744E6919" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Conceptual entry point for the ISO 19121 informative model identifying standards, profiles, data categories, services, encodings, processing activities, and emerging interoperability topics relevant to geographic imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2832,13 +2906,14 @@
 						</UML:Class>
 						<UML:Class name="IG_DigitalTwins" xmi.id="EAID_B3E23E46_F83B_2C22_AC47_F0CA8FEFE3F1" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of digital twin concepts using imagery, gridded data, and geospatial information for dynamic representation of physical systems."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2854,13 +2929,14 @@
 						</UML:Class>
 						<UML:Class name="IG_Cameras" xmi.id="EAID_B5E77269_0AF8_E62B_B6B6_88215448EF8C" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of camera-based imaging sensors and related standards for optical image acquisition."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2876,6 +2952,7 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_BC19264C_5424_678E_8825_9B16C8BEB71E" supertype="EAID_B5E77269_0AF8_E62B_B6B6_88215448EF8C" xmi.id="EAID_BF4689A9_9E6E_DB9C_BC20_3DBF437D1ED5" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Generalization relationship indicating that the source class is a specialized concept under the target class for the informative ISO 19121 conceptual model."/>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
@@ -2911,15 +2988,16 @@
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
-						<UML:Class name="Profiles, 6" xmi.id="EAID_B5E90351_691A_F277_AABF_8CD58D0CC49E" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="IG_Profiles" xmi.id="EAID_B5E90351_691A_F277_AABF_8CD58D0CC49E" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of constrained implementations, subsets, or extensions of base standards for specific domains, communities, products, or operational environments."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2936,13 +3014,14 @@
 						</UML:Class>
 						<UML:Class name="IG_19129_Framework" xmi.id="EAID_B64D0E43_60A1_44E9_8821_267E8D556043" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to ISO 19129 concepts relevant to imagery, gridded data, and geographic information framework alignment."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -2958,13 +3037,14 @@
 						</UML:Class>
 						<UML:Class name="SD_SensorModel" xmi.id="EAID_B76ADA2A_B714_4017_B371_0C9DC7A8A3B4" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Referenced sensor description model element retained for traceability. It should be reviewed by the project team to confirm whether it belongs in ISO 19121 or should be maintained as an external referenced model element."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="genlinks" value="Parent=MI_GeolocationInformation;"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
@@ -2989,6 +3069,7 @@
 										<UML:Classifier xmi.idref="eaxmiid3"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Identifier of the image or imagery resource to which the sensor model applies."/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -3030,15 +3111,16 @@
 								</UML:Dependency>
 							</UML:ModelElement.requirement>
 						</UML:Class>
-						<UML:Class name="IG_Services, 5.9" xmi.id="EAID_B9F29173_4388_F908_A45C_1BD43D8FE497" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="IG_ServiceStandards" xmi.id="EAID_B9F29173_4388_F908_A45C_1BD43D8FE497" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of service standards and interfaces for discovery, access, portrayal, processing, and delivery of imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -3055,13 +3137,14 @@
 						</UML:Class>
 						<UML:Class name="IG_Orientation" xmi.id="EAID_BAF3C527_3DBC_45CF_A9F3_09FFEC7FA1F3" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of orientation and georeferencing concepts relevant to positioning imagery and gridded data."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -3077,13 +3160,14 @@
 						</UML:Class>
 						<UML:Class name="IG_SAR" xmi.id="EAID_BAF60EB9_117C_6B52_8CD1_2D82C10836D7" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Category of synthetic aperture radar sensor standards and related imagery concepts."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -3099,13 +3183,14 @@
 						</UML:Class>
 						<UML:Class name="IG_19159_2_CalVal_Lidar" xmi.id="EAID_BBD1B3EF_3FF5_35E8_98BB_70A673416CAC" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reference to calibration and validation concepts for lidar sensors and lidar-derived data products."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -3121,13 +3206,14 @@
 						</UML:Class>
 						<UML:Class name="IG_CameraColour" xmi.id="EAID_BC19264C_5424_678E_8825_9B16C8BEB71E" visibility="public" namespace="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Conceptual class describing colour-related characteristics or processing properties of camera imagery."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="2026"/>
 								<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 								<UML:TaggedValue tag="date_created" value="2026-06-14 13:22:58"/>
-								<UML:TaggedValue tag="date_modified" value="2026-06-14 13:24:46"/>
+								<UML:TaggedValue tag="date_modified" value="2026-06-22 15:42:37"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="ISO/CD TR 19121 Edition 2"/>
@@ -3146,10 +3232,11 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid4"/>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="type" value="char"/>
+										<UML:TaggedValue tag="description" value="Description or identifier of the pan-sharpening approach, method, or processing status associated with camera colour imagery."/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
 										<UML:TaggedValue tag="length" value="0"/>
@@ -3172,10 +3259,11 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid4"/>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="type" value="char"/>
+										<UML:TaggedValue tag="description" value="Description or identifier of the Bayer filter pattern used by a camera sensor to capture colour information."/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
 										<UML:TaggedValue tag="length" value="0"/>
@@ -3198,7 +3286,6 @@
 					</UML:Namespace.ownedElement>
 				</UML:Package>
 				<UML:DataType xmi.id="eaxmiid0" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid4" name="char" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid2" name="CharacterString[0..1]" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid1" name="SE_DataModelingMethod[0..1]" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid3" name="CharacterString" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
@@ -3211,19 +3298,20 @@
 		<UML:TaggedValue tag="yearVersion" xmi.id="EAID_D5A9496F_AB94_4e7c_9EAF_8E1E79BDE1FB" value="2026" modelElement="MX_EAID_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 		<UML:TaggedValue tag="asDictionary" xmi.id="EAID_0BE3FA2A_1A09_4e1a_B48D_FF75C9858E47" value="false#NOTES#Values: true,false&#xA;Default: false&#xA;Description: If 'false', the class will be mapped to an XSDsimpleType. Else, it will be exported as an external dictionary.&#xA;" modelElement="EAID_980B1014_F464_B981_A393_9082BE9327C1"/>
 		<UML:TaggedValue tag="defaultCodeSpace" xmi.id="EAID_D80E6ACC_660B_6966_8C33_B68EB96F4F54" value="#NOTES#Description: Default value for the URI representing the dictionary &#xA;" modelElement="EAID_980B1014_F464_B981_A393_9082BE9327C1"/>
-		<UML:Diagram name="d1" xmi.id="EAID_8FF133C1_818D_4707_A6C2_5674F8B8EB7B" diagramType="ClassDiagram" owner="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" toolName="Enterprise Architect 2.5">
+		<UML:Diagram name="ISO 19121 Imagery and gridded data - corrected conceptual UML overview" xmi.id="EAID_8FF133C1_818D_4707_A6C2_5674F8B8EB7B" diagramType="ClassDiagram" owner="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD" toolName="Enterprise Architect 2.5">
 			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="documentation" value="Corrected conceptual UML overview for ISO/CD TR 19121. Clause references have been removed from class names and should be documented in notes or figure captions rather than embedded in UML element names."/>
 				<UML:TaggedValue tag="version" value="2026"/>
 				<UML:TaggedValue tag="author" value="kresse"/>
 				<UML:TaggedValue tag="created_date" value="2026-06-14 13:22:58"/>
-				<UML:TaggedValue tag="modified_date" value="2026-06-14 13:22:58"/>
+				<UML:TaggedValue tag="modified_date" value="2026-06-22 15:42:37"/>
 				<UML:TaggedValue tag="package" value="EAPK_8FD03981_BAAE_B858_98D6_39AEFB2549CD"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<UML:TaggedValue tag="ea_localid" value="19014"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=A6EB0B6F;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=E148A3B1;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
 				<UML:DiagramElement geometry="Left=661;Top=520;Right=761;Bottom=550;" subject="EAID_B3E23E46_F83B_2C22_AC47_F0CA8FEFE3F1" seqno="1" style="DUID=7F647934;"/>
@@ -3272,6 +3360,9 @@
 				<UML:DiagramElement geometry="Left=10;Top=320;Right=120;Bottom=350;" subject="EAID_B64D0E43_60A1_44E9_8821_267E8D556043" seqno="44" style="DUID=013039A0;"/>
 				<UML:DiagramElement geometry="Left=10;Top=270;Right=121;Bottom=300;" subject="EAID_8469407E_8EFC_3D6F_8601_EB9AD537E822" seqno="45" style="DUID=D30CD5DA;"/>
 				<UML:DiagramElement geometry="Left=10;Top=190;Right=110;Bottom=240;" subject="EAID_9E4A7A4B_F491_0EE9_A224_F09E1FEAE8E4" seqno="46" style="DUID=EC798817;"/>
+				<UML:DiagramElement geometry="Left=790;Top=150;Right=930;Bottom=195;" subject="EAID_B76ADA2A_B714_4017_B371_0C9DC7A8A3B4" seqno="47" style="DUID=AUTO_CORRECTED;"/>
+				<UML:DiagramElement geometry="Left=790;Top=215;Right=930;Bottom=260;" subject="EAID_AB7BB2AC_1872_24C2_8745_98151DF3B7DB" seqno="48" style="DUID=AUTO_CORRECTED;"/>
+				<UML:DiagramElement geometry="Left=790;Top=290;Right=960;Bottom=365;" subject="EAID_980B1014_F464_B981_A393_9082BE9327C1" seqno="49" style="DUID=AUTO_CORRECTED;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=770:-529$770:-402$;" subject="EAID_85294774_C621_4107_88BE_312202EB28E5" style="Mode=3;EOID=894BB226;SOID=C06D90B5;Color=-1;LWidth=0;TREE=H;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=770:-493$770:-402$;" subject="EAID_88EB1871_4352_81BD_9074_99848E116C6F" style="Mode=3;EOID=894BB226;SOID=D2F6294C;Color=-1;LWidth=0;TREE=H;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=770:-454$770:-402$;" subject="EAID_8775B98C_901A_D544_A130_3B5C2CC6654B" style="Mode=3;EOID=894BB226;SOID=16EDAA33;Color=-1;LWidth=0;TREE=H;Hidden=0;"/>
@@ -3317,6 +3408,7 @@
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=160:-333$160:-215$;" subject="EAID_A8B66950_A537_C842_B71E_139B2FC4C400" style="Mode=3;EOID=790C3E7A;SOID=EF4F5BFD;Color=-1;LWidth=0;TREE=H;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=160:-285$160:-215$;" subject="EAID_A40A7A77_7B83_3DB8_AA60_3BFBBBDC60E5" style="Mode=3;EOID=790C3E7A;SOID=0CFC3096;Color=-1;LWidth=0;TREE=H;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=60:-170$395:-170$;" subject="EAID_B3BC87EE_B869_B085_90D8_AE01C0590A2F" style="Mode=3;EOID=2EE3BC9B;SOID=790C3E7A;Color=-1;LWidth=0;TREE=V;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=740:-215$740:-172$;" subject="EAID_8800701E_DBD5_5920_9FB5_7CB2023341B4" style="Mode=3;Color=-1;LWidth=0;TREE=H;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
